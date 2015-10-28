@@ -170,7 +170,14 @@
 
 
   <div id="main" class="site-main clr">
-    <?php $sidebarclass = ""; if($page['sidebar_first']) { $sidebarclass="left-content"; } ?>
+    <?php $sidebarclass = ""; if($page['sidebar_first']) { $sidebarclass="left-content"; } else if ($page['sidebar_second']) { $sidebarclass="right-content"; } ?>
+	
+      <?php if ($page['sidebar_second']): ?>
+        <aside id="secondary" class="sidebar-container-left" role="complementary">
+         <?php print render($page['sidebar_second']); ?>
+        </aside> 
+      <?php endif; ?>
+	
     <div id="primary" class="content-area clr">
       <section id="content" role="main" class="site-content <?php print $sidebarclass; ?> clr">
         <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
