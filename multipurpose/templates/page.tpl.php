@@ -64,6 +64,14 @@
  * @see template_process()
  */
 ?>
+<?php if ($page['header_bar']): ?>
+	<div id="headerbar">
+		<div id="headerbar_content">
+			<?php print render($page['header_bar']); ?>
+		</div>
+	</div>
+<?php endif; ?>
+
 <div id="wrap" class="clr container">
   <div id="header-wrap" class="clr fixed-header">
     <header id="header" class="site-header clr">

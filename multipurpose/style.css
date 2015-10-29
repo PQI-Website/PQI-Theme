@@ -138,6 +138,9 @@ a { outline: 0 }
 
 /* Header
 ================================================== */
+/* header bar */
+#headerbar { margin: 0; background: #222; color: white; padding-left: 25%; padding-right: 25%; padding-top: 5px; padding-bottom: 5px; min-height: 30px;}
+#headerbar_content { float: right; }
 /*header*/
 #header { text-align: left; padding: 40px 0; position: relative; }
 /*logo*/
