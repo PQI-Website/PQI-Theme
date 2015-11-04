@@ -74,6 +74,11 @@
 
 <div id="wrap" class="clr container">
   <div id="header-wrap" class="clr fixed-header">
+	<?php if ($page['banner_inset']): ?>
+		<div id="banner-inset">
+			<?php print render($page['banner_inset']); ?>
+		</div> 
+	<?php endif; ?>
     <header id="header" class="site-header clr">
       <div id="logo" class="clr">
         <?php if (theme_get_setting('image_logo','multipurpose')): ?>

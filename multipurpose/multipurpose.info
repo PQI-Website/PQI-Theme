@@ -8,6 +8,7 @@ scripts[] = js/retina.js
 scripts[] = js/plugins.js
 scripts[] = js/global.js
 regions[header_bar]  = Header Bar
+regions[banner_inset]  = Banner Inset (top right)
 regions[sidebar_first]  = Right Sidebar
 regions[sidebar_second]  = Left Sidebar
 regions[header]         = Header
