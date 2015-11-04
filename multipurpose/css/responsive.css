@@ -35,7 +35,7 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.container { max-width: 85%; }
 	.left-content { width: 60%; }
-	.sidebar-container { width: 36%; }
+	.sidebar-container, .sidebar-container-left { width: 36%; }
 }
 
 
@@ -44,8 +44,9 @@
 @media only screen and (max-width: 767px) {
 	.container { max-width: 100%; width: 100%; }
 	.sidebar-container,
+	.sidebar-container-left,
 	.left-content { width: 100%; }
-	.sidebar-container {margin-top: 40px; padding-top: 40px; border-top: 10px solid #eee; }
+	.sidebar-container, .sidebar-container-left {margin-top: 40px; padding-top: 40px; border-top: 10px solid #eee; }
 	.col{ width: 100%; margin-left: 0; margin-bottom: 25px; }
 	#wrap { margin-top: 0; margin-bottom: 0; }
 	#header-social { clear: both; position: inherit; top: auto; right: auto; margin-top: 20px; }

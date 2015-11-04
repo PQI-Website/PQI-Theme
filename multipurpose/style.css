@@ -33,10 +33,10 @@ select { max-width: 100%; }
 body { background: #ddd; color: #676767; font: 14px/1.6 'Open Sans', Helvetica Neue, Helvetica, Arial; -webkit-font-smoothing: antialiased; }
 body a { color: #02aace; text-decoration: none; }
 body a:hover { color: #000; }
-.container { margin: 0 auto; width: 1000px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.container { margin: 0 auto; width: 1200px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 #wrap { margin-top: 10px; margin-bottom: 60px; background: #fff; padding: 0 30px; }
-.left-content { float: left; width: 640px;}
-.right-content { float: right; width: 700px;}
+.left-content { float: left; width: 840px;}
+.right-content { float: right; max-width: 900px;}
 .sidebar-container { float: right; width: 250px; }
 .sidebar-container-left { float: left; width: 190px; padding-right: 10px; margin-right: 15px; border-right: 1px rgb(240, 240, 240) solid; }
 /* Commons
