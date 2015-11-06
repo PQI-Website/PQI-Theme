@@ -142,9 +142,17 @@ a { outline: 0 }
 #headerbar { margin: 0; background: #222; color: white; padding-left: 25%; padding-right: 25%; padding-top: 5px; padding-bottom: 5px; min-height: 30px;}
 #headerbar_content { float: right; }
 /*header*/
-#header { text-align: left; padding: 40px 0; position: relative; }
+#header { text-align: left; position: relative;}
+#header-wrap { margin-left: -30px; margin-right: -30px; }
 /*banner inset*/
-#banner-inset {float: right; margin: 20px}
+#banner-inset {
+	float: right; 
+	position: relative;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+    height: 0;
+}
 /*logo*/
 #logo img { display: block; max-width: 100%; }
 #logo a { color: #000; font-size: 32px; text-decoration: none; }
