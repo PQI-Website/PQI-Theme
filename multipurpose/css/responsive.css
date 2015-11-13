@@ -1,6 +1,6 @@
 /* All Responsive
 ================================================== */
-	a#navigation-toggle { height: 55px; line-height: 55px; float: none; margin: 0; cursor: pointer; color: #fff; padding-left: 35px; font-weight: 600; position: relative; z-index: 9; text-decoration: none !important; display: none; }
+	a#navigation-toggle { height: 35px; line-height: 35px; float: none; margin: 0; cursor: pointer; color: #fff; padding-left: 35px; font-weight: 600; position: relative; z-index: 9; text-decoration: none !important; display: none; }
 	a#navigation-toggle .fa { margin-right: 10px; }
 	#navigation-toggle { color: #fff; }
 	#navigation-toggle:hover { color: #fff; }
