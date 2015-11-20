@@ -1,0 +1,30 @@
+/**
+ * @file
+ * Styling for the ds_2col template.
+ */
+
+#contact-wrap{
+	display: flex;
+}
+
+.block-title{
+	font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+	margin-top: 10px;
+}
+ 
+.ds-profile .group-photo {
+	float: left; /* LTR */
+	width: 200px;
+}
+
+.ds-profile .group-contact {
+	float: left; /* LTR */
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.group-contact .field-label {
+    padding-right: 12px;
+}
