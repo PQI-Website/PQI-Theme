@@ -18,6 +18,11 @@
 
   <<?php print $contact_wrapper ?> class="group-contact<?php print $contact_classes; ?>">
     <?php print $contact; ?>
+	
+	<<?php print $websites_wrapper ?> class="group-websites<?php print $websites_classes; ?>">
+		<div class="field-label">Websites:&nbsp;</div>
+		<?php print $websites; ?>
+	</<?php print $websites_wrapper ?>>
   </<?php print $contact_wrapper ?>>
   </div>
 

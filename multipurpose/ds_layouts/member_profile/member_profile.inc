@@ -5,6 +5,7 @@ function ds_member_profile() {
     'regions' => array(
       'photo' => t('Profile Photo'),
       'contact' => t('Contact info'),
+      'websites' => t('Related sites'),
       'affiliation' => t('Affiliation'),
       'education' => t('Education'),
       'research' => t('Research'),

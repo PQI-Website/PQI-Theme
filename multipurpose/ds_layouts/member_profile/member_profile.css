@@ -3,9 +3,23 @@
  * Styling for the ds_2col template.
  */
 
+#primary {
+    margin-bottom: 50px;
+}
+
 #contact-wrap{
 	display: flex;
 }
+
+div.group-contact h1 {
+	margin-bottom: 0;
+}
+
+div.group-websites{margin-top:-10px;}
+div.group-websites div{float: left;}
+div.group-websites div.field-label{font-weight: bold;}
+div.group-websites div.field::after{content: " | ";}
+div.group-websites div.field:last-child:after{content: '';}
 
 .block-title{
 	font-size: 20px;
@@ -17,6 +31,7 @@
 .ds-profile .group-photo {
 	float: left; /* LTR */
 	width: 200px;
+	margin-right: 20px;
 }
 
 .ds-profile .group-contact {
