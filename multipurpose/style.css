@@ -282,7 +282,7 @@ h1.page-title {
 
 #content .node-teaser {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   padding-bottom: 30px;
 }
 
@@ -315,6 +315,27 @@ h1.page-title {
   font-size: 1.5em;
   margin: 0 0 10px;
 }
+
+/* Views
+================================================== */
+div.view-recent-news iframe {
+    margin-right: 20px;
+}
+div .view-recent-news ul.meta {
+    /*display: none;*/
+}
+
+/* Tables
+================================================== */
+/* Sort arrow */
+table thead tr a img {
+    float: right;
+    margin: 2px 0px;
+}
+div.view-members-directory tr {transition: 0.3s all;}
+div.view-members-directory tr.even {background-color: #fff;}
+div.view-members-directory tr:hover {background-color: #E8F9FF;}
+div.view-members-directory td.active {background-color: inherit;}
 
 /* Preface
 ================================================== */
