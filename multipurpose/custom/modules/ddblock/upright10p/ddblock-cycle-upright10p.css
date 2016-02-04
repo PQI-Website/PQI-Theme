@@ -1,7 +1,97 @@
-div#ddblock-6 .slider {
-	width: 80% !important;
-	float: left;
+div.ddblock-cycle-upright10p{
+	width: 100% !important;
 }
-div#ddblock-6 .slide {
+div.ddblock-cycle-upright10p div.container{
+	width: inherit;
+}
+div.ddblock-cycle-upright10p .slider {
+	float: left;
+	width:65% !important;
+}
+div.ddblock-cycle-upright10p .slide {
 	background-color: inherit !important;
+	transition: all 1s ease !important
+}
+div.ddblock-cycle-upright10p div.slide-title-inner h2 a {
+	font-weight: bold;
+}
+/* subtitle */
+div.ddblock-cycle-upright10p div.slide-title h3 {
+	color: darkgreen;
+	font-size: 1em;
+	margin-top: 7px;
+}
+div.ddblock-cycle-upright10p div.slide-title span.postdate {
+	color: #bbb;
+}
+div.ddblock-cycle-upright10p div.slide-title span.tags {
+	text-transform: capitalize;
+}
+
+.page-node #content-wrap div.ddblock-cycle-upright10p div.slider-inner img {
+    border: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+}
+div.ddblock-cycle-upright10p div.slide-body-inner img {
+    display: none; /* Hide images in content */
+}
+
+div.ddblock-pager {
+    float: right;
+	width: 35%;
+}
+/* Pager rollover */
+div.ddblock-pager.number-pager li a.activeSlide {
+	background-color: darkgrey;
+	transition: all .2s ease;
+	border-left: 5px black solid;
+}
+/* Pager thumb */
+div.ddblock-pager.number-pager li a span.thumb{
+	display: inline-block;
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin-top: -20px;
+    margin-right: -7px;
+}
+.page-node #content-wrap div.ddblock-pager.number-pager li a span.thumb img{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+.page-node #content-wrap div.ddblock-pager.number-pager #more-news {
+	line-height: 70px;
+	font-weight: bold;
+}
+.page-node #content-wrap div.ddblock-pager.number-pager #more-news:hover {
+	
+	background-color: #ddd;
+}
+.page-node #content-wrap div.ddblock-pager.number-pager #more-news::after {
+	content: "\2771";
+    position: relative;
+	left: 1em;
+    top: 1px;
+}
+.page-node #content-wrap div.ddblock-pager.number-pager #more-news:hover::after {
+	left: 5em;
+	transition: all 1s;
+}
+
+div.ddblock-pager li.number-pager-item {
+    list-style: none;
+}
+div.ddblock-pager li.number-pager-item a {
+    background: #eee;
+    display: block;
+    padding: 5px 20px;
+    border-bottom: #bbb 1px solid;
+	color: #333;
+	line-height: 24px;
+	height: 70px;
 }

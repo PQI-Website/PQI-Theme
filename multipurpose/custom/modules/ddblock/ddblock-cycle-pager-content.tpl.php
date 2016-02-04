@@ -32,7 +32,7 @@ $number_of_items_per_row=3;
     <?php foreach ($pager_items as $pager_item): ?>
      <div class="<?php print $pager ?>-item <?php print $pager ?>-item-<?php print $item_counter ?>">
       <div class="<?php print $pager ?>-item-inner"> 
-       <a href="#" title="navigate to topic"><?php print $pager_item['image']; ?><?php print $pager_item['text']; ?></a>
+       <a href="#"><?php print $pager_item['image']; ?><?php print $pager_item['text']; ?></a>
       </div>
      </div>
      <?php $item_counter++; if ($item_counter == $number_of_items_per_row):?>
