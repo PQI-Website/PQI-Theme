@@ -1,0 +1,32 @@
+/* Set a block width */
+div.ddblock-cycle-featuredmember div.container {
+    width: 100%;
+}
+
+/* Center Profile photo */
+.page-node #content-wrap div.ddblock-cycle-featuredmember div.slide-inner img {
+    display: block;
+    margin: 0 auto;
+	max-width: 200px;
+}
+.page-node #content-wrap div.ddblock-cycle-featuredmember div.slide-title-inner {
+    text-align: center;
+	margin-top: 10px;
+    font-size: 1.3em;
+}
+.page-node #content-wrap div.ddblock-cycle-featuredmember div.slide-title-inner h3{
+    font-size: .9em;
+}
+.page-node #content-wrap div.ddblock-cycle-featuredmember div.slide {
+    background-color: inherit !important;
+}
+div.ddblock-cycle-featuredmember {
+    background-image: url("img/crossword.png");
+    padding: 15px;
+    border: 1px #eee solid;
+	text-align: justify;
+	text-justify: distribute;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
