@@ -947,7 +947,10 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 div.view-featured-events{
 	background: #eee;
 	padding-bottom: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+div.view-featured-events div.views-row{
+	margin-bottom: 10px;
 }
 div.view-featured-events div.views-field.views-field-field-tags{
 	background: #F49C10;
@@ -966,6 +969,7 @@ div.view-featured-events span.date-display-single{
 }
 div.view-featured-events div.views-field.views-field-title{
 	margin: 10px 20px;
+	font-size: 13px;
 	font-weight: bold;
 }
 div.view-featured-events div.views-field.views-field-field-speaker-s- {display: inline;}
