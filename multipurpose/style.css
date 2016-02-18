@@ -989,17 +989,24 @@ div.view-featured-events div.views-field.views-field-name{
 div#footer-wrap{
 	padding: 0;
 }
+div.span_1_of_1{
+	margin: 0;
+}
+div.span_1_of_3.footer-block {
+	margin-left: 2.2%;
+	width: 30%
+}
 
 div#footer-wrap div#footer-block-wrap{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 div#footer-wrap div#footer-block-wrap h2{
 	border-bottom: 2px white solid;
     display: inline-block;
     padding-bottom: 8px;
-    min-width: 70%;
+    min-width: 100%;
 }
 
 /* Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
