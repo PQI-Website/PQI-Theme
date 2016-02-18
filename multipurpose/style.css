@@ -963,7 +963,8 @@ div.view-featured-events div.views-field.views-field-field-tags, div.view-featur
 div.view-featured-events span.date-display-single{
 	background: #0093CC;
     display: inline-block;
-	min-width: 140px;
+	/* min-width: 140px; */
+	padding: 1px 10px;
     color: white;
     text-align: center;
 }
@@ -983,6 +984,22 @@ div.view-featured-events div.views-field.views-field-field-speaker-s-::after{
 }
 div.view-featured-events div.views-field.views-field-name{
 	display: inline;
+}
+
+div#footer-wrap{
+	padding: 0;
+}
+
+div#footer-wrap div#footer-block-wrap{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div#footer-wrap div#footer-block-wrap h2{
+	border-bottom: 2px white solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    min-width: 70%;
 }
 
 /* Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome

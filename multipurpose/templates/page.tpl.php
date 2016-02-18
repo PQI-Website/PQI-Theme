@@ -218,6 +218,12 @@
   <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']  || $page['footer']): ?>
   <div id="footer-wrap" class="site-footer clr">
     <div id="footer" class="clr">
+	  <?php if ($page['footer']): ?>
+        <div class="span_1_of_1 col col-1">
+          <?php print render($page['footer']); ?>
+        </div>
+      <?php endif; ?>
+	
       <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
         <div id="footer-block-wrap" class="clr">
           <?php if($page['footer_first']): ?><div class="span_1_of_3 col col-1 footer-block ">
@@ -232,16 +238,11 @@
         </div>
       <?php endif; ?>
       
-      <?php if ($page['footer']): ?>
-        <div class="span_1_of_1 col col-1">
-          <?php print render($page['footer']); ?>
-        </div>
-      <?php endif; ?>
     </div>
   </div>
   <?php endif; ?>
 
   <footer id="copyright-wrap" class="clear">
-    <div id="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php print t('Theme by'); ?>  <a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>.</div>
+    <div id="copyright"><?php print t('Site copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php /* print t('Theme by'); ?>  <a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>.*/?></div>
   </footer>
 </div>
