@@ -943,6 +943,12 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   font-size: 16px;
 }
 
+/* Storify */
+div.sfy-story iframe {
+	width: 100% !important;
+	max-width: inherit !important;
+}
+
 /* Views */
 div.view-featured-events{
 	background: #eee;
