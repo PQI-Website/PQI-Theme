@@ -88,8 +88,8 @@
   
       <?php if ($display_submitted): ?>
         <ul class="meta clearfix">
-          <li><strong>Posted on:</strong> <?php print $date; ?></li>
-          <li><strong>By:</strong> <?php print $name; ?></li>   
+          <li>By <?php print $name; ?> &#8226;</li>  
+          <li><?php print $date; ?></li> 
         </ul>
       <?php endif; ?>
 

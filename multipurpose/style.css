@@ -276,8 +276,11 @@ html[xmlns] .slides {display: block;}
 }
 
 h1.page-title {
-  margin: 5px 0 10px;
-  font-size: 2em;
+    margin: 5px 0 10px;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: .15em black solid;
+    line-height: 2.1em;
 }
 
 #content .node-teaser {
@@ -623,8 +626,7 @@ ol.search-results { padding-left: 0; }
 
 .meta li {
   display: inline;
-  margin-right: 5px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .meta strong{
