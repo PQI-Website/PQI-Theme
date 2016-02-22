@@ -27,7 +27,7 @@
 /* Tablet (Portrait)
 ================================================== */
 @media only screen and (min-width: 768px) and (max-width: 1749px) {
-	.container { max-width: 85%; }
+	.container { max-width: 100%; }
 	.left-content { width: 60%; }
 	.sidebar-container { width: 36%; }
 }
@@ -35,7 +35,7 @@
 /* Tablet (Portrait)
 ================================================== */
 @media only screen and (min-width: 768px) and (max-width: 1749px) {
-	.container { max-width: 85%; }
+	.container { max-width: 100%; }
 	.left-content { width: 60%; }
 	.sidebar-container, .sidebar-container-left { width: 36%; }
 }

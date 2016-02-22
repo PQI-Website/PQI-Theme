@@ -94,7 +94,7 @@ drupal_add_css($directory . '/custom/modules/ddblock/' . $settings['template'] .
   <?php foreach ($content as $item): ?>
    <li class="number-pager-item">
     <a href="#" class="pager-link">
-     <?php print $item['pager_text']; ?><span class="thumb"><?php print $item['pager_image']; ?></span>
+     <span class="pager-text"><?php print $item['pager_text']; ?></span><span class="thumb"><?php print $item['pager_image']; ?></span>
     </a>
    </li>
    <?php $item_counter++;?>
