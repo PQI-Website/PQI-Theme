@@ -8,9 +8,11 @@
 	#sidr-main { padding: 50px 30px 30px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 	.sidr.right { left: auto; right: -320px; }
 	.sidr.left { left: -320px; right: auto; }
-	#sidr-main a { color: #707070; }
+	#sidr-main a { color: #ccc; }
 	#sidr-main a:hover { color: #fff; }
 	#sidr-main ul a { display: block; border-bottom: 1px solid #222; border-bottom: 1px solid rgba(255,255,255,0.15); padding: 8px 0; }
+	#sidr-main ul.sidr-class-menu { margin: 0; }
+	#sidr-main ul li { list-style-type: none; }
 	#sidr-main ul li ul { margin-left: 0; margin: 0; }
 	#sidr-main ul li ul li a { padding-left: 10px; }
 	#sidr-main ul li ul li li a { padding-left: 20px; }
