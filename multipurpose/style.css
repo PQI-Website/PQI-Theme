@@ -1032,6 +1032,35 @@ div.view-featured-events div.views-field.views-field-name{
 div.views-field-field-storify-content span.field-content p:first-of-type{
 	display: none; /* Fixes stupid p tag with rss content opener */
 }
+div.views-field-field-storify-content div.image, div.views-field-field-storify-content div.image img{
+	max-width: 200px !important;
+    max-height: 150px !important;
+    float: left;
+	pointer-events: none;
+	cursor: default;
+}
+div.views-field-field-storify-content p#description{
+	font-weight: bold;
+}
+div.views-field-field-storify-content div.image div.meta{
+	display:none; /* hide photo credit thing */
+}
+div.views-field-field-storify-content p#meta{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+}
+div.views-field-field-storify-content p#meta br{display: none;}
+div.views-field-field-storify-content p#meta span::before{content: ' '}
+div.view-watching div.views-field-nid{
+	text-align:right;
+}
+div.view-watching div.views-row{
+    border-bottom: #aaa 2px solid;
+    padding-bottom: 15px;
+}
+
+
 div.views-field-field-storify-content span.field-content img{display: none !important;} /* Hide all images */
 div.views-field-field-storify-content span.field-content img:first-of-type{ 
     display: block !important;
