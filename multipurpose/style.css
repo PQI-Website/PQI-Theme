@@ -1028,6 +1028,18 @@ div.view-featured-events div.views-field.views-field-name{
 	display: inline;
 }
 
+/* Watching block (storify) */
+div.views-field-field-storify-content span.field-content p:first-of-type{
+	display: none; /* Fixes stupid p tag with rss content opener */
+}
+div.views-field-field-storify-content span.field-content img{display: none !important;} /* Hide all images */
+div.views-field-field-storify-content span.field-content img:first-of-type{ 
+    display: block !important;
+    max-width: 300px !important;
+    max-height: 200px !important;
+    float: left;
+} /* Unhide first image */
+
 div#footer-wrap{
 	padding: 0;
 }
