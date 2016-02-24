@@ -1,3 +1,14 @@
+.field-name-field-featured-image{
+	margin-left: -30px;
+	margin-right: -28px;
+	margin-top: -40px;
+	border: none;
+}
+.group-mainheaderspan .field-name-field-image-caption{
+	margin-left: -30px;
+	margin-right: -29px;
+}
+
 div#main_header div.field-name-field-featured-image img
  {
 	border: 1px solid #333;
