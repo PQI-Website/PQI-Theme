@@ -955,37 +955,70 @@ div.sfy-story iframe {
 /* Views */
 div.view-featured-events{
 	background: #eee;
-	padding-bottom: 10px;
+	min-height: 118px;
 	margin-bottom: 20px;
 }
+div.view-featured-events a.more-info{
+	right: -165px;
+    position: relative;
+    bottom: -22px;
+}
 div.view-featured-events div.views-row{
-	margin-bottom: 10px;
+	min-height: 120px;
 }
 div.view-featured-events div.views-field.views-field-field-tags{
-	background: #F49C10;
+	background: #242692;
 	padding: 2px 5px;
+	font-weight: bold;
 }
 div.view-featured-events div.views-field.views-field-field-tags, div.view-featured-events div.views-field.views-field-field-tags a{
 	color: white;
 	text-transform: uppercase;
 }
+
+/* Date block */
 div.view-featured-events span.date-display-single{
-	background: #0093CC;
-    display: inline-block;
-	/* min-width: 140px; */
 	padding: 1px 10px;
-    color: white;
     text-align: center;
+	display: inline-block;
+	float: left;
+	height: 88px;
 }
+div.view-featured-events span.date-display-single div.db-b{
+    color: white;
+	width: 60px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+div.view-featured-events span.date-display-single span.db-m{
+	background: #242692;
+	display: block;
+    font-size: 16px;
+}
+div.view-featured-events span.date-display-single span.db-d{
+	background: #9C90C9;
+	display: block;
+    font-size: 30px;
+}
+div.view-featured-events span.date-display-single div.db-t{
+	position: relative;
+	top: -38px;
+	left: 60px;
+}
+
 div.view-featured-events div.views-field.views-field-title{
-	margin: 10px 20px;
+	margin-top: 5px;
 	font-size: 13px;
 	font-weight: bold;
+}div.view-featured-events div.views-field.views-field-title a{
+	color:#242692;
+}div.view-featured-events div.views-field.views-field-title a:hover{
+	color:#9C90C9;
 }
 div.view-featured-events div.views-field.views-field-field-speaker-s- {display: inline;}
 div.view-featured-events div.views-field.views-field-field-speaker-s- div.field-content{
-	color: #000;
-	margin-left: 20px;
+	/*color: #000;*/
+	/*margin-left: 20px;*/
 	display: inline;
 }
 div.view-featured-events div.views-field.views-field-field-speaker-s-::after{
