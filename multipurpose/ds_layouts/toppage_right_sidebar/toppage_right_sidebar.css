@@ -26,7 +26,13 @@ View: Recent News
 div.view.view-recent-news article h2{
 	font-weight: bold;
 }
-div.view.view-recent-news article ul.meta, div.view.view-recent-news article ul.meta a {
+div.view.view-recent-news article ul.meta{
+    color: #666;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+div.view.view-recent-news article ul.meta a {
 	color: #666;
 }
 
