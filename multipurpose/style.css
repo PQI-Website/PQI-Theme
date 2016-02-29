@@ -364,7 +364,7 @@ div.view-members-directory td.active {background-color: inherit;}
 #footer-wrap .block > h2 { color:  #fff; font-size: 1.25em; margin: 0 0 15px; }
 #footer-wrap .block { margin-bottom: 30px }
 #footer-wrap .span_1_of_3.col-1 { padding-right: 10px; }
-#footer-wrap .span_1_of_3.col-2 { padding-left: 5px; padding-right: 5px; }
+#footer-wrap .span_1_of_3.col-2 { padding-left: 5px; padding-right: 5px; width:50%; }
 #footer-wrap .span_1_of_3.col-3 { padding-left: 10px; }
 .footer-block > ul > li { padding: 2px 0; border-bottom: 1px solid #333; }
 .footer-block > ul > li:first-child { border-top: 1px solid #333; }
@@ -1032,7 +1032,36 @@ div.view-featured-events div.views-field.views-field-name{
 div.views-field-field-storify-content span.field-content p:first-of-type{
 	display: none; /* Fixes stupid p tag with rss content opener */
 }
-div.views-field-field-storify-content div.image, div.views-field-field-storify-content div.image img{
+div.view-watching p#meta {
+	margin: 0 !important;
+	margin-bottom: 5px !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+div.view-watching div.views-row {
+    display: block;
+    clear: both;
+}
+div.view-watching div.views-row iframe {
+	max-width: 200px !important;
+    max-height: 150px !important;
+}
+div.view-watching div.element.image img {
+    border: 0 !important;
+	padding: 0 !important;
+}
+div.view-watching div.element.link {
+    display: block;
+    clear: both;
+	background-image: url("custom/modules/ddblock/featuredmember/img/crossword.png");
+}
+div.view-watching div.footer img[alt="Powered by Storify"] {
+	display: none;
+}
+img[src*="stats.storify.com/record/view.gif"] {
+    display: none;
+}
+div.view-watching div.views-field-field-storify-content div.image, div.views-field-field-storify-content div.image img{
 	max-width: 200px !important;
     max-height: 150px !important;
     float: left;
@@ -1045,11 +1074,7 @@ div.views-field-field-storify-content p#description{
 div.views-field-field-storify-content div.image div.meta{
 	display:none; /* hide photo credit thing */
 }
-div.views-field-field-storify-content p#meta{
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    border-bottom: 0 !important;
-}
+
 div.views-field-field-storify-content p#meta br{display: none;}
 div.views-field-field-storify-content p#meta span::before{content: ' '}
 div.view-watching div.views-field-nid{
@@ -1077,7 +1102,7 @@ div.span_1_of_1{
 }
 div.span_1_of_3.footer-block {
 	margin-left: 2.2%;
-	width: 30%
+	width: 20%
 }
 
 div#footer-wrap div#footer-block-wrap{
