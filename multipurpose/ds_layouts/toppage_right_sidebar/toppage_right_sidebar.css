@@ -54,3 +54,47 @@ div.view.view-recent-news article .links li a{
 	float: right;
 	padding: .5em 3em;
 }
+
+/* View Popular News */
+div.view-popular-news {
+	margin-left: 1em;
+}
+div.view-popular-news table {
+	border: 0;
+}
+div.view-popular-news table td {
+	border: 0;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 1em;
+}
+div.view-popular-news table div.views-field-title {
+	margin-bottom: 1em;
+	display: block;
+}
+div.view-popular-news table div.views-field-title a {
+	color: black;
+	font-weight: bold;
+}
+div.view-popular-news div.views-field-created {
+	color: #aaa;
+}
+div.view-popular-news div.views-field-body img, div.view-popular-news div.views-field-body iframe {
+	display: block;
+	width: 100%;
+	margin: 0 auto !important;
+	border: 0 !important;
+	margin-bottom: 10px !important;
+	float: none !important;
+}
+div.view-popular-news a.more-link {
+	display: block;
+	font-size: smaller;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+}
+div.view-popular-news a.more-link::after {
+	content: " \2771";
+}

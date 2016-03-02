@@ -794,17 +794,18 @@ ul.inline, ul.links.inline {
 }
 
 .field-name-field-tags a{
-  background: #02aace;
+  background: #666;
   margin-right: 5px;
   margin-bottom: 5px;
-  border-radius: 2px;
+  border-radius: 0px;
   color: #fff;
   font-size: 0.929em;
   padding: 2px 6px;
+  text-transform: capitalize;
 }
 
 .field-name-field-tags a:hover{
-  background: #111;
+  background-color: #333;
   color: #fff;
 }
 
@@ -1028,7 +1029,15 @@ div.view-featured-events div.views-field.views-field-name{
 	display: inline;
 }
 
+div.block-ddblock {
+	overflow: hidden;
+}
+
 /* Watching block (storify) */
+div.view-watching {
+	overflow: auto;
+    height: 2000px;
+}
 div.views-field-field-storify-content span.field-content p:first-of-type{
 	display: none; /* Fixes stupid p tag with rss content opener */
 }
@@ -1043,11 +1052,11 @@ div.view-watching div.views-row {
     clear: both;
 }
 div.view-watching div.views-row iframe {
-	max-width: 200px !important;
-    max-height: 150px !important;
+	max-width: 100% !important;
+    max-height: 250px !important;
 }
 div.view-watching div.element.image img {
-    border: 0 !important;
+	border: 0 !important;
 	padding: 0 !important;
 }
 div.view-watching div.element.link {
@@ -1060,6 +1069,9 @@ div.view-watching div.footer img[alt="Powered by Storify"] {
 }
 img[src*="stats.storify.com/record/view.gif"] {
     display: none;
+}
+div.view-watching  img[src*="static.flickr.com"] {
+    display: none !important;
 }
 div.view-watching div.views-field-field-storify-content div.image, div.views-field-field-storify-content div.image img{
 	max-width: 200px !important;
