@@ -786,6 +786,18 @@ ul.inline, ul.links.inline {
   margin-left: 0;
 }
 
+div.section-title
+{
+	border-top: 5px solid #666;
+    border-bottom: 3px solid #bbb;
+	font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 40px;
+    font-size: 1.1em;
+	margin-bottom: 10px;
+}
+
 /*-------------------------------------------*
 /* Tabs and Tags
 /*-------------------------------------------*/
@@ -1033,6 +1045,12 @@ div.block-ddblock {
 	overflow: hidden;
 }
 
+div.view.view-recent-news article .links li a, li.node-readmore a, li.blog_usernames_blog a{
+	float: right;
+	padding: .5em 3em;
+	margin: 3px;
+}
+
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;
@@ -1073,12 +1091,20 @@ img[src*="stats.storify.com/record/view.gif"] {
 div.view-watching  img[src*="static.flickr.com"] {
     display: none !important;
 }
-div.view-watching div.views-field-field-storify-content div.image, div.views-field-field-storify-content div.image img{
-	max-width: 200px !important;
-    max-height: 150px !important;
-    float: left;
+div.view-watching div.views-field-field-storify-content div.image br {
+	display: none;
+}
+div.view-watching div.views-field-field-storify-content div.image{
 	pointer-events: none;
 	cursor: default;
+    float: left;
+	margin: 0 !important;
+}
+div.views-field-field-storify-content div.image img{
+	pointer-events: none;
+	cursor: default;
+	max-width: 200px !important;
+    max-height: 150px !important;
 }
 div.views-field-field-storify-content p#description{
 	font-weight: bold;

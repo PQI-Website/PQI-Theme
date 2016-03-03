@@ -4,7 +4,7 @@
 	margin-top: -40px;
 	border: none;
 }
-.group-mainheaderspan .field-name-field-image-caption{
+.group-mainheaderspan  .field-name-field-image-caption{
 	margin-left: -30px;
 	margin-right: -29px;
 }
@@ -61,14 +61,3 @@ div.field.field-name-field-image-caption {
 	margin-bottom: -90px;
 }
 
-div.section-title
-{
-	border-top: 5px solid #666;
-    border-bottom: 3px solid #bbb;
-	font-weight: bolder;
-    text-transform: uppercase;
-    color: #333;
-    line-height: 40px;
-    font-size: 1.1em;
-	margin-bottom: 10px;
-}

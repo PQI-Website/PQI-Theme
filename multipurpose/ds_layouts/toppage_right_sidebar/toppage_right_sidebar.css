@@ -50,21 +50,23 @@ div.view.view-recent-news article .field-name-field-tags a:hover{
 	background-color: #333;
 }
 
-div.view.view-recent-news article .links li a{
-	float: right;
-	padding: .5em 3em;
-}
+
 
 /* View Popular News */
-div.view-popular-news {
+div.field-name-field-sidebar-content {
 	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ddd;
+}
+div.view-popular-news div.section-title {
+	margin-left: .5em;
 }
 div.view-popular-news table {
 	border: 0;
 }
 div.view-popular-news table td {
 	border: 0;
-	border-left: 1px solid #ddd;
+	padding: 5px 15px;
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 1em;
 }
