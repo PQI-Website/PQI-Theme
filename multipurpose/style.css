@@ -1051,10 +1051,24 @@ div.view.view-recent-news article .links li a, li.node-readmore a, li.blog_usern
 	margin: 3px;
 }
 
+div.circle{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:150px;
+	text-align:center;
+	background:#3495BC;
+	display: inline-block;
+    margin-left: 4em;
+}
+
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;
     height: 2000px;
+	padding-right: 10px;
 }
 div.views-field-field-storify-content span.field-content p:first-of-type{
 	display: none; /* Fixes stupid p tag with rss content opener */
