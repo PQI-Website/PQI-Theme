@@ -4,9 +4,15 @@
 	margin-top: -40px;
 	border: none;
 }
-.group-mainheaderspan  .field-name-field-image-caption{
+div#main_header .group-mainheaderspan  .field-name-field-image-caption{
+	top: -94px;
+	position: relative;
+	margin-bottom: -50px;
+	
 	margin-left: -30px;
 	margin-right: -29px;
+	padding: 5px;
+	padding-left: 20px;
 }
 
 div#main_header div.field-name-field-featured-image img
@@ -21,7 +27,6 @@ div#main_header div.field-name-field-featured-image img
 div#right_main {
     float: right;
     width: 78%;
-	!background-color: #FFDFF7;
 }
 
 div#left_sidebar {
@@ -29,14 +34,12 @@ div#left_sidebar {
     float: left;
     font-size: smaller;
 	margin-right: 2%;
-	!background-color: #BFCFFF;
 }
 
 div#center_pane {
     width: 64%;
 	float: left;
 	margin-top: 10px;
-	!background-color: #F99AFF;
 }
 .view.view-recent-news h2.title {
     font-size: 1.35em;
@@ -47,17 +50,12 @@ div#right_pane {
     width: 33%;
 	float: right;
 	margin-top: 10px;
-	!background-color: #BBFFA2;
 }
 
 div.field.field-name-field-image-caption {
     color: white;
     background-color: rgba(0, 0, 0, .7);
-    padding: 0px 20px;
-    top: -105px;
-    position: relative;
-    z-index: 1;
-    height: 100px;
-	margin-bottom: -90px;
 }
-
+div.field.field-name-field-image-caption a {
+	color: white;
+}

@@ -1064,6 +1064,42 @@ div.circle{
     margin-left: 4em;
 }
 
+/* Affiliated Websites */
+div.view-affiliated-websites div.views-field{
+}
+div.view-affiliated-websites div.views-row{
+	margin: 2em;
+	padding-bottom: 2em;
+	border-bottom: 5px #eee solid;
+}
+div.view-affiliated-websites div.views-row:last-of-type{
+	border-bottom: 0;
+}
+div.view-affiliated-websites div.views-field-field-image{
+	margin-top: 5px;
+	margin-right: 1em;
+	max-width: 300px;
+    max-height: 200px;
+	float: left;
+}
+div.view-affiliated-websites div.views-field-title, div.view-affiliated-websites div.views-field-title a{
+	font-weight: bold;
+	display: inline-block;
+	color: #235F77;
+	font-size: 18px;
+	/*
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+	border-bottom: 1px #aaa solid;
+	*/
+}
+div.view-affiliated-websites div.views-field-field-url-1 span.views-label, div.view-affiliated-websites div.views-field-field-url-1 div.field-content{
+	display: inline;
+}
+div.view-affiliated-websites div.views-field-title a:hover{
+	color: #381B8E;
+}
+
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;

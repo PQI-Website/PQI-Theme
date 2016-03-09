@@ -21,13 +21,14 @@ jQuery(window).bind("load", function() {
 		jQuery(this).find("div.slide").each(function(){
 			var slideHeight = 0;
 			jQuery(this).children().each(function(){
-				slideHeight += jQuery(this).outerHeight(true);
+				slideHeight += jQuery(this).actual( "height" );
 			});
 			//console.log(slideHeight);
 			if (slideHeight > largestHeight)
 			{
 				largestHeight = slideHeight;
 			}
+			console.log(slideHeight);
 		});
 		jQuery(this).animate({height:largestHeight},1000);//.height(largestHeight+"px");
 	});

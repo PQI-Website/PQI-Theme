@@ -1,13 +1,14 @@
-name = Multipurpose Theme
-description = Multipurpose Theme is a premium Drupal 7 theme. Developed by <a href="http://www.devsaran.com">Devsaran.com</a>.
+name = PQI Theme
+description = PQI Theme. Based on the 'Multipurpose' theme by <a href="http://www.devsaran.com">Devsaran.com</a>.
+
 core = 7.x
 engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[all][] = css/responsive.css
-scripts[] = js/retina.js
 scripts[] = js/plugins.js
 scripts[] = js/global.js
 scripts[] = js/jquery.timeago.js
+scripts[] = js/jquery.actual.min.js
 scripts[] = js/custom.js
 regions[header_bar]  = Header Bar
 regions[banner_inset]  = Banner Inset (top right)
