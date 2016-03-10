@@ -890,10 +890,22 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 }
 
 .item-list .pager li {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.item-list .pager li a{
   background: #cfcfcf;
-  border-radius: 3px;
-  margin-right: 4px;
+  border-radius: 2px;
   text-shadow: 1px 1px 2px #888;
+  padding: 5px 10px;
+  transition: .3s all;
+}
+.item-list .pager li a:hover {
+	box-shadow:inset #888 0px 0px 15px;
+}
+
+.item-list .pager li a {
+  color: #fff;
 }
 
 /*-------------------------------------------*
@@ -1155,6 +1167,9 @@ div.views-field-field-storify-content div.image img{
 	cursor: default;
 	max-width: 200px !important;
     max-height: 150px !important;
+}
+div.view-watching div.views-field-nid{
+	clear:both;
 }
 div.views-field-field-storify-content p#description{
 	font-weight: bold;

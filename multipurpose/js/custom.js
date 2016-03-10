@@ -28,7 +28,7 @@ jQuery(window).bind("load", function() {
 			{
 				largestHeight = slideHeight;
 			}
-			console.log(slideHeight);
+			//console.log(slideHeight);
 		});
 		jQuery(this).animate({height:largestHeight},1000);//.height(largestHeight+"px");
 	});
