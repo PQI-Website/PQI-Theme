@@ -889,16 +889,14 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 	margin: 20px;
 }
 
-.item-list .pager li {
-  margin-right: -5px;
-  margin-left: -5px;
-}
 .item-list .pager li a{
   background: #cfcfcf;
   border-radius: 2px;
   text-shadow: 1px 1px 2px #888;
   padding: 5px 10px;
   transition: .3s all;
+  margin-right: -5px;
+  margin-left: -5px;
 }
 .item-list .pager li a:hover {
 	box-shadow:inset #888 0px 0px 15px;
@@ -978,6 +976,8 @@ div.sfy-story iframe {
 }
 
 /* Views */
+
+/* Featured events */
 div.view-featured-events{
 	background: #eee;
 	min-height: 118px;
@@ -989,25 +989,26 @@ div.view-featured-events a.more-info{
     bottom: -22px;
 }
 div.view-featured-events div.views-row{
-	min-height: 120px;
+	min-height: 130px;
 }
 div.view-featured-events div.views-field.views-field-field-tags{
 	background: #242692;
 	padding: 2px 5px;
 	font-weight: bold;
+	clear: both;
 }
 div.view-featured-events div.views-field.views-field-field-tags, div.view-featured-events div.views-field.views-field-field-tags a{
 	color: white;
 	text-transform: uppercase;
 }
 
-/* Date block */
+/* Date block (featured events) */
 div.view-featured-events span.date-display-single{
-	padding: 1px 10px;
+	margin: 1px 10px;
     text-align: center;
 	display: inline-block;
 	float: left;
-	height: 88px;
+	height: 75px;
 }
 div.view-featured-events span.date-display-single div.db-b{
     color: white;
@@ -1035,9 +1036,11 @@ div.view-featured-events div.views-field.views-field-title{
 	margin-top: 5px;
 	font-size: 13px;
 	font-weight: bold;
-}div.view-featured-events div.views-field.views-field-title a{
+}
+div.view-featured-events div.views-field.views-field-title a{
 	color:#242692;
-}div.view-featured-events div.views-field.views-field-title a:hover{
+}
+div.view-featured-events div.views-field.views-field-title a:hover{
 	color:#9C90C9;
 }
 div.view-featured-events div.views-field.views-field-field-speaker-s- {display: inline;}
@@ -1052,6 +1055,15 @@ div.view-featured-events div.views-field.views-field-field-speaker-s-::after{
 div.view-featured-events div.views-field.views-field-name{
 	display: inline;
 }
+/* Featured events page */
+div.view-featured-events.featured-events-page div.views-field-field-event-date{
+	margin-top: 20px;
+	float: left;
+}
+div.view-featured-events.featured-events-page span.date-display-single div.db-t{
+	left: 64px;
+}
+/* End featured events */
 
 div.block-ddblock {
 	overflow: hidden;
