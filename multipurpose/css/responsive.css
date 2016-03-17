@@ -19,9 +19,43 @@
 	#sidr-main ul li ul li li li a { padding-left: 30px; }
 	#sidr-main ul li ul li a:before { content: '\f0da'; display: inline-block; -webkit-font-smoothing: antialiased; font-family: 'FontAwesome'; color: #333; margin-right: 10px; }
 	.sidr-class-toggle-sidr-close:before { font-size: 16px; position: absolute; top: 15px; left: 30px; content: '\f00d'; font-family: 'FontAwesome'; color: #fff; margin: 0; }
-@media only screen and (max-width: 959px) {
-	a#navigation-toggle { display: block; }
-	#site-navigation #main-menu > ul { display: none; }
+
+@media only screen and (max-width: 640px) {
+	/*a#navigation-toggle {
+		display: block;
+	}
+
+	#site-navigation #main-menu > ul {
+		display: none;
+	}*/
+
+	/* new code */
+	#site-navigation #main-menu > ul > li:nth-of-type(odd){
+		display: block;
+		float: left;
+		background-color: rgb(32,32,32);
+		clear: left;
+		margin: -2px;
+		border: 2px solid rgb(40, 40, 40);
+		width: 50%;
+	}
+	#site-navigation #main-menu > ul > li:nth-of-type(even){
+		display: block;
+		float: right;
+		background-color: rgb(32, 32, 32);
+		margin: -2px;
+		border: 2px solid rgb(40, 40, 40);
+		clear: right;
+		width: 50%;
+	}
+	#site-navigation #main-menu > ul > li:hover > a{
+		background-color: rgb(40, 40, 40);
+		border-left: 4px solid #FFF641;
+	}
+	#site-navigation #main-menu > ul > li > a.active {
+	    border-left: 4px solid #FFF641;
+	    color: #ccc;
+	}
 }
 
 /* Tablet (Portrait)
