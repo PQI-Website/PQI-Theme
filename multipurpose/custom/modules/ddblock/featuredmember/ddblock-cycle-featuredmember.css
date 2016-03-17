@@ -7,7 +7,8 @@ div.ddblock-cycle-featuredmember div.container {
 .page-node #content-wrap div.ddblock-cycle-featuredmember div.slide-inner img {
     display: block;
     margin: 0 auto;
-	max-width: 200px;
+	/*max-width: 200px;*/
+	width:100%;
 }
 .page-node #content-wrap div.ddblock-cycle-featuredmember div.slide-title-inner {
     text-align: center;
