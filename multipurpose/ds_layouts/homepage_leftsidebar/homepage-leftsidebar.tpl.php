@@ -13,11 +13,6 @@
 		<?php print $mainheaderspan; ?>
 	</<?php print $mainheaderspan_wrapper ?>>
 	</div>
-	<div id="left_sidebar">  
-		<<?php print $sidebar_wrapper ?> class="group-sidebar<?php print $sidebar_classes; ?>">
-			<?php print $sidebar; ?>
-		</<?php print $sidebar_wrapper ?>>
-	</div>
   
 	<div id="right_main">
 		<div>
@@ -37,6 +32,12 @@
 			<?php print $centerright; ?>
 			</<?php print $centerright_wrapper ?>>
 		</div>
+	</div>
+	
+	<div id="left_sidebar">  
+		<<?php print $sidebar_wrapper ?> class="group-sidebar<?php print $sidebar_classes; ?>">
+			<?php print $sidebar; ?>
+		</<?php print $sidebar_wrapper ?>>
 	</div>
 
 

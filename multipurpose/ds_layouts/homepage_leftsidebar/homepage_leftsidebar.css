@@ -32,6 +32,10 @@ div#right_main {
     width: 78%;
 }
 
+div.ddblock-cycle-upright10p div.slider-inner {
+	width: 100% !important;
+}
+
 div#left_sidebar {
     width: 20%;
     float: left;

@@ -15,7 +15,10 @@ jQuery(document).ready(function() {
 	});
 });
 */
-jQuery(window).bind("load", function() {
+jQuery(window).bind("load", ddblockSizeCheck);
+jQuery(window).bind("resize", ddblockSizeCheck);
+
+function ddblockSizeCheck() {
 	jQuery('div.block-ddblock div.slider-inner').each(function() {
 		var largestHeight = 0;
 		jQuery(this).find("div.slide").each(function(){
@@ -32,4 +35,10 @@ jQuery(window).bind("load", function() {
 		});
 		jQuery(this).animate({height:largestHeight},1000);//.height(largestHeight+"px");
 	});
-});
+	jQuery('div.block-ddblock div.slider').each(function() {
+		var actualWidth=jQuery(this).actual( "width" );
+		jQuery(this).find("div.slide").each(function(){
+			jQuery(this).animate({width:actualWidth},10);
+		});
+	});
+}
