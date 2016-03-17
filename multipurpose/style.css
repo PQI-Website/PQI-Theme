@@ -290,6 +290,11 @@ h1.page-title {
   padding-bottom: 30px;
 }
 
+#content .node-schools {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
 .node-teaser img {
   border: 1px solid #CCCCCC;
   padding: 6px;
