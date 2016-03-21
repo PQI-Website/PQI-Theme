@@ -4,9 +4,10 @@ function ds_homepage_leftsidebar() {
     'label' => t('Homepage with Left Sidebar'),
     'regions' => array(
       'mainheaderspan' => t('Main Header'),
+	  'sidebar' => t('Left Sidebar'),
 	  'sidebar_events' => t('Events Block'),
 	  'sidebar_publications' => t('Publications Block'),
-	  'sidebar' => t('Left Sidebar'),
+	  'sidebar_members' => t('Members Block'),
       'rightmain' => t('Middle Pane'),
       'centerbottom' => t('Bottom Pane Center'),
       'centerright' => t('Bottom Pane Right'),

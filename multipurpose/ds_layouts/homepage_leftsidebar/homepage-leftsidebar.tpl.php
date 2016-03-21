@@ -44,6 +44,10 @@
 			<<?php print $sidebar_publications_wrapper ?> class="group-sidebar_publications<?php print $sidebar_publications_classes; ?>">
 				<?php print $sidebar_publications; ?>
 			</<?php print $sidebar_publications_wrapper ?>>
+		
+			<<?php print $sidebar_members_wrapper ?> class="group-sidebar_members<?php print $sidebar_members_classes; ?>">
+				<?php print $sidebar_members; ?>
+			</<?php print $sidebar_members_wrapper ?>>
 			
 			<?php print $sidebar; ?>
 		</<?php print $sidebar_wrapper ?>>
