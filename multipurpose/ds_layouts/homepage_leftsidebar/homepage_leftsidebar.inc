@@ -5,6 +5,7 @@ function ds_homepage_leftsidebar() {
     'regions' => array(
       'mainheaderspan' => t('Main Header'),
 	  'sidebar_events' => t('Events Block'),
+	  'sidebar_publications' => t('Publications Block'),
 	  'sidebar' => t('Left Sidebar'),
       'rightmain' => t('Middle Pane'),
       'centerbottom' => t('Bottom Pane Center'),

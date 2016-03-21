@@ -36,9 +36,15 @@
 	
 	<div id="left_sidebar">  
 		<<?php print $sidebar_wrapper ?> class="group-sidebar<?php print $sidebar_classes; ?>"> 
+		
 			<<?php print $sidebar_events_wrapper ?> class="group-sidebar_events<?php print $sidebar_events_classes; ?>">
 				<?php print $sidebar_events; ?>
 			</<?php print $sidebar_events_wrapper ?>>
+		
+			<<?php print $sidebar_publications_wrapper ?> class="group-sidebar_publications<?php print $sidebar_publications_classes; ?>">
+				<?php print $sidebar_publications; ?>
+			</<?php print $sidebar_publications_wrapper ?>>
+			
 			<?php print $sidebar; ?>
 		</<?php print $sidebar_wrapper ?>>
 	</div>
