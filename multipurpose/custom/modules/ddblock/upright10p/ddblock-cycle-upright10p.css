@@ -46,27 +46,26 @@ div.ddblock-pager {
 /* Pager rollover */
 div.ddblock-pager.number-pager li a.activeSlide {
 	background-color: darkgrey;
-	transition: all .2s ease;
+	transition: background .2s ease;
 	border-left: 5px black solid;
+	padding-left: 15px;
+}
+div.ddblock-pager.number-pager li a span.pager-text{
+    display: table-cell;
+	vertical-align: middle;
+    /*max-width: calc(100% - 60px);*/
 }
 /* Pager thumb */
 div.ddblock-pager.number-pager li a span.thumb{
-	display: inline-block;
-    float: right;
+	float: right;
     height: 60px;
     width: 60px;
-    margin-top: -20px;
-    margin-right: -7px;
-}
-div.ddblock-pager.number-pager li a span.pager-text{
-    display: inline-block;
-    width: calc(100% - 60px);
+    display: block;
 }
 .page-node #content-wrap div.ddblock-pager.number-pager li a span.thumb img{
 	border: 0;
 	padding: 0;
-	margin-top: 3px;
-    margin-right: 10px;
+	margin: 0;
 	max-width: 100%;
 }
 .page-node #content-wrap div.ddblock-pager.number-pager #more-news {
@@ -90,14 +89,15 @@ div.ddblock-pager.number-pager li a span.pager-text{
 }
 
 div.ddblock-pager li.number-pager-item {
+	display: flex;
     list-style: none;
 }
 div.ddblock-pager li.number-pager-item a {
+	vertical-align: middle;
     background: #eee;
-    display: block;
+    display: table;
     padding: 5px 20px;
     border-bottom: #bbb 1px solid;
 	color: #333;
-	padding: 0 1em 0px 15px;
-	height: 70px;
+	width: 90%;
 }

@@ -33,12 +33,12 @@ function ddblockSizeCheck() {
 			}
 			//console.log(slideHeight);
 		});
-		jQuery(this).animate({height:largestHeight},1000);//.height(largestHeight+"px");
+		jQuery(this).animate({height:largestHeight},0.1);//.height(largestHeight+"px");
 	});
 	jQuery('div.block-ddblock div.slider').each(function() {
 		var actualWidth=jQuery(this).actual( "width" );
 		jQuery(this).find("div.slide").each(function(){
-			jQuery(this).animate({width:actualWidth},10);
+			jQuery(this).animate({width:actualWidth},0.1);
 		});
 	});
 }

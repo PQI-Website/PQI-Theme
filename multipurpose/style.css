@@ -1075,9 +1075,11 @@ div.view-featured-events{
 	margin-bottom: 20px;
 }
 div.view-featured-events a.more-info{
-	right: -140px;
+	/* right: -140px;
     position: relative;
-    bottom: -22px;
+    bottom: -22px;*/
+	margin-top: 10px;
+	display: block;
 }
 div.view-featured-events div.views-row{
 	min-height: 130px;
@@ -1118,9 +1120,11 @@ div.view-featured-events span.date-display-single span.db-d{
     font-size: 30px;
 }
 div.view-featured-events span.date-display-single div.db-t{
-	position: relative;
+	/* position: relative;
 	top: -38px;
-	left: 60px;
+	left: 60px;*/
+	background: #242692;
+    color: white;
 }
 
 div.view-featured-events div.views-field.views-field-title{
@@ -1159,6 +1163,13 @@ div.view-featured-events.featured-events-page span.date-display-single div.db-t{
 div.block-ddblock {
 	overflow: hidden;
 }
+
+div.block-ddblock div.slide{
+	width: auto !important;
+	height: auto !important;
+}
+
+
 
 div.view.view-recent-news article .links li a, li.node-readmore a, li.blog_usernames_blog a{
 	float: right;

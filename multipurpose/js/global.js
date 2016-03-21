@@ -7,7 +7,7 @@ jQuery( function($) {
 		$('#main-menu > ul').superfish({
 			delay: 200,
 			animation: {opacity:'show', height:'show'},
-			speed: 'fast',
+			speed: 0.1,
 			cssArrows: false,
 			disableHI: true
 		});
