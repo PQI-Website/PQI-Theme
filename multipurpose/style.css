@@ -334,6 +334,92 @@ div .view-recent-news ul.meta {
     /*display: none;*/
 }
 
+div .view-recent-news article {
+    position: relative;
+}
+
+/*
+View: Recent News
+*/
+div.view.view-recent-news article h2{
+	font-weight: bold;
+}
+div.view.view-recent-news article ul.meta{
+    color: #666;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+	margin-top: -15px;
+}
+div.view.view-recent-news article ul.meta a {
+	color: #666;
+}
+
+div.view.view-recent-news article img{
+	margin: 0px 1em 0px 0px !important;
+	float: left !important;
+}
+
+div.view.view-recent-news article .field-name-field-tags a{
+	background-color: #666;
+	border-radius: 0px;
+	text-transform: capitalize;
+}
+div.view.view-recent-news article .field-name-field-tags a:hover{
+	background-color: #333;
+}
+
+
+
+/* View Popular News */
+div.field-name-field-sidebar-content {
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ddd;
+}
+div.view-popular-news div.section-title {
+	margin-left: .5em;
+}
+div.view-popular-news table {
+	border: 0;
+}
+div.view-popular-news table td {
+	border: 0;
+	padding: 5px 15px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 1em;
+}
+div.view-popular-news table div.views-field-title {
+	margin-bottom: 1em;
+	display: block;
+}
+div.view-popular-news table div.views-field-title a {
+	color: black;
+	font-weight: bold;
+}
+div.view-popular-news div.views-field-created {
+	color: #aaa;
+}
+div.view-popular-news div.views-field-body img, div.view-popular-news div.views-field-body iframe {
+	display: block;
+	width: 100%;
+	margin: 0 auto !important;
+	border: 0 !important;
+	margin-bottom: 10px !important;
+	float: none !important;
+}
+div.view-popular-news a.more-link {
+	display: block;
+	font-size: smaller;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+}
+div.view-popular-news a.more-link::after {
+	content: " \2771";
+}
+
 /* Tables
 ================================================== */
 /* Sort arrow */
@@ -989,7 +1075,7 @@ div.view-featured-events{
 	margin-bottom: 20px;
 }
 div.view-featured-events a.more-info{
-	right: -165px;
+	right: -140px;
     position: relative;
     bottom: -22px;
 }
@@ -1078,6 +1164,23 @@ div.view.view-recent-news article .links li a, li.node-readmore a, li.blog_usern
 	float: right;
 	padding: .5em 3em;
 	margin: 3px;
+}
+
+a.read-more-button{
+    padding: .5em 5em;
+    margin: 0 auto;
+    background-color: #E7E5E3;
+    color: #100100;
+    border-radius: 4px;
+    text-shadow: 1px 1px #fff;
+	font-size: 1.1em;
+	font-weight: bold;
+	display: table;
+}
+
+a.read-more-button:hover {
+  background-color: #D7D5D3;
+  color: #100101;
 }
 
 div.circle{

@@ -4,6 +4,7 @@
 	margin-top: -40px;
 	border: none;
 }
+div#preface-wrap{display:none;}
 div#main_header .group-mainheaderspan  .field-name-field-image-caption{
 	top: -100px;
 	position: relative;
