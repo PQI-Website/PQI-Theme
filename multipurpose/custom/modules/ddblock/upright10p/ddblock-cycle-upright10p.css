@@ -61,6 +61,7 @@ div.ddblock-pager.number-pager li a span.thumb{
     height: 60px;
     width: 60px;
     display: block;
+	margin-left: 5px;
 }
 .page-node #content-wrap div.ddblock-pager.number-pager li a span.thumb img{
 	border: 0;
