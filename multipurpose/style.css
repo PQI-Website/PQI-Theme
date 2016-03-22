@@ -1077,16 +1077,20 @@ div.view-featured-events{
 div.view-featured-events div.view-content{
 	background: #eee;
 }
-div.view-featured-events a.more-info{
-	/* right: -140px;
-    position: relative;
-    bottom: -22px;*/
-	margin-top: 10px;
-	display: block;
-}
 div.view-featured-events div.views-row{
 	min-height: 130px;
+	position: relative;
 }
+div.view-featured-events div.views-field-title,
+div.view-featured-events div.views-field-name span{
+	margin-right: 5px;
+}
+.views-field.views-field-name::after {
+    height: 25px;
+    display: block;
+    content: ' ';
+}
+
 div.view-featured-events div.views-field.views-field-field-tags{
 	background: #242692;
 	padding: 2px 5px;
@@ -1128,6 +1132,14 @@ div.view-featured-events span.date-display-single div.db-t{
 	left: 60px;*/
 	background: #242692;
     color: white;
+}
+
+.views-field.views-field-nid {
+    text-align: right;
+	margin: 5px 10px;
+	position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 div.view-featured-events div.views-field.views-field-title{
