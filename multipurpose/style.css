@@ -291,7 +291,6 @@ h1.page-title {
 }
 
 #content .views-row {
-  border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
 }
 
@@ -341,15 +340,16 @@ div .view-recent-news article {
 /*
 View: Recent News
 */
-div.view.view-recent-news article h2{
+div.view.view-recent-news article h2.title{
 	font-weight: bold;
+	margin-top: 20px;
 }
 div.view.view-recent-news article ul.meta{
     color: #666;
     position: absolute;
     right: 0px;
     top: 0px;
-	margin-top: -15px;
+	margin-top: -20px;
 }
 div.view.view-recent-news article ul.meta a {
 	color: #666;
@@ -1134,7 +1134,7 @@ div.view-featured-events span.date-display-single div.db-t{
     color: white;
 }
 
-.views-field.views-field-nid {
+div.view-featured-events .views-field.views-field-nid {
     text-align: right;
 	margin: 5px 10px;
 	position: absolute;
@@ -1261,7 +1261,7 @@ div.view-affiliated-websites div.views-field-title a:hover{
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;
-    height: 2000px;
+    height: 1400px;
 	padding-right: 10px;
 }
 div.views-field-field-storify-content span.field-content p:first-of-type{
