@@ -349,7 +349,6 @@ div.view.view-recent-news article ul.meta{
     position: absolute;
     right: 0px;
     top: 0px;
-	margin-top: -20px;
 }
 div.view.view-recent-news article ul.meta a {
 	color: #666;
@@ -359,17 +358,6 @@ div.view.view-recent-news article img{
 	margin: 0px 1em 0px 0px !important;
 	float: left !important;
 }
-
-div.view.view-recent-news article .field-name-field-tags a{
-	background-color: #666;
-	border-radius: 0px;
-	text-transform: capitalize;
-}
-div.view.view-recent-news article .field-name-field-tags a:hover{
-	background-color: #333;
-}
-
-
 
 /* View Popular News */
 div.field-name-field-sidebar-content {
@@ -418,6 +406,29 @@ div.view-popular-news a.more-link {
 }
 div.view-popular-news a.more-link::after {
 	content: " \2771";
+}
+
+/* Events Page
+================================================== */
+/* Next / Latest event */
+.page-node #content-wrap div.view-events-directory.view-display-id-events_latest_event div.views-field-field-image img {
+	border: 0;
+	margin: 0 10px 0 0;
+	float: left;
+	width: 33%;
+	max-width: 600px;
+}
+div.view-events-directory.view-display-id-events_latest_event div.views-field-title a {
+	font-size: 2em;
+}
+div.view-events-directory.view-display-id-events_latest_event div.views-field-field-event-date span {
+	font-size: 1.5em;
+}
+
+/* All But Latest */
+div.view-events-directory.view-display-id-all_but_latest td.views-field-title a {
+	font-size: 1.3em;
+	display: block;
 }
 
 /* Tables
@@ -897,7 +908,7 @@ div.section-title
   margin: 0 0 10px 0;
 }
 
-.field-name-field-tags a{
+.field-name-field-tags a, .field-name-field-tags a{
   background: #666;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -906,6 +917,10 @@ div.section-title
   font-size: 0.929em;
   padding: 2px 6px;
   text-transform: capitalize;
+}
+
+.field-name-field-tags a:hover{
+	background-color: #333;
 }
 
 .field-name-field-tags a:hover{
@@ -1107,32 +1122,41 @@ div.view-featured-events span.date-display-single{
 	margin: 15px 10px;
     text-align: center;
 	display: inline-block;
+	width: 60px;
 	float: left;
 	height: 75px;
 }
-div.view-featured-events span.date-display-single div.db-b{
+div.view-events-directory span.date-display-single,
+div.view-events-directory td.views-field-field-event-date{
+	text-align: center;
+	margin-bottom: 10px;
+}
+div.view-featured-events span.date-display-single div.db-b,
+div.view-events-directory span.date-display-single div.db-b{
     color: white;
-	width: 60px;
+	width: inherit;
 	font-weight: bold;
 	margin-top: -10px;
 }
-div.view-featured-events span.date-display-single span.db-m{
+div.view-featured-events span.date-display-single span.db-m,
+div.view-events-directory span.date-display-single span.db-m{
 	background: #242692;
 	display: block;
     font-size: 16px;
 }
-div.view-featured-events span.date-display-single span.db-d{
+div.view-featured-events span.date-display-single span.db-d,
+div.view-events-directory span.date-display-single span.db-d{
 	background: #9C90C9;
 	display: block;
     font-size: 30px;
 }
-div.view-featured-events span.date-display-single div.db-t{
-	/* position: relative;
-	top: -38px;
-	left: 60px;*/
+div.view-featured-events span.date-display-single div.db-t,
+div.view-events-directory span.date-display-single div.db-t{
 	background: #242692;
+	width: inherit;
     color: white;
 }
+div.view-events-directory span.date-display-single div.db-t{margin-bottom: 10px;}
 
 div.view-featured-events .views-field.views-field-nid {
     text-align: right;
@@ -1153,15 +1177,17 @@ div.view-featured-events div.views-field.views-field-title a{
 div.view-featured-events div.views-field.views-field-title a:hover{
 	color:#9C90C9;
 }
-div.view-featured-events div.views-field.views-field-field-speaker-s- {display: inline;}
-div.view-featured-events div.views-field.views-field-field-speaker-s- div.field-content{
-	/*color: #000;*/
-	/*margin-left: 20px;*/
+
+div.view-featured-events div.views-field-field-speaker-s-,
+div.view-featured-events div.views-field-field-speaker-s- div,
+div.view-featured-events span.views-field-field-speaker-institution div{
 	display: inline;
 }
+/*
 div.view-featured-events div.views-field.views-field-field-speaker-s-::after{
 	content: "|";
 }
+*/
 div.view-featured-events div.views-field.views-field-name{
 	display: inline;
 }
