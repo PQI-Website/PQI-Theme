@@ -348,7 +348,7 @@ div.view.view-recent-news article ul.meta{
     color: #666;
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: -20px;
 }
 div.view.view-recent-news article ul.meta a {
 	color: #666;
@@ -1112,6 +1112,7 @@ div.sfy-story iframe {
 div.view-featured-events{
 	min-height: 118px;
 	margin-bottom: 20px;
+	min-width: 350px;
 }
 div.view-featured-events div.view-content{
 	background: #eee;
@@ -1127,7 +1128,6 @@ div.view-featured-events div.views-field-name span{
 .views-field.views-field-name::after {
     height: 25px;
     display: block;
-    content: ' ';
 }
 
 div.view-featured-events div.views-field.views-field-field-tags{
@@ -1139,6 +1139,14 @@ div.view-featured-events div.views-field.views-field-field-tags{
 div.view-featured-events div.views-field.views-field-field-tags, div.view-featured-events div.views-field.views-field-field-tags a{
 	color: white;
 	text-transform: uppercase;
+	background: #242692;
+	margin-right: 0;
+	padding: 0 0 0 3px;
+}
+div.view-featured-events div.views-field.views-field-field-tags div{
+	overflow-x: scroll;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 /* Date block (featured events) */

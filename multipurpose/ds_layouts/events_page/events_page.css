@@ -1,0 +1,61 @@
+/**
+ * @file
+ * Styling for the ds_2col_fluid template.
+ */
+
+.ds-2col-fluid > .group-left {
+  float: left; /* LTR */
+  width: 70%;
+}
+
+.ds-2col-fluid > .group-right {
+  float: right; /* LTR */
+  width: 30%;
+}
+
+.ds-2col-fluid.group-one-column > .group-left,
+.ds-2col-fluid.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+div.group-left div{
+	margin-right: 5px;
+}
+
+div.field-name-field-tags{
+	float: right;
+	display: block;
+	margin: 0;
+}
+
+div.field-name-field-location span.fn{
+	float: left;
+	font-weight: bold;
+	margin-right: 1ch;
+}
+div.field-name-field-speaker-s- div,
+div.field-name-field-speaker-institution div,
+div.field-name-field-event-date div,
+div.field-name-field-event-date .date-display-single,
+div.field-name-field-location div
+{font-size: 16px; color: #333; float: left;}
+div.field-name-field-event-date div.date-display-range{float:right;}
+div.field-name-field-event-date div.date-display-range{margin-left:1ch;}
+
+div.field-name-field-location div.gmap-gmap{
+	
+}
+
+div.field-name-field-speaker-institution div.field-items{
+	font-size: 14px;
+	line-height: 25px;
+	font-style: italic;
+}
+
+div.field-name-body{
+	clear: both;
+	border-top: 5px solid #dedede;
+	margin-top: 45px;
+	padding-top: 10px;
+}
