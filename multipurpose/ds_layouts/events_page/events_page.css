@@ -19,8 +19,9 @@
   float: none;
 }
 
-div.group-left div{
-	margin-right: 5px;
+div.group-left div.vital-info,
+div.group-left div.field-name-body{
+	margin-right: 15px;
 }
 
 div.field-name-field-tags{
@@ -31,7 +32,6 @@ div.field-name-field-tags{
 
 div.field-name-field-location span.fn{
 	float: left;
-	font-weight: bold;
 	margin-right: 1ch;
 }
 div.field-name-field-speaker-s- div,

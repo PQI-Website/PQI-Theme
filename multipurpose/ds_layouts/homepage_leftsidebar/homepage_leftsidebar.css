@@ -52,6 +52,10 @@ div#center_pane {
 .view.view-recent-news h2.title {
     font-size: 1.35em;
     font-weight: bold;
+	margin-top: 20px;
+}
+div div.view.view-recent-news article ul.meta{
+	top: -20px;
 }
 
 div#right_pane {
@@ -63,6 +67,8 @@ div#right_pane {
 div.field.field-name-field-image-caption {
     color: white;
     background-color: rgba(0, 0, 0, .7);
+	white-space:nowrap;
+	overflow: hidden;
 }
 div.field.field-name-field-image-caption a {
 	color: white;

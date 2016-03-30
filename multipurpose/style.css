@@ -342,13 +342,12 @@ View: Recent News
 */
 div.view.view-recent-news article h2.title{
 	font-weight: bold;
-	margin-top: 20px;
 }
 div.view.view-recent-news article ul.meta{
     color: #666;
     position: absolute;
     right: 0px;
-    top: -20px;
+    top: 0px;
 }
 div.view.view-recent-news article ul.meta a {
 	color: #666;
@@ -1106,13 +1105,16 @@ div.sfy-story iframe {
 	max-width: inherit !important;
 }
 
+div#block-easy-breadcrumb-easy-breadcrumb {
+	padding: 0;
+}
+
 /* Views */
 
 /* Featured events */
 div.view-featured-events{
 	min-height: 118px;
 	margin-bottom: 20px;
-	min-width: 350px;
 }
 div.view-featured-events div.view-content{
 	background: #eee;
@@ -1154,7 +1156,7 @@ div.view-featured-events span.date-display-single{
 	margin: 15px 10px;
     text-align: center;
 	display: inline-block;
-	width: 60px;
+	width: 65px;
 	float: left;
 	height: 75px;
 }
@@ -1279,6 +1281,27 @@ div.circle{
 	display: inline-block;
     margin-left: 4em;
 }
+
+/* Tag Searches */
+body.page-taxonomy-term article.node-event{
+	display: table;
+}
+
+body.page-taxonomy-term article.node-event div.field-type-image,
+body.page-taxonomy-term article.node-event div.field-type-image img{
+	float: left;
+	border: 0;
+}
+body.page-taxonomy-term article.node-event div.field-name-field-speaker-s-{
+	display:flex;
+}
+body.page-taxonomy-term article.node-event div.field-name-field-tags{
+	float:right;
+}
+body.page-taxonomy-term article.node-event div.field-name-field-event-date{display:flex;}
+body.page-taxonomy-term article.node-event div.field-name-field-event-date div{display:inline;}
+body.page-taxonomy-term article.node-event div.field-name-body{border-top: 3px #eee solid; margin-top: 3px; padding-top: 3px;}
+body.page-taxonomy-term article.node-event footer li.node-readmore a{content: 'asdf';}
 
 /* Affiliated Websites */
 div.view-affiliated-websites div.views-field{
