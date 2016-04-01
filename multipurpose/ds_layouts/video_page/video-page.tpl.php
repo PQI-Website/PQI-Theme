@@ -17,24 +17,18 @@
   <?php endif; ?>
 
 <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>">
-	<?php if ($who || $when || $where): ?>
+	<?php if ($video || $details || $where): ?>
 		<div class="vital-info">
-		<?php if ($who): ?>
-			<<?php print $who_wrapper ?> class="group-who<?php print $who_classes; ?>">
-			<?php print $who; ?>
-			</<?php print $who_wrapper ?>>
+		<?php if ($video): ?>
+			<<?php print $video_wrapper ?> class="group-video<?php print $video_classes; ?>">
+			<?php print $video; ?>
+			</<?php print $video_wrapper ?>>
 		<?php endif; ?>
 
-		<?php if ($when): ?>
-			<<?php print $when_wrapper ?> class="group-when<?php print $when_classes; ?>">
-			  <?php print $when; ?>
-			</<?php print $when_wrapper ?>>
-		<?php endif; ?>
-
-		<?php if ($when): ?>
-			<<?php print $where_wrapper ?> class="group-where<?php print $where_classes; ?>">
-			  <?php print $where; ?>
-			</<?php print $where_wrapper ?>>
+		<?php if ($details): ?>
+			<<?php print $details_wrapper ?> class="group-details<?php print $details_classes; ?>">
+			  <?php print $details; ?>
+			</<?php print $details_wrapper ?>>
 		<?php endif; ?>
 		</div>
 	<?php endif; ?>
