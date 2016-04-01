@@ -466,7 +466,9 @@ table thead tr a img {
 div.view-members-directory tr {transition: 0.3s all;}
 div.view-members-directory tr.even {background-color: #fff;}
 div.view-members-directory tr:hover {background-color: #E8F9FF;}
+div.view-members-directory tr.clickable-rows {cursor: pointer;}
 div.view-members-directory td.active {background-color: inherit;}
+
 
 /* Preface
 ================================================== */
@@ -1342,7 +1344,7 @@ div.view-affiliated-websites div.views-field-title a:hover{
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;
-    height: 1400px;
+    max-height: 1400px;
 	padding-right: 10px;
 }
 div.views-field-field-storify-content span.field-content p:first-of-type{

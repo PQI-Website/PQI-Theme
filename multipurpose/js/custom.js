@@ -42,3 +42,13 @@ function ddblockSizeCheck() {
 		});
 	});
 }
+
+// Clickable table rows
+jQuery(document).ready(function() {
+    jQuery('div.view-members-directory tr.clickable-rows').click(function() {
+        var href = jQuery(this).find("a").attr("href");
+        if(href) {
+            window.location = href;
+        }
+    });
+});
