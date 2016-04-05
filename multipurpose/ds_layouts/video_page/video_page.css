@@ -5,12 +5,12 @@
 
 .ds-2col-fluid > .group-left {
   float: left; /* LTR */
-  width: 70%;
+  width: 80%;
 }
 
 .ds-2col-fluid > .group-right {
   float: right; /* LTR */
-  width: 30%;
+  width: 20%;
 }
 
 .ds-2col-fluid.group-one-column > .group-left,
@@ -18,47 +18,49 @@
   width: 100%;
   float: none;
 }
-
-div.group-left div.vital-info{
-	border-bottom: 5px solid #dedede;
-    margin-bottom: 10px;
-    padding-bottom: 45px;
-}
-
-div.group-left div.vital-info,
-div.group-left div.field-name-body{
-	margin-right: 15px;
-}
-
-div.field-name-field-tags{
-	float: right;
-	display: block;
-	margin: 0;
-}
-
-div.field-name-field-location span.fn{
+/* Main Video */
+div.group-video{
 	float: left;
-	margin-right: 1ch;
+	width: 70%;
+    margin-right: 20px;
 }
-div.field-name-field-speaker-s- div,
-div.field-name-field-speaker-institution div,
-div.field-name-field-event-date div,
-div.field-name-field-event-date .date-display-single,
-div.field-name-field-location div
-{font-size: 16px; color: #333; float: left;}
-div.field-name-field-event-date div.date-display-range{float:right;}
-div.field-name-field-event-date div.date-display-range{margin-left:1ch;}
-
-div.field-name-field-location div.gmap-gmap{
-	
+div.group-video div.embedded-video{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
-
-div.field-name-field-speaker-institution div.field-items{
-	font-size: 14px;
-	line-height: 25px;
-	font-style: italic;
+div.group-video div.embedded-video iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
+
+/* Sidebar */
+div.group-right div.embedded-video{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+div.group-right div.embedded-video iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+div.field-name-field-tags {
+	margin-top: 5px;
+}
+div.group-details{
+	float: right;
+}
 div.field-name-body{
-	clear: both;
+	clear: right;
 }

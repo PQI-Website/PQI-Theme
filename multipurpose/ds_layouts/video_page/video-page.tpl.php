@@ -17,8 +17,7 @@
   <?php endif; ?>
 
 <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>">
-	<?php if ($video || $details || $where): ?>
-		<div class="vital-info">
+
 		<?php if ($video): ?>
 			<<?php print $video_wrapper ?> class="group-video<?php print $video_classes; ?>">
 			<?php print $video; ?>
@@ -29,8 +28,6 @@
 			<<?php print $details_wrapper ?> class="group-details<?php print $details_classes; ?>">
 			  <?php print $details; ?>
 			</<?php print $details_wrapper ?>>
-		<?php endif; ?>
-		</div>
 	<?php endif; ?>
 
   <?php print $left; ?>

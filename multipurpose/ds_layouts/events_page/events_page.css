@@ -49,8 +49,8 @@ div.field-name-field-location div
 div.field-name-field-event-date div.date-display-range{float:right;}
 div.field-name-field-event-date div.date-display-range{margin-left:1ch;}
 
-div.field-name-field-location div.gmap-gmap{
-	
+.field-name-field-tags {
+	margin-top: 5px;
 }
 
 div.field-name-field-speaker-institution div.field-items{
