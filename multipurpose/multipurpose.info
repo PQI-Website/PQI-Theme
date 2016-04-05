@@ -5,6 +5,7 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[all][] = css/responsive.css
+stylesheets[all][] = css/corners.css
 scripts[] = js/plugins.js
 scripts[] = js/global.js
 scripts[] = js/jquery.timeago.js
