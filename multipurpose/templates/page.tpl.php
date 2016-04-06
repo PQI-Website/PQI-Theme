@@ -71,7 +71,7 @@
 		</div>
 	</div>
 <?php endif; ?>
-<div class="corner-ribbon top-left sticky red shadow" style="z-index: 1; background-color:orange;"><a href="https://docs.google.com/a/pqi.org/forms/d/1_KttKtn3voG7XmLbbbW7EhED1VxsOZhffIm-cUYqPnA/viewform" target="_blank" style="color:white;" tabindex="-1">Submit Feedback</a></div>
+<div class="corner-ribbon top-left sticky red shadow" style="z-index: 100; background-color:orange;"><a href="https://docs.google.com/a/pqi.org/forms/d/1_KttKtn3voG7XmLbbbW7EhED1VxsOZhffIm-cUYqPnA/viewform" target="_blank" style="color:white;" tabindex="-1">Submit Feedback</a></div>
 <div id="wrap" class="clr container">
   <div id="header-wrap" class="clr fixed-header">
 	<?php if ($page['banner_inset']): ?>

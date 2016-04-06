@@ -916,7 +916,8 @@ ul.inline, ul.links.inline {
 }
 
 div.section-title,
-div#block-menu-menu-events h2
+div#block-menu-menu-events h2,
+div#block-menu-menu-about-pqi h2
 {
 	border-top: 5px solid #666;
     border-bottom: 3px solid #bbb;
@@ -1244,6 +1245,9 @@ div.block-ddblock div.slide{
 	width: auto !important;
 	height: auto !important;
 }
+div.slider-inner{
+	width: auto !important;
+}
 
 
 
@@ -1305,7 +1309,8 @@ body.page-taxonomy-term article.node-event div.field-name-body{border-top: 3px #
 body.page-taxonomy-term article.node-event footer li.node-readmore a{content: 'asdf';}
 
 /* Affiliated Websites */
-div.view-affiliated-websites div.views-field{
+div.view-affiliated-websites div.views-field-body div.field-content{
+	overflow: auto;
 }
 div.view-affiliated-websites div.views-row{
 	margin: 2em;
