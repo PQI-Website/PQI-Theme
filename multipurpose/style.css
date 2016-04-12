@@ -1384,6 +1384,20 @@ div.view-videos div.views-row h4 {
     text-align: center;
 	margin-top: 5px;
 }
+
+div.view-display-id-directory_page div.views-row.views-row-first{
+	border: 0;
+}
+div.view-display-id-directory_page div.views-row{
+	clear: both;
+    border-top: 1px solid #ddd;
+    padding-top: 7px;
+}
+
+div.view-display-id-directory_page div.views-row .views-field.views-field-field-video-url {float: left; margin-right: 20px;}
+div.view-display-id-directory_page div.views-row .views-field.views-field-body {vertical-align: top; overflow: auto;}
+div.view-display-id-directory_page div.views-row .views-field.views-field-title {vertical-align: top;}
+
 div.view-watching div.footer img[alt="Powered by Storify"] {
 	display: none;
 }

@@ -63,4 +63,6 @@ div.group-details{
 }
 div.field-name-body{
 	clear: right;
+	overflow: auto;
+    padding-right: 1em;
 }
