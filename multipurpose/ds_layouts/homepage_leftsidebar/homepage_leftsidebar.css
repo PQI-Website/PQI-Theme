@@ -1,24 +1,24 @@
 .field-name-field-featured-image{
-	margin-left: -30px;
-	margin-right: -28px;
-	margin-top: -40px;
+	margin-left: -15px;
+	margin-right: -14px;
 	border: none;
+	margin-bottom: 10px;
+	position: relative;
 }
 div#preface-wrap{display:none;}
+div#site-navigation-wrap{margin-bottom: 0px;}
 div#main_header .group-mainheaderspan  .field-name-field-image-caption{
-	top: -100px;
-	position: relative;
-	margin-bottom: -60px;
+	bottom: 5px;
+	position: absolute;
+	width: calc(100% - 22px);
 	
-	margin-left: -30px;
-	margin-right: -29px;
+	border: none;
 	padding: 5px;
 	padding-left: 20px;
 }
 div#main_header .group-mainheaderspan  .field-name-field-image-caption p{
 	margin: 0;
 }
-
 div#main_header div.field-name-field-featured-image img
  {
 	border: 1px solid #333;
