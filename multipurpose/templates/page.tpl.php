@@ -218,6 +218,7 @@
   <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']  || $page['footer']): ?>
   <div id="footer-wrap" class="site-footer clr">
     <div id="footer" class="clr">
+	<div id="footer_spacer" style="background: url(<?php print base_path() . drupal_get_path('theme', 'multipurpose') . '/images/otis_redding.png'; ?>);"></div>
 	  <?php if ($page['footer']): ?>
         <div class="span_1_of_1 col col-1">
           <?php print render($page['footer']); ?>
