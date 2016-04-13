@@ -43,6 +43,16 @@ div.group-sidebar{
 	padding-left: 1em;
 	border-left: 1px solid #ddd;
 }
+.view-display-id-other_members_sidebar .views-row.views-row-last {border: 0;}
+.view-display-id-other_members_sidebar .views-row {border-bottom: 1px solid #ddd;}
+.view-display-id-other_members_sidebar .views-field-field-about p {
+	font-size: 11px;
+}
+.view-display-id-other_members_sidebar .views-field.views-field-field-profile-photo img {
+    max-width: 150px !important;
+    float: left;
+    margin: 5px 10px 0 0 !important;
+}
  
 .ds-profile .group-photo {
 	float: left; /* LTR */
