@@ -49,9 +49,11 @@
 
 </<?php print $layout_wrapper ?>>
 
-<<?php print $sidebar_wrapper ?> class="group-sidebar<?php print $sidebar_classes; ?>">
-	<?php print $sidebar; ?>
-</<?php print $sidebar_wrapper ?>>
+<?php if ($sidebar): ?>
+	<<?php print $sidebar_wrapper ?> class="group-sidebar<?php print $sidebar_classes; ?>">
+		<?php print $sidebar; ?>
+	</<?php print $sidebar_wrapper ?>>
+<?php endif; ?>
 
 <?php if (!empty($drupal_render_children)): ?>
   <?php print $drupal_render_children ?>
