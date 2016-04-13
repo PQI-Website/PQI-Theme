@@ -11,6 +11,7 @@
   <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
 
+
   <div id="contact-wrap">
   <<?php print $photo_wrapper ?> class="group-photo<?php print $photo_classes; ?>">
     <?php print $photo; ?>
@@ -47,6 +48,10 @@
   </<?php print $publications_wrapper ?>>
 
 </<?php print $layout_wrapper ?>>
+
+<<?php print $sidebar_wrapper ?> class="group-sidebar<?php print $sidebar_classes; ?>">
+	<?php print $sidebar; ?>
+</<?php print $sidebar_wrapper ?>>
 
 <?php if (!empty($drupal_render_children)): ?>
   <?php print $drupal_render_children ?>

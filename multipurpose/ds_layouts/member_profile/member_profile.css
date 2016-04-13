@@ -15,11 +15,15 @@ div.group-contact h1 {
 	margin-bottom: 0;
 }
 
-div.group-websites{margin-top:-10px;}
 div.group-websites div{float: left;}
 div.group-websites div.field-label{font-weight: bold;}
 div.group-websites div.field::after{content: " | ";}
 div.group-websites div.field:last-child:after{content: '';}
+
+.group-contact>div
+{
+	display: table-row;
+}
 
 .block-title{
 	font-size: 20px;
@@ -28,6 +32,18 @@ div.group-websites div.field:last-child:after{content: '';}
 	margin-top: 10px;
 }
 
+#block-system-main div.content div.ds-profile{
+	width: 75%;
+	float: left;
+}
+div.group-sidebar{
+	float:right;
+	width: calc(25% - 2.1em);
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ddd;
+}
+ 
 .ds-profile .group-photo {
 	float: left; /* LTR */
 	width: 200px;
@@ -42,8 +58,4 @@ div.group-websites div.field:last-child:after{content: '';}
 
 .group-contact .field-label {
     padding-right: 12px;
-}
-.group-contact>div
-{
-	display: table-row;
 }

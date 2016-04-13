@@ -10,6 +10,7 @@ function ds_member_profile() {
       'education' => t('Education'),
       'research' => t('Research'),
       'publications' => t('Publications'),
+      'sidebar' => t('Sidebar'),
     ),
     // Add this line if there is a default css file.
     'css' => TRUE,
