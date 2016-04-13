@@ -27,7 +27,7 @@ div.group-websites div.field:last-child:after{content: '';}
     color: darkblue;
 	margin-top: 10px;
 }
- 
+
 .ds-profile .group-photo {
 	float: left; /* LTR */
 	width: 200px;
@@ -42,4 +42,8 @@ div.group-websites div.field:last-child:after{content: '';}
 
 .group-contact .field-label {
     padding-right: 12px;
+}
+.group-contact>div
+{
+	display: table-row;
 }
