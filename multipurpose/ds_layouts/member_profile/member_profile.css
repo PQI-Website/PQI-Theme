@@ -69,3 +69,9 @@ div.group-sidebar{
 .group-contact .field-label {
     padding-right: 12px;
 }
+
+.group-publications>div {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}

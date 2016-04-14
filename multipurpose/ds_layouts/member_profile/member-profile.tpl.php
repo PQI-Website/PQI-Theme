@@ -42,10 +42,21 @@
     <?php print $research; ?>
   </<?php print $research_wrapper ?>>
 
-  <<?php print $publications_wrapper ?> class="group-publications<?php print $publications_classes; ?>">
-  <div class="block-title">Publications:</div>
-    <?php print $publications; ?>
-  </<?php print $publications_wrapper ?>>
+  <div class="group-publications">
+	  <?php if ($publications_left): ?>
+	  <<?php print $publications_left_wrapper ?> class="group-publications_left<?php print $publications_left_classes; ?>">
+	  <div class="block-title">Selected Publications:</div>
+		<?php print $publications_left; ?>
+	  </<?php print $publications_left_wrapper ?>>
+	  <?php endif; ?>
+	  
+	  <?php if ($publications_right): ?>
+		  <<?php print $publications_right_wrapper ?> class="group-publications_right<?php print $publications_right_classes; ?>">
+		  <div class="block-title">Recent Publications:</div>
+			<?php print $publications_right; ?>
+		  </<?php print $publications_right_wrapper ?>>
+	  <?php endif; ?>
+  </div>
 
 </<?php print $layout_wrapper ?>>
 

@@ -9,7 +9,8 @@ function ds_member_profile() {
       'affiliation' => t('Affiliation'),
       'education' => t('Education'),
       'research' => t('Research'),
-      'publications' => t('Publications'),
+      'publications_left' => t('Publications Left'),
+      'publications_right' => t('Publications Right'),
       'sidebar' => t('Sidebar'),
     ),
     // Add this line if there is a default css file.
