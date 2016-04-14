@@ -21,6 +21,10 @@
 	.sidr-class-toggle-sidr-close:before { font-size: 16px; position: absolute; top: 15px; left: 30px; content: '\f00d'; font-family: 'FontAwesome'; color: #fff; margin: 0; }
 
 
+
+@media only screen and (max-width: 1600px) {
+	div.view-featured-events .views-field.views-field-nid{position: inherit;}
+}
 @media only screen and (max-width: 1279px) {
 	div#right_main{ width: 100%;}
 	div#left_sidebar {width: 100%;}
@@ -34,9 +38,27 @@
 		margin-right: 1%;
 		display: inline-block;
 	}
+	
+	/* News Directory */
+	div[about="/news"] div.group-left {
+		width: calc(100% - 410px);
+	}
+	div[about="/news"] div.group-right {
+		width: 410px;
+	}
+	
+	/* Calendar Page */
+	.page-node #content-wrap div.view-events-directory.view-display-id-events_latest_event div.views-field-field-image img{
+		display: none;
+	}
 }
-@media only screen and (max-width: 1600px) {
-	div.view-featured-events .views-field.views-field-nid{position: inherit;}
+@media only screen and (max-width: 1200px) {
+	/*  Search Bar */
+	#banner-inset {
+		right: 20px;
+		top: 0px;
+		opacity:0.8;
+	}
 }
 @media only screen and (max-width: 750px) {
 	/*a#navigation-toggle {
@@ -91,14 +113,7 @@
 	    color: #ccc;
 	}
 }
-@media only screen and (max-width: 1200px) {
-	/*  Search Bar */
-	#banner-inset {
-		right: 20px;
-		top: 0px;
-		opacity:0.8;
-	}
-}
+
 @media only screen and (max-width: 950px) {	
 	/* Logo */
 	div#logo div#site-logo{
@@ -108,6 +123,12 @@
 	div#logo div#site-logo img{
 		max-width: none;
 		max-height: 115px;
+	}
+	
+	/* Calendars */
+	
+	table#pqi-events-calendars td {
+		display: block;
 	}
 }
 @media only screen and (max-width: 530px) {	
@@ -167,10 +188,27 @@
 		display: inline-block;
 		margin-top: 20px;
 	}
+	
+	/* News Directory */
+	div[about="/news"] div.group-left {
+		width: 100%;
+	}
+	div[about="/news"] div.group-right {
+		display: none;
+	}
 }
 @media only screen and (max-width: 550px) {
 	#footer-wrap .span_1_of_3 {
 		width: 100% !important;
+	}
+	/* News Directory */
+	div[about="/news"] div.group-left img {
+		display: block !important;
+		float: none !important;
+		margin: 0 auto !important;
+	}
+	div[about="/news"] div.group-left p {
+		text-align: left !important;
 	}
 }
 
