@@ -48,6 +48,11 @@
 	}*/
 
 	/* new code */
+	#site-navigation #main-menu ul.menu.dropdown-menu {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
 	#site-navigation #main-menu > ul > li:nth-of-type(odd){
 		display: block;
 		float: left;
