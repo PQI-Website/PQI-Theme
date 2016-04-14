@@ -501,6 +501,7 @@ div.view-members-directory td.active {background-color: inherit;}
 
 #footer-wrap div#block-menu-menu-site-map ul {
 	margin: 0 !important;
+	text-align: center;
 }
 #footer-wrap div#block-menu-menu-site-map div.content ul li ul li {
     font-size: 1.1em;
