@@ -26,6 +26,7 @@ function ddblockSizeCheck() {
 			jQuery(this).children().each(function(){
 				slideHeight += jQuery(this).actual( "height" );
 			});
+			jQuery(this).css('min-height', slideHeight);
 			//console.log(slideHeight);
 			if (slideHeight > largestHeight)
 			{

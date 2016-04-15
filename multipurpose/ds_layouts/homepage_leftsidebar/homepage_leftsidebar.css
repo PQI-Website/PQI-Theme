@@ -19,7 +19,7 @@ div#main_header .group-mainheaderspan  .field-name-field-image-caption{
 div#main_header .group-mainheaderspan  .field-name-field-image-caption p{
 	margin: 0;
 }
-div#main_header div.field-name-field-featured-image img
+div#main_header div.group-mainheaderspan>div.field-name-field-featured-image img
  {
 	border: 1px solid #333;
 	padding: 0;
@@ -87,4 +87,68 @@ div.field-name-homepage-videos-block div.embedded-video iframe {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+	div#main_header .group-mainheaderspan .field-name-field-image-caption p:first-of-type span{
+		font-size: 22px !important;
+	}
+	div#main_header .group-mainheaderspan .field-name-field-image-caption p span{
+		font-size: 16px !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {	
+
+	.page-node #content-wrap div.ddblock-pager.number-pager li a span.thumb{ display: none;}
+	div.ddblock-pager.number-pager li a span.pager-text {padding-right: 10px;}
+	
+	#right_pane {display: none;}
+	div div#center_pane {width: 100%}
+	
+	div#left_sidebar div.group-sidebar div.group-sidebar_members {display: none;}
+	div#left_sidebar div.group-sidebar_events, div#left_sidebar div.group-sidebar_publications{
+		width: 37% !important;
+	}
+	div#main_header div.group-mainheaderspan>div.field-name-field-featured-image .field-item
+	{
+		overflow: hidden;
+		min-width: 768px;
+	}
+	div.group-mainheaderspan>div.field-name-field-featured-image{
+		margin-left: -35px
+	}
+	div#main_header div.group-mainheaderspan .field-name-field-image-caption{
+		padding-left: 60px;
+	}
+}
+
+@media only screen and (max-width: 512px) {	
+	div div.ddblock-cycle-upright10p .slider {
+		float: none;
+		width: 100% !important;
+	}
+	#ddblock-number-pager-6 {
+		width: 100%;
+		float: none;
+	}
+	#ddblock-number-pager-6 ul {
+		margin: 0;
+	}
+	#ddblock-number-pager-6 ul li a {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	div#main_header div.group-mainheaderspan>div.field-name-field-featured-image img {margin-left: -150px;}
+	
+	/*
+	Show only events block
+	Make it 100% width
+	Show only first event
+	*/
+	div div#left_sidebar div.group-sidebar_publications{display: none;}
+	div#left_sidebar div.group-sidebar_events{width: 100% !important;}
+	div#left_sidebar div.group-sidebar_events div.views-row:not(.views-row-1){display: none;}
+	
+	div.content div.view-recent-news div.views-row:not(.views-row-1){display: none;}
 }

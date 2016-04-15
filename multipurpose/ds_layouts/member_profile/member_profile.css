@@ -59,7 +59,12 @@ div.group-sidebar{
 	width: 200px;
 	margin-right: 20px;
 }
-
+div.group-publications div.field-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 10px;
+}
 .ds-profile .group-contact {
 	float: left; /* LTR */
 	line-height: 30px;
