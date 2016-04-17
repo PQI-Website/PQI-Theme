@@ -15,6 +15,24 @@
 		
 		jQuery('div#left_sidebar div.group-sidebar_events div.section-title').text('Next Event');
 	});
+	
+	jQuery(window).on('load', function(){
+		jQuery("#ddblock-6 div.slider-inner").css("height", (jQuery("#ddblock-6 div.slider-inner div.slide:visible").actual( 'outerHeight', { includeMargin : true })) + "px");
+		if (jQuery(window).width() < 512)
+		{
+			jQuery( "#ddblock-number-pager-6 ul li a" ).click(function() {
+				setTimeout(function(){
+					var blockHeight = jQuery("#ddblock-6 div.slider-inner div.slide:visible").actual( 'outerHeight', { includeMargin : true });
+					//alert(blockHeight);
+					jQuery("#ddblock-6 div.slider-inner").css("height", blockHeight + "px");
+				}, 50);
+				jQuery('html, body').animate({
+					scrollTop: jQuery("div.field-name-field-featured-stories-content").offset().top
+				}, 500);
+			});
+			
+		}
+	});
   </script>
   <div>
 	<div id="main_header">

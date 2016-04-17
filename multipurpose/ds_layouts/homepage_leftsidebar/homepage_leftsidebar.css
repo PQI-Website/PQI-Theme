@@ -1,23 +1,10 @@
+/*
 .field-name-field-featured-image{
 	margin-left: -15px;
 	margin-right: -14px;
 	border: none;
 	margin-bottom: 10px;
 	position: relative;
-}
-div#preface-wrap{display:none;}
-div#site-navigation-wrap{margin-bottom: 0px;}
-div#main_header .group-mainheaderspan  .field-name-field-image-caption{
-	bottom: 5px;
-	position: absolute;
-	width: calc(100% - 22px);
-	
-	border: none;
-	padding: 5px;
-	padding-left: 20px;
-}
-div#main_header .group-mainheaderspan  .field-name-field-image-caption p{
-	margin: 0;
 }
 div#main_header div.group-mainheaderspan>div.field-name-field-featured-image img
  {
@@ -27,6 +14,59 @@ div#main_header div.group-mainheaderspan>div.field-name-field-featured-image img
 	max-width: 100%;
 	margin: 0;
 }
+*/
+/* Featured Image height presets */
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+	div div#featured-image {height: 450px;}
+}
+@media only screen and (max-width: 1024px) and (min-width: 765px) {
+	div div#featured-image {
+		height: 350px;
+		background-size: auto 350px;
+	}
+}
+@media only screen and (max-width: 764px){
+	div div#featured-image {
+		height: 300px;
+		background-size: auto 300px;
+	}
+}
+@media only screen and (max-width: 400px) and (min-width: 301px){
+	div div#featured-image {
+		height: 250px;
+		background-size: auto 250px;
+	}
+}
+div#featured-image {
+	clear: both;
+    height: 550px;
+    position: relative;
+    width: calc(100% + 60px);
+    margin: 0 0 10px -30px;
+	background-repeat: no-repeat;
+    background-position:center; 
+}
+div#featured-image a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+div#main_header .group-mainheaderspan  .field-name-field-image-caption{
+	bottom: 0px;
+	position: absolute;
+	width: calc(100% - 25px);
+	border: none;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+div#preface-wrap{display:none;}
+div#site-navigation-wrap{margin-bottom: 0px;}
+
+div#main_header .group-mainheaderspan  .field-name-field-image-caption p{
+	margin: 0;
+}
+
 
 div#right_main {
     float: right;
@@ -45,7 +85,7 @@ div#left_sidebar {
 }
 
 div#center_pane {
-    width: 64%;
+    width: 74%;
 	float: left;
 	margin-top: 10px;
 }
@@ -59,7 +99,7 @@ div div.view.view-recent-news article ul.meta{
 }
 
 div#right_pane {
-    width: 33%;
+    width: 24%;
 	float: right;
 	margin-top: 10px;
 }
@@ -106,27 +146,29 @@ div.field-name-homepage-videos-block div.embedded-video iframe {
 	#right_pane {display: none;}
 	div div#center_pane {width: 100%}
 	
-	div#left_sidebar div.group-sidebar div.group-sidebar_members {display: none;}
-	div#left_sidebar div.group-sidebar_events, div#left_sidebar div.group-sidebar_publications{
-		width: 37% !important;
+	div#left_sidebar div.group-sidebar div.group-sidebar_publications {display: none;}
+	div#left_sidebar div.group-sidebar_events, div#left_sidebar div.group-sidebar_members{
+		width: 48% !important;
 	}
+	/*
 	div#main_header div.group-mainheaderspan>div.field-name-field-featured-image .field-item
 	{
 		overflow: hidden;
 		min-width: 768px;
 	}
 	div.group-mainheaderspan>div.field-name-field-featured-image{
-		margin-left: -35px
+		margin-left: -35px;
+		margin-right: -35px;
+		position: relative;
 	}
-	div#main_header div.group-mainheaderspan .field-name-field-image-caption{
-		padding-left: 60px;
-	}
+	*/
 }
 
 @media only screen and (max-width: 512px) {	
 	div div.ddblock-cycle-upright10p .slider {
 		float: none;
 		width: 100% !important;
+		overflow: hidden;
 	}
 	#ddblock-number-pager-6 {
 		width: 100%;
@@ -139,7 +181,6 @@ div.field-name-homepage-videos-block div.embedded-video iframe {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-	div#main_header div.group-mainheaderspan>div.field-name-field-featured-image img {margin-left: -150px;}
 	
 	/*
 	Show only events block
@@ -147,6 +188,7 @@ div.field-name-homepage-videos-block div.embedded-video iframe {
 	Show only first event
 	*/
 	div div#left_sidebar div.group-sidebar_publications{display: none;}
+	div div#left_sidebar div.group-sidebar_members{display: none;}
 	div#left_sidebar div.group-sidebar_events{width: 100% !important;}
 	div#left_sidebar div.group-sidebar_events div.views-row:not(.views-row-1){display: none;}
 	

@@ -455,6 +455,8 @@ div.view-events-directory td.views-field-title .views-field-field-tags a:hover{
 	background: #777;
 }
 
+div#breadcrumbs{display: none;}
+
 td.views-field-field-speaker-s-{vertical-align: middle;}
 td.views-field-field-speaker-s- div.view-event-speaker-field{font-weight:bold;}
 td.views-field-field-speaker-s- div.view-event-speaker-institution-field{font-style: italic; font-size: smaller;}
@@ -1437,6 +1439,9 @@ div.view-display-id-directory_page div.views-row{
     padding-top: 7px;
 }
 
+div.content article.node-video div.field-type-video-embed-field {float: left; margin-right: 20px; width: 40%;}
+div.content article.node-video footer {display: none;}
+
 div.view-display-id-directory_page div.views-row .views-field.views-field-field-video-url {float: left; margin-right: 20px; width: 40%;}
 div.view-display-id-directory_page div.views-row .views-field.views-field-body {vertical-align: top; overflow: auto;}
 div.view-display-id-directory_page div.views-row .views-field.views-field-title {vertical-align: top;}
@@ -1458,6 +1463,7 @@ div.view-watching div.views-field-field-storify-content div.image{
 	cursor: default;
     float: left;
 	margin: 0 !important;
+	display: none;
 }
 div.views-field-field-storify-content div.image img{
 	pointer-events: none;
