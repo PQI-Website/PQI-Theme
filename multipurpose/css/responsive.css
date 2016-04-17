@@ -251,6 +251,7 @@
 	#footer-wrap .span_1_of_3 {
 		width: 100% !important;
 	}
+	.span_1_of_3.col.col-3.footer-block{text-align: center;}
 	/* News Directory */
 	div[about="/news"] div.group-left img {
 		display: block !important;

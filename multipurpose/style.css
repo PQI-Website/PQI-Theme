@@ -1443,6 +1443,7 @@ div.content article.node-video div.field-type-video-embed-field {float: left; ma
 div.content article.node-video footer {display: none;}
 
 div.view-display-id-directory_page div.views-row .views-field.views-field-field-video-url {float: left; margin-right: 20px; width: 40%;}
+div.view-display-id-directory_page div.views-row:last-child .views-field.views-field-field-video-url {margin-bottom: 20px;}
 div.view-display-id-directory_page div.views-row .views-field.views-field-body {vertical-align: top; overflow: auto;}
 div.view-display-id-directory_page div.views-row .views-field.views-field-title {vertical-align: top;}
 
