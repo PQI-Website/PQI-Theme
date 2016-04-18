@@ -80,3 +80,31 @@ div.group-publications div.field-label {
     width: 48%;
     vertical-align: top;
 }
+.group-affiliation {
+	clear: both;
+}
+
+
+@media only screen and (max-width: 1280px) {
+	div.group-sidebar{display: none;}
+	div#block-system-main div.content div.ds-profile{width: 100%;}
+}
+@media only screen and (max-width: 768px) {
+	div#contact-wrap {
+		display: block;
+	}
+	div#contact-wrap>div
+	{
+		clear: both;
+		float: none;
+	}
+	div.group-contact div {
+		display: inline;
+		text-align: center;
+	}
+	div.group-publications>div {
+		display: block;
+		width: 100%;
+	}
+	
+}

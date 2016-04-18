@@ -244,6 +244,7 @@
   <?php endif; ?>
 
   <footer id="copyright-wrap" class="clear">
+	<img alt="" src="/sites/default/files/global/PQI%20Letter%20Logo%20%28left%29.png" style="width: 100%; max-width: 350px;">
     <div id="copyright"><?php print t('Site copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php /* print t('Theme by'); ?>  <a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>.*/?></div>
   </footer>
 </div>
