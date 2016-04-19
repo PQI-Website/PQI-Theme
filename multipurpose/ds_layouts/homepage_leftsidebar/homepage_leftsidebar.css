@@ -115,13 +115,19 @@ div.field.field-name-field-image-caption a {
 }
 
 /* Videos Block */
-div.field-name-homepage-videos-block div.embedded-video {
+div.field-name-homepage-videos-block div.embedded-video,
+div.views-field-field-storify-content div.element.video {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
 }
-div.field-name-homepage-videos-block div.embedded-video iframe {
+div.views-field-field-storify-content div.element.video {
+	padding-top: 0px;
+}
+div.field-name-homepage-videos-block div.embedded-video iframe,
+div.view-watching div.views-row .video iframe
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -163,7 +169,7 @@ div.field-name-homepage-videos-block div.embedded-video iframe {
 	}
 	*/
 }
-div.group-sidebar_publications{
+div#latest_pub_scroll{
     max-height: 1400px;
     overflow-y: scroll;
     overflow-x: hidden;
