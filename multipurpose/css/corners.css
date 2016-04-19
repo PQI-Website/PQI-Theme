@@ -4,6 +4,7 @@
 /* The ribbons */
 
 .corner-ribbon{
+  display: none;
   width: 200px;
   background: #e43;
   position: absolute;

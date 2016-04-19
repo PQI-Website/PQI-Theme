@@ -39,6 +39,9 @@
 		display: inline-block;
 	}
 	
+	div#left_sidebar div.group-sidebar_publications{
+		max-height: 700px;
+	}
 	/* News Directory */
 	div[about="/news"] div.group-left {
 		width: calc(100% - 410px);
