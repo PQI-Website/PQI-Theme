@@ -149,7 +149,12 @@ div.view-watching div.views-row .video iframe
 	.page-node #content-wrap div.ddblock-pager.number-pager li a span.thumb{ display: none;}
 	div.ddblock-pager.number-pager li a span.pager-text {padding-right: 10px;}
 	
-	#right_pane {display: none;}
+	#right_pane {
+		/* display: none; */
+		width: 100% !important;
+		max-height: 700px;
+		overflow: scroll;
+	}
 	div div#center_pane {width: 100%}
 	
 	div#left_sidebar div.group-sidebar div.group-sidebar_publications {display: none;}
@@ -174,6 +179,11 @@ div#latest_pub_scroll{
     overflow-y: scroll;
     overflow-x: hidden;
     margin-bottom: 20px;
+}
+@media only screen and (max-width: 1279px) {
+	div div#latest_pub_scroll{
+		max-height: 700px;
+	}
 }
 .group-sidebar_publications div.field-name-latest-publications div.field-label{
     border-top: 5px solid #666;
