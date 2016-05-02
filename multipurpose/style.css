@@ -427,8 +427,18 @@ div.view-events-directory.view-display-id-events_latest_event div.views-field-ti
 div.view-events-directory.view-display-id-events_latest_event div.views-field-body p {
 	overflow: auto;
 }
-div.view-events-directory.view-display-id-events_latest_event div.views-field-field-event-date span {
-	font-size: 1.5em;
+div.view-events-directory.view-display-id-events_latest_event div.views-field-field-speaker-s-,
+div.view-events-directory.view-display-id-events_latest_event div.views-field-field-speaker-s- div {
+	font-size: 1.2em;
+	display: inline-block;
+}
+div.view-events-directory.view-display-id-events_latest_event div.views-field-field-speaker-s-:after{
+	content: ' - ';
+}
+div.view-events-directory.view-display-id-events_latest_event div.views-field-field-event-date,
+div.view-events-directory.view-display-id-events_latest_event div.views-field-field-event-date div {
+	font-size: 1.2em;
+	display: inline-block;
 }
 
 /* All But Latest */
@@ -1191,7 +1201,7 @@ div.view-featured-events span.date-display-single{
 	float: left;
 	height: 75px;
 }
-div.view-events-directory span.date-display-single,
+/*div.view-events-directory span.date-display-single, */
 div.view-events-directory td.views-field-field-event-date{
 	text-align: center;
 	padding-top: 15px;
