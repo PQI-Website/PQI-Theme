@@ -1401,6 +1401,11 @@ div.view-storify-publications .element.image {
     display: inline-block;
     margin-bottom: 0px !important;
 }
+div.view-storify-publications {
+    max-height: 1200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 div.view-storify-publications p#meta {
     display: none;
 }
