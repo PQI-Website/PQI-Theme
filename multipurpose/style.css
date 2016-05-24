@@ -1386,6 +1386,26 @@ div.view-affiliated-websites div.views-field-title a:hover{
 	color: #381B8E;
 }
 
+/* Watching block (storify publications) */
+div.view-storify-publications img[src*="static.flickr.com"] {
+    display: none !important;
+}
+div.view-storify-publications div.views-row {
+    padding: 15px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-align: center;
+}
+div.view-storify-publications .element.image {
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 0px !important;
+}
+div.view-storify-publications p#meta {
+    display: none;
+}
+
+
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;
@@ -1413,7 +1433,9 @@ div.view-watching div.element.image img {
 	border: 0 !important;
 	padding: 0 !important;
 }
-div.view-watching div.element.link, div.field-name-videos-sidebar-block div.views-row {
+
+div.view-storify-publications div.views-row div.field-content>p,div.view-storify-publications div.views-row div.field-content>br {display: none}
+div.view-storify-publications div.views-row, div.view-watching div.element.link, div.field-name-videos-sidebar-block div.views-row {
     display: block;
     clear: both;
 	border: 1px solid #ddd;
@@ -1528,13 +1550,13 @@ div#video-directory div.view-footer{
     padding-top: 10px;
 }
 
-div.view-watching div.footer img[alt="Powered by Storify"] {
+div.footer img[alt="Powered by Storify"] {
 	display: none;
 }
 img[src*="stats.storify.com/record/view.gif"] {
     display: none;
 }
-div.view-watching  img[src*="static.flickr.com"] {
+div.view-watching img[src*="static.flickr.com"] {
     display: none !important;
 }
 div.view-watching div.views-field-field-storify-content div.image br {
