@@ -1077,6 +1077,11 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   color: #fff;
 }
 
+/* Make Text Areas Readable */
+div.cke_inner textarea.cke_source {
+	font-family: 'Consolas',Monospace;
+}
+
 /*-------------------------------------------*
 /* Forum
 /*-------------------------------------------*/
@@ -1401,7 +1406,7 @@ div.view-storify-publications .element.image {
     display: inline-block;
     margin-bottom: 0px !important;
 }
-div.view-storify-publications {
+div.view-storify-publications div.view-content {
     max-height: 1200px;
     overflow-y: scroll;
     overflow-x: hidden;
