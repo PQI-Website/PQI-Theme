@@ -8,17 +8,17 @@
 }
 
 .ds-3col-stacked-equal > .group-left {
-  width: 33%;
+  width: 50%;
   float: left; /* LTR */
 }
 
 .ds-3col-stacked-equal > .group-middle {
-  width: 34%;
+  width: 20%;
   float: left; /* LTR */
 }
 
 .ds-3col-stacked-equal > .group-right {
-  width: 33%;
+  width: 30%;
   float: right; /* LTR */
 }
 
