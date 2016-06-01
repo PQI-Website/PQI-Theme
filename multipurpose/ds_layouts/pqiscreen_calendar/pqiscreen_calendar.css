@@ -20,7 +20,7 @@ div#wrap{
     margin: 20px;
 	color: #333;
 }
-/* Titles */
+/* Titles & text */
 div.section-title, h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4 {
 	color: #333 !important;
@@ -31,9 +31,13 @@ h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4 {
     border-bottom: 0.08em black solid;
 }
 div div.section-title {
-    font-size: 27px;
+    font-size: 36px;
     text-align: center;
     text-transform: capitalize;
+    line-height: 1.5em;
+}
+p, div.element.text {
+    font-size: 18px !important;
 }
 
 /*
@@ -91,6 +95,9 @@ footer#copyright-wrap img {
 	display: none;
 }
 div#copyright {
+	display: none;
+}
+footer#copyright-wrap{
 	display: none;
 }
 
