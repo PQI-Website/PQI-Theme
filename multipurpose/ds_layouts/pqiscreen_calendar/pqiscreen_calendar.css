@@ -20,6 +20,11 @@ div#wrap{
     margin: 20px;
 	color: #fff;
 }
+/* Title colors */
+div.section-title, h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4 {
+	color: #fff !important;
+}
  
 div div.view-storify-publications div.view-content{
 	overflow-y: hidden;
@@ -38,6 +43,13 @@ div h1.page-title {
 }
 
 /*
+	Publications
+*/
+div div.view-storify-publications div.views-row {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: none;
+}
+/*
 	News block
 */
 div.view.view-recent-news article ul.meta{
@@ -48,6 +60,9 @@ div.field-name-field-tags{
 }
 div.view.view-recent-news article .links li a, li.node-readmore a {
 	display: none;
+}
+#content article.node {
+    border-bottom: 0;
 }
 
 /* Footer */
