@@ -15,15 +15,15 @@ body{
 }
 div#wrap{
 	/* background: rgba(255, 255, 255, 0.5); */
-	background: rgba(46, 97, 144, 0.0);
+	background: rgba(46, 97, 144, 0.5);
 	width: auto;
     margin: 20px;
-	color: #333;
+	color: #fff;
 }
 /* Titles */
 div.section-title, h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4 {
-	color: #333 !important;
+	color: #fff !important;
 }
  div h1.page-title {
     font-size: 80px;
@@ -42,27 +42,22 @@ div div.section-title {
 div div.view-storify-publications div.view-content{
 	overflow-y: hidden;
 }
-div.view-storify-publications div.view-content div p#description {
-    color: #fff !important;
+div.view-storify-publications div.views-row {
+	display: none;
 }
-div.view-storify-publications div.view-content div div.text {
-    color: #fff !important;
-}
-div.view-storify-publications div.view-content div div.text a {
-    color: #fff !important;
+div.view-storify-publications div.view-content:nth-child(-n+3) {
+	display: block;
 }
  
 
 
 /*
-	Block backgrounds
+	Publications
 */
-div div.view-storify-publications div.views-row, #content article.node {
-    background-color: rgba(100, 100, 100, 0.5);
+div div.view-storify-publications div.views-row {
+    background-color: rgba(255, 255, 255, 0.7);
     background-image: none;
-    color: #fff;
 }
-
 /*
 	News block
 */
@@ -76,10 +71,12 @@ div.view.view-recent-news article .links li a, li.node-readmore a {
 	display: none;
 }
 #content article.node h2.title a {
-    color: #fff !important;
+    color: #666 !important;
 }
 #content article.node {
     border-bottom: 0;
+    color: #666;
+    background: rgba(255, 255, 255, 0.7);
     padding: 10px;
 }
 #content article.node>br {
