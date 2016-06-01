@@ -14,10 +14,36 @@ body{
     background-attachment: fixed !important;
 }
 div#wrap{
-	background: rgba(255, 255, 255, 0.5);
+	/* background: rgba(255, 255, 255, 0.5); */
+	background: rgba(46, 97, 144, 0.5);
+	width: auto;
+    margin: 20px;
+	color: #fff;
 }
  
+div div.view-storify-publications div.view-content{
+	overflow-y: hidden;
+}
+div.view-storify-publications div.views-row {
+	display: none;
+}
+div.view-storify-publications div.view-content:nth-child(-n+3) {
+	display: block;
+}
  
+div h1.page-title {
+    font-size: 50px;
+    line-height: 1.8em;
+    border-bottom: 0.08em black solid;
+}
+
+/*
+	News block
+*/
+div.view.view-recent-news article ul.meta, div.view.view-recent-news article .links li a, li.node-readmore a {
+	display: none;
+}
+
  
 .ds-3col-stacked-equal > .group-header {
   clear: both;
