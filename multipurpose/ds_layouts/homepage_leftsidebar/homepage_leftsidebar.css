@@ -106,9 +106,9 @@ div#right_pane {
 
 div.field.field-name-field-image-caption {
     color: white;
-    background-color: rgba(0, 0, 0, .7);
-	white-space:nowrap;
-	overflow: hidden;
+    background-color: rgba(50, 50, 50, .6);
+    white-space: nowrap;
+    overflow: hidden;
 }
 div.field.field-name-field-image-caption a {
 	color: white;
