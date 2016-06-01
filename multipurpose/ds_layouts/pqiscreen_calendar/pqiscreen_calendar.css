@@ -40,7 +40,21 @@ div h1.page-title {
 /*
 	News block
 */
-div.view.view-recent-news article ul.meta, div.view.view-recent-news article .links li a, li.node-readmore a {
+div.view.view-recent-news article ul.meta{
+	display: none;
+}
+div.field-name-field-tags{
+	display: none;
+}
+div.view.view-recent-news article .links li a, li.node-readmore a {
+	display: none;
+}
+
+/* Footer */
+footer#copyright-wrap img {
+	display: none;
+}
+div#copyright {
 	display: none;
 }
 
