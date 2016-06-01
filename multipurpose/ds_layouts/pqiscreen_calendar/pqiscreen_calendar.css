@@ -61,8 +61,17 @@ div.field-name-field-tags{
 div.view.view-recent-news article .links li a, li.node-readmore a {
 	display: none;
 }
+#content article.node h2.title a {
+    color: #666 !important;
+}
 #content article.node {
     border-bottom: 0;
+    color: #666;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+#content article.node>br {
+	display: none;
 }
 
 /* Footer */
