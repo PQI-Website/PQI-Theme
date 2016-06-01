@@ -1,7 +1,7 @@
 <?php
-function ds_homepage_leftsidebar() {
+function ds_pqiscreen_calendar() {
   return array(
-    'label' => t('Homepage with Left Sidebar'),
+    'label' => t('PQI Screen: Calendar'),
     'regions' => array(
       'header' => t('Header'),
 	  'left' => t('Left'),

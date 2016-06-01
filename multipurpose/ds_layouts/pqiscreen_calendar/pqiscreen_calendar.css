@@ -1,19 +1,36 @@
-/**
- * @file
- * Styling for the ds-3col-stacked-equal template.
- */
+/*
+Turn off all divs but content
+*/
+#wrap>div {
+    display: none;
+}
+div#main {
+    display: block;
+}
 
+body{
+	background-image: url(bg.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+div#wrap{
+	background: rgba(255, 255, 255, 0.5);
+}
+ 
+ 
+ 
 .ds-3col-stacked-equal > .group-header {
   clear: both;
 }
 
 .ds-3col-stacked-equal > .group-left {
-  width: 50%;
+  width: 20%;
   float: left; /* LTR */
 }
 
 .ds-3col-stacked-equal > .group-middle {
-  width: 20%;
+  width: calc(50% - 40px);
+  margin: 0 20px;
   float: left; /* LTR */
 }
 
