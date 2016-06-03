@@ -39,10 +39,16 @@ div div.section-title {
 p, div.element.text {
     font-size: 18px !important;
 }
+div.view-empty{
+	text-align: center;
+}
 
 /*
 	Publications
 */
+div.view-storify-publications{
+	max-height: 800px;
+}
 div div.view-storify-publications div.view-content{
 	overflow-y: hidden;
 }
@@ -65,6 +71,22 @@ div div.view-storify-publications div.views-row, #content article.node {
     background-color: rgba(100, 100, 100, 0.5);
     background-image: none;
     color: #fff;
+}
+.view-events-directory table {
+    background-color: rgba(1,1,1,0);
+}
+.view-events-directory table tr.even, .view-events-directory table tr.odd {
+    background-color: rgba(255,255,255,.6);
+}
+
+/*
+Calendar
+*/
+.view-events-directory td.views-field-title p {
+	margin-bottom: 0;
+}
+div div.view-events-directory td.views-field-field-event-date{
+	padding-top: 0;
 }
 
 /*
@@ -99,6 +121,25 @@ div#copyright {
 }
 footer#copyright-wrap{
 	display: none;
+}
+
+/*
+Weather
+*/
+div.field-name-current-weather div.aw-widget-current {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(30% + 20px);
+}
+div.field-name-current-weather time:before {
+    content: 'at ';
+}
+div.field-name-current-weather a#link_get_widget {
+    display: none;
+}
+div.aw-widget-content{
+    background: rgba(255,255,255,.3) !important;
 }
 
  
