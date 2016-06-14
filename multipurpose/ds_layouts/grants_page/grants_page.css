@@ -19,13 +19,41 @@
   float: none;
 }
 
+div.group-left div.field-label {
+    color: #009292;
+    font-size: large;
+}
 div.group-left div.vital-info {
     border-bottom: 5px solid #dedede;
     margin-bottom: 10px;
     /* padding-bottom: 45px; */
-    background: #eee;
+    background: #FFF2CD;
     padding: 10px;
     border: 1px solid #ccc;
+	
+    width: calc(100% - 225px);
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+div.group-left div.group-logo {
+    max-width: 185px;
+	display: inline-block;
+}
+.page-node #content-wrap .group-logo img {
+    margin: 0 20px 10px 0px;
+    vertical-align: top;
+    border: 0;
+    min-width: 170px;
+}
+
+.group-deadlines, .field-name-field-eligibility, .field-name-body {
+    border: 1px solid #eee;
+    background: #fafafa;
+    clear: both;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 96.8%;
 }
 
 div.group-who > div {

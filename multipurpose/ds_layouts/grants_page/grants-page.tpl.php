@@ -17,15 +17,25 @@
   <?php endif; ?>
 
 <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>">
-	<?php if ($headerbox || $when || $where): ?>
+	<?php if ($logo): ?>
+		<<?php print $logo_wrapper ?> class="group-logo<?php print $logo_classes; ?>">
+		<?php print $logo; ?>
+		<div class="spacer" style="clear: both;"></div>
+		</<?php print $logo_wrapper ?>>
+	<?php endif; ?>
+	<?php if ($headerbox): ?>
 		<div class="vital-info">
-		<?php if ($headerbox): ?>
-			<<?php print $headerbox_wrapper ?> class="group-who<?php print $headerbox_classes; ?>">
-			<?php print $headerbox; ?>
-			<div class="spacer" style="clear: both;"></div>
-			</<?php print $headerbox_wrapper ?>>
-		<?php endif; ?>
+		<<?php print $headerbox_wrapper ?> class="group-headerbox<?php print $headerbox_classes; ?>">
+		<?php print $headerbox; ?>
+		<div class="spacer" style="clear: both;"></div>
+		</<?php print $headerbox_wrapper ?>>
 		</div>
+	<?php endif; ?>
+	<?php if ($deadlines): ?>
+		<<?php print $deadlines_wrapper ?> class="group-deadlines<?php print $deadlines_classes; ?>">
+		<?php print $deadlines; ?>
+		<div class="spacer" style="clear: both;"></div>
+		</<?php print $deadlines_wrapper ?>>
 	<?php endif; ?>
 
   <?php print $left; ?>

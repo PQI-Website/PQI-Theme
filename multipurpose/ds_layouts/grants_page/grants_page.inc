@@ -3,7 +3,9 @@ function ds_grants_page() {
   return array(
     'label' => t('Grants Page'),
     'regions' => array(
+      'logo' => t('Logo'),
       'headerbox' => t('Header'),
+      'deadlines' => t('Deadlines'),
       'left' => t('Body'),
       'right' => t('Sidebar'),
     ),
