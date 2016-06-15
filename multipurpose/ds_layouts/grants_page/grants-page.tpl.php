@@ -23,19 +23,17 @@
 		<div class="spacer" style="clear: both;"></div>
 		</<?php print $logo_wrapper ?>>
 	<?php endif; ?>
-	<?php if ($headerbox): ?>
-		<div class="vital-info">
-		<<?php print $headerbox_wrapper ?> class="group-headerbox<?php print $headerbox_classes; ?>">
-		<?php print $headerbox; ?>
+	<?php if ($topleft): ?>
+		<<?php print $topleft_wrapper ?> class="group-topleft<?php print $topleft_classes; ?>">
+		<?php print $topleft; ?>
 		<div class="spacer" style="clear: both;"></div>
-		</<?php print $headerbox_wrapper ?>>
-		</div>
+		</<?php print $topleft_wrapper ?>>
 	<?php endif; ?>
-	<?php if ($deadlines): ?>
-		<<?php print $deadlines_wrapper ?> class="group-deadlines<?php print $deadlines_classes; ?>">
-		<?php print $deadlines; ?>
+	<?php if ($topright): ?>
+		<<?php print $topright_wrapper ?> class="group-topright<?php print $topright_classes; ?>">
+		<?php print $topright; ?>
 		<div class="spacer" style="clear: both;"></div>
-		</<?php print $deadlines_wrapper ?>>
+		</<?php print $topright_wrapper ?>>
 	<?php endif; ?>
 
   <?php print $left; ?>

@@ -4,8 +4,8 @@ function ds_grants_page() {
     'label' => t('Grants Page'),
     'regions' => array(
       'logo' => t('Logo'),
-      'headerbox' => t('Header'),
-      'deadlines' => t('Deadlines'),
+      'topleft' => t('Top Left'),
+      'topright' => t('Top Right'),
       'left' => t('Body'),
       'right' => t('Sidebar'),
     ),

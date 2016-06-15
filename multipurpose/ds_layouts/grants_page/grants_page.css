@@ -13,6 +13,15 @@
   width: 30%;
 }
 
+.group-topleft {
+	float: left;
+	width: 53%;
+}
+.group-topright {
+	float: right;
+	width: 46%;
+}
+
 .ds-2col-fluid.group-one-column > .group-left,
 .ds-2col-fluid.group-one-column > .group-right {
   width: 100%;
@@ -26,16 +35,22 @@ div.group-left div.field-label {
 div.group-left div.group-headerbox, div.group-left .group-deadlines{
 	width: 30%;
 }
-div.field-name-field-eligibility{
-	width: 40%;
+
+.floatcontainer:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;
+	clear: both;
+	visibility:hidden;
 }
-div.group-headerbox, .group-deadlines, .field-name-field-eligibility, .field-name-body {
+
+div.group-headerbox, .group-deadlines, .field-name-field-eligibility, .field-name-body, .field-name-field-contact, .field-name-field-deadline-details {
     border: 1px solid #eee;
     background: #fafafa;
     clear: both;
     padding: 10px;
     margin-bottom: 10px;
-    width: 96.8%;
 }
 
 div.group-left div.group-logo {
@@ -47,15 +62,6 @@ div.group-left div.group-logo {
     vertical-align: top;
     border: 0;
     min-width: 170px;
-}
-
-.field-name-field-eligibility, .field-name-body {
-    border: 1px solid #eee;
-    background: #fafafa;
-    clear: both;
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 96.8%;
 }
 
 div.group-who > div {
