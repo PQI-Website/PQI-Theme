@@ -9,8 +9,9 @@
 }
 
 .ds-2col-fluid > .group-right {
-  float: right; /* LTR */
-  width: 30%;
+    float: right;
+    width: calc(30% - 15px);
+    margin-left: 15px;
 }
 
 .group-topleft {
@@ -64,6 +65,14 @@ div.group-left div.group-logo {
     min-width: 170px;
 }
 
+div.view.view-recent-news article ul.meta {
+	display: none;
+}
+div div.view.view-recent-news article .links li a, div li.node-readmore a {
+	display: inline-block;
+	float: left;
+}
+
 div.group-who > div {
 	float: left;
 }
@@ -75,9 +84,8 @@ div.group-who div.field-name-field-contact{
 	float: right;
 }
 
-div.group-left div.vital-info,
-div.group-left div.field-name-body{
-	margin-right: 15px;
+div.group-right{
+	margin-left: 15px;
 }
 
 div.field-name-field-tags{

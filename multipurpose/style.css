@@ -267,6 +267,7 @@ html[xmlns] .slides {display: block;}
   margin: 5px;
 }
 
+li.statistics_counter {display: none !important;}
 
 /* =Content
 ----------------------------------------------- */
