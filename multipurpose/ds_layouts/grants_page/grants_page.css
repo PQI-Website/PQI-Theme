@@ -36,7 +36,7 @@ div.group-left div.group-headerbox, div.group-left .group-deadlines{
 	width: 30%;
 }
 
-.floatcontainer:after{
+.field:after{
 	content: ".";
 	display: block;
 	height: 0;
