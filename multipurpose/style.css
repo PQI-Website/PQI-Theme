@@ -1314,6 +1314,7 @@ a.read-more-button{
 	font-size: 1.1em;
 	font-weight: bold;
 	display: table;
+	margin-bottom: 5px;
 }
 
 a.read-more-button:hover {
@@ -1332,6 +1333,23 @@ div.circle{
 	background:#3495BC;
 	display: inline-block;
     margin-left: 4em;
+}
+
+ul li.menubreak {
+	list-style-image: none;
+    list-style-type: none;
+}
+
+ul li.menubreak>a {
+    color: black;
+    display: block;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    margin: 5px 0px 5px -15px;
+    font-size: 1.2em;
+    font-weight: bold;
+	pointer-events: none;
+	cursor: default;
 }
 
 /* Tag Searches */

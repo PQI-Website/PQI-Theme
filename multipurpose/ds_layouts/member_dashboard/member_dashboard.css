@@ -63,6 +63,10 @@ div#main_header .group-mainheaderspan  .field-name-field-image-caption{
 div#preface-wrap{display:none;}
 div#site-navigation-wrap{margin-bottom: 0px;}
 
+#block-menu-menu-members-dashboard-menu ul.menu{
+	font-size: 1.1em;
+}
+
 div#main_header .group-mainheaderspan  .field-name-field-image-caption p{
 	margin: 0;
 }

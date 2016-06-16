@@ -8,12 +8,13 @@
 
   <script type="text/javascript">
 	jQuery(window).on('load resize', function(){
-		if (jQuery(window).width() < 512)
+		if (jQuery(window).width() < 512){
 			jQuery('#left_sidebar').insertBefore('#right_main');
+			jQuery('div#left_sidebar div.group-sidebar_events div.section-title').text('Next Event');
+		}
 		else
 			jQuery('#left_sidebar').insertAfter('#right_main');
 		
-		jQuery('div#left_sidebar div.group-sidebar_events div.section-title').text('Next Event');
 	});
 	
 	jQuery(window).on('load', function(){
