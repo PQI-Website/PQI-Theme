@@ -360,11 +360,13 @@ div.view.view-recent-news article img{
 }
 
 /* View Popular News */
+/*
 div.field-name-field-sidebar-content {
 	margin-left: 1em;
 	padding-left: 1em;
 	border-left: 1px solid #ddd;
 }
+*/
 div.view-popular-news div.section-title {
 	margin-left: .5em;
 }

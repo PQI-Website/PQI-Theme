@@ -9,8 +9,11 @@
 }
 
 .ds-2col-fluid > .group-right {
-  float: right; /* LTR */
-  width: 25%;
+    float: right;
+    width: calc(25% - 21px);
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
 }
 
 .ds-2col-fluid.group-one-column > .group-left,
