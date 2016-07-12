@@ -46,12 +46,15 @@ div.group-left div.group-headerbox, div.group-left .group-deadlines{
 	visibility:hidden;
 }
 
-div.group-headerbox, .group-deadlines, .field-name-field-eligibility, .field-name-body, .field-name-field-contact, .field-name-field-deadline-details {
+div.group-headerbox, .group-deadlines, .field-name-field-eligibility, .field-name-body, .field-name-field-contact, .field-name-field-deadline-details, .group-topleft .field-name-field-tags {
     border: 1px solid #eee;
     background: #fafafa;
     clear: both;
     padding: 10px;
     margin-bottom: 10px;
+}
+.group-topleft .field-name-field-tags {
+	float: none;
 }
 
 div.group-left div.group-logo {

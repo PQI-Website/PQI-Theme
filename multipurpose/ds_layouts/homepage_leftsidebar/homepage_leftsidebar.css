@@ -114,6 +114,12 @@ div.field.field-name-field-image-caption a {
 	color: white;
 }
 
+/* Dashboard features */
+#block-menu-menu-members-dashboard-menu ul.menu {
+    font-size: 1.1em;
+}
+
+
 /* Videos Block */
 div.field-name-homepage-videos-block div.embedded-video,
 div.views-field-field-storify-content div.element.video {
