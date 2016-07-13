@@ -1373,7 +1373,11 @@ body.page-taxonomy-term article.node-event div.field-name-field-tags{
 body.page-taxonomy-term article.node-event div.field-name-field-event-date{display:flex;}
 body.page-taxonomy-term article.node-event div.field-name-field-event-date div{display:inline;}
 body.page-taxonomy-term article.node-event div.field-name-body{border-top: 3px #eee solid; margin-top: 3px; padding-top: 3px;}
-body.page-taxonomy-term article.node-event footer li.node-readmore a{content: 'asdf';}
+body.page-taxonomy-term article.node-event footer li.node-readmore a{content: '';}
+
+body.page-taxonomy h1.page-title, body.page-taxonomy div.easy-breadcrumb {
+    text-transform: capitalize;
+}
 
 /* Affiliated Websites */
 div.view-affiliated-websites div.views-field-body div.field-content{
