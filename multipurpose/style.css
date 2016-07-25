@@ -153,6 +153,8 @@ a { outline: 0 }
     z-index: 1;
     height: 0;
 }
+
+
 /*logo*/
 #logo img { display: block; max-width: 100%; }
 #logo a { color: #000; font-size: 32px; text-decoration: none; }
@@ -756,7 +758,7 @@ input[type="button"].full-width {
 width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align: center; }
 
 
-#block-search-form { padding-bottom: 7px; }
+#block-search-form { padding-bottom: 7px; display: inline-block;}
 
 #block-search-form .content { margin-top: 0; }
 
@@ -771,8 +773,25 @@ text-indent: -9999px; border-color: #e4e4e4 #d2d2d2 #b4b4b4; background: url(ima
 #search-block-form input.form-submit:focus,
 #search-form input.form-submit:hover,
 #search-form input.form-submit:focus { background-position: center bottom; }
-
 #search-form .form-item-keys label { display: block; }
+
+
+#banner-inset #block-drop-down-login-drop-down-login {
+    display: inline-block;
+    margin: -7px 0;
+}
+#banner-inset #drop-down-login-wrapper .button {
+    color: #666;
+	background: #EEE;
+	border-radius: 3px;
+}
+#drop-down-login-wrapper .dropdown ul.hybridauth-widget li{
+	min-width: 0;
+}
+#drop-down-login-wrapper ul {
+    list-style: none;
+    padding: 0;
+}
 
 
 ol.search-results { padding-left: 0; }
@@ -1078,6 +1097,12 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
 .item-list .pager li a {
   color: #fff;
+}
+
+/* Fix for odd numbers of menu items */
+ul.menu.dropdown-menu{
+	background: rgb(32,32,32);
+    border-bottom: rgb(32,32,32) solid 2px;
 }
 
 /* Make Text Areas Readable */
