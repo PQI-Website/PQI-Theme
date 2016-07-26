@@ -1220,7 +1220,7 @@ div.view-featured-events div.views-field.views-field-field-tags, div.view-featur
 	padding: 0 0 0 3px;
 }
 div.view-featured-events div.views-field.views-field-field-tags div{
-	overflow-x: scroll;
+	overflow-x: hidden;
 	overflow: hidden;
 	white-space: nowrap;
 }
