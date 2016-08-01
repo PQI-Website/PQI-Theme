@@ -785,6 +785,9 @@ text-indent: -9999px; border-color: #e4e4e4 #d2d2d2 #b4b4b4; background: url(ima
 	background: #EEE;
 	border-radius: 3px;
 }
+#banner-inset #drop-down-login-wrapper a.logout.button {
+    display: none;
+}
 #drop-down-login-wrapper .dropdown ul.hybridauth-widget li{
 	min-width: 0;
 }
