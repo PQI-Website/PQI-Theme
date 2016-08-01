@@ -1,0 +1,24 @@
+.field-name-field-first-name, .field-name-field-middle-name, .field-name-field-last-name{
+	display: inline-block;
+    vertical-align: top;
+	margin-right: 10px;
+}
+.field-name-field-first-name input, .field-name-field-middle-name input, .field-name-field-last-name input {
+	width: 200px;
+}
+
+div.hybridauth-widget-wrapper{
+	margin-left: 45px;
+}
+
+div.hybridauth-widget-wrapper h3 {
+    border-top: 5px solid #666;
+    border-bottom: 3px solid #bbb;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 40px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-size: 16px;
+}

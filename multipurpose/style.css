@@ -1404,6 +1404,14 @@ body.page-taxonomy h1.page-title, body.page-taxonomy div.easy-breadcrumb {
     text-transform: capitalize;
 }
 
+/* Better Login Module */
+div#auth_box h1#the_logo img{
+	max-width: 100%;
+}
+div#auth_box h1#the_logo{
+	display: none;
+}
+
 /* Affiliated Websites */
 div.view-affiliated-websites div.views-field-body div.field-content{
 	overflow: auto;
