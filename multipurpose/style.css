@@ -1006,6 +1006,25 @@ div#auth_box h2.title {
 	font-size: 1.8em;
 }
 
+div#auth_box #bottom_part .login_link, div#auth_box #bottom_part .back_link, div#auth_box #bottom_part .password_link {
+    padding: 0;
+}
+div#auth_box #bottom_part .login_link a, div#auth_box #bottom_part .back_link a , div#auth_box #bottom_part .password_link a {
+    display: block;
+    text-align: center;
+    background: #aaa;
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: #666 solid 1px;
+    margin: 2px 0;
+    border-top: #666 solid 1px;
+	transition: all .3s;
+}
+div#auth_box #bottom_part .login_link a:hover, div#auth_box #bottom_part .back_link a:hover , div#auth_box #bottom_part .password_link a:hover {
+    background: #ccc;
+    color: #666;
+}
+
 /*-------------------------------------------*
 /* Tabs and Tags
 /*-------------------------------------------*/
