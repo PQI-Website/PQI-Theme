@@ -12,6 +12,9 @@
 .field-name-field-suffix input {
 	width: 40px;
 }
+table#field-project-values label {
+    margin: 0 15px;
+}
 
 div.hybridauth-widget-wrapper{
 	margin-left: 45px;
