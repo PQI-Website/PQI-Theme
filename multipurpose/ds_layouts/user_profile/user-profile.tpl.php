@@ -1,3 +1,9 @@
+<script type="text/javascript">
+$(document).ready(function(){
+  //$("div.field-name-field-phone-basic input").inputmask({"alias": "phone"});
+  $("div.field-name-field-phone-basic input").intlTelInput();
+});
+</script>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="ds-2col-fluid <?php print $classes;?> clearfix">
 
   <?php if (isset($title_suffix['contextual_links'])): ?>
@@ -20,18 +26,18 @@ If you have a public profile page, this information may be used to keep your con
 </<?php print $personal_info_wrapper ?>>
 <?php endif; ?>
 
-<?php if ($undergrad_education): ?>
-<<?php print $undergrad_education_wrapper ?> class="group-personal-info<?php print $undergrad_education_classes; ?>">
-<div class="section-title">Undergraduate Education</div>
-  <?php print $undergrad_education; ?>
-</<?php print $undergrad_education_wrapper ?>>
-<?php endif; ?>
-
 <?php if ($affiliation): ?>
 <<?php print $affiliation_wrapper ?> class="group-personal-info<?php print $affiliation_classes; ?>">
 <div class="section-title">Current Affiliation</div>
   <?php print $affiliation; ?>
 </<?php print $affiliation_wrapper ?>>
+<?php endif; ?>
+
+<?php if ($undergrad_education): ?>
+<<?php print $undergrad_education_wrapper ?> class="group-personal-info<?php print $undergrad_education_classes; ?>">
+<div class="section-title">Undergraduate Education</div>
+  <?php print $undergrad_education; ?>
+</<?php print $undergrad_education_wrapper ?>>
 <?php endif; ?>
 
 <?php if ($research): ?>
