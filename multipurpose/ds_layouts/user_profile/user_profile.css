@@ -1,10 +1,16 @@
-.field-name-field-first-name, .field-name-field-middle-name, .field-name-field-last-name{
+.field-name-field-first-name, .field-name-field-middle-name, .field-name-field-last-name, .field-name-field-title-prefix, .field-name-field-suffix {
 	display: inline-block;
     vertical-align: top;
 	margin-right: 10px;
 }
-.field-name-field-first-name input, .field-name-field-middle-name input, .field-name-field-last-name input {
-	width: 200px;
+.field-name-field-first-name input, .field-name-field-middle-name input,.field-name-field-last-name input {
+	width: 140px;
+}
+.field-name-field-title-prefix input {
+	width: 40px;
+}
+.field-name-field-suffix input {
+	width: 40px;
 }
 
 div.hybridauth-widget-wrapper{
