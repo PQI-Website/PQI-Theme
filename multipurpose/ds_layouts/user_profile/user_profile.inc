@@ -5,8 +5,8 @@ function ds_user_profile() {
     'regions' => array(
       'account_login' => t('Login Details'),
       'personal_info' => t('Personal Information'),
-      'undergrad_education' => t('Undergraduate Education'),
       'affiliation' => t('(Current) Affiliation'),
+      'education' => t('Education'),
       'research' => t('Research'),
       'other' => t('Other'),
     ),

@@ -1,7 +1,13 @@
 <script type="text/javascript">
 $(document).ready(function(){
-  //$("div.field-name-field-phone-basic input").inputmask({"alias": "phone"});
-  $("div.field-name-field-phone-basic input").intlTelInput();
+
+	$("div.field-name-field-phone-basic input").intlTelInput({
+	  initialCountry: "us",
+	  allowDropdown: false
+	});
+	//$("div.field-name-field-phone-basic input").inputmask({"alias": "phone"});
+	//$("div.field-name-field-phone-basic input").inputmask({"mask": "9(999) 999-9999"});
+	$("div.field-name-field-phone-basic input").inputmask("[+999](999)-999-9999",{numericInput:true});
 });
 </script>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="ds-2col-fluid <?php print $classes;?> clearfix">
@@ -33,11 +39,11 @@ If you have a public profile page, this information may be used to keep your con
 </<?php print $affiliation_wrapper ?>>
 <?php endif; ?>
 
-<?php if ($undergrad_education): ?>
-<<?php print $undergrad_education_wrapper ?> class="group-personal-info<?php print $undergrad_education_classes; ?>">
-<div class="section-title">Undergraduate Education</div>
-  <?php print $undergrad_education; ?>
-</<?php print $undergrad_education_wrapper ?>>
+<?php if ($education): ?>
+<<?php print $education_wrapper ?> class="group-personal-info<?php print $education_classes; ?>">
+<div class="section-title">Education</div>
+  <?php print $education; ?>
+</<?php print $education_wrapper ?>>
 <?php endif; ?>
 
 <?php if ($research): ?>
