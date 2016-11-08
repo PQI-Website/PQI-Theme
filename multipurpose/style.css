@@ -432,19 +432,6 @@ div.view-events-directory.view-display-id-events_latest_event div.views-field-ti
 div.view-events-directory.view-display-id-events_latest_event div.views-field-body p {
 	overflow: auto;
 }
-div.view-events-directory.view-display-id-events_latest_event div.views-field-field-speaker-s-,
-div.view-events-directory.view-display-id-events_latest_event div.views-field-field-speaker-s- div {
-	font-size: 1.2em;
-	display: inline-block;
-}
-div.view-events-directory.view-display-id-events_latest_event div.views-field-field-speaker-s-:after{
-	content: ' - ';
-}
-div.view-events-directory.view-display-id-events_latest_event div.views-field-field-event-date,
-div.view-events-directory.view-display-id-events_latest_event div.views-field-field-event-date div {
-	font-size: 1.2em;
-	display: inline-block;
-}
 
 /* All But Latest */
 div.view-events-directory.view-display-id-all_but_latest tr.even {
