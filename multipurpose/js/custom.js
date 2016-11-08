@@ -15,8 +15,16 @@ jQuery(document).ready(function() {
 	});
 });
 */
-jQuery(window).bind("load", ddblockSizeCheck);
-jQuery(window).bind("resize", ddblockSizeCheck);
+
+//Disable image links in storify
+jQuery(window).on('load', function(){
+	jQuery('div#storify-minimal div.element.image a').click(function(e) {
+		e.preventDefault();
+	});
+});
+
+
+jQuery(window).bind("load resize", ddblockSizeCheck);
 
 function ddblockSizeCheck() {
 	jQuery('div.block-ddblock div.slider-inner').each(function() {
