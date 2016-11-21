@@ -12,7 +12,6 @@ div.frame>p {
 div.field-iframe-instance iframe.field-iframe-instance {
     max-height: 400px;
     display: inline-block;
-    min-width: 500px;
 }
 div.details {
     width: calc(48% - 1em);
