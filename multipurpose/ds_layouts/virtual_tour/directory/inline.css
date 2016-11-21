@@ -1,0 +1,23 @@
+<style>
+div.section-title {
+    clear: both;
+}
+div.frame{
+	display: inline-block;
+    width: 50%;
+}
+div.frame>p {
+    display: none;
+}
+div.field-iframe-instance iframe.field-iframe-instance {
+    max-height: 400px;
+    display: inline-block;
+    min-width: 500px;
+}
+div.details {
+    width: calc(48% - 1em);
+    display: inline-block;
+    margin-left: 1em;
+    vertical-align: top;
+}
+</style>
