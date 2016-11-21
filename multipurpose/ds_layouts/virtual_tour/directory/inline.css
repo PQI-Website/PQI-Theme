@@ -19,4 +19,17 @@ div.details {
     margin-left: 1em;
     vertical-align: top;
 }
+@media only screen and (max-width: 1000px) {
+	div div.frame{
+		display: block;
+		width: 100%;
+	}
+	div div.details {
+		width: 100%;
+		display: block;
+		margin-left: 0;
+		font-size: 17px;
+	}
+}
+
 </style>
