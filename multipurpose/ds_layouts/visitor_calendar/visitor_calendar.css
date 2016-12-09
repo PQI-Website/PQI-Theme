@@ -5,15 +5,13 @@
 
 .ds-2col-fluid > .group-left {
   float: left; /* LTR */
-  width: 75%;
+  width: 70%;
 }
 
 .ds-2col-fluid > .group-right {
     float: right;
-    width: calc(25% - 21px);
+    width: calc(30% - 10px);
     margin-left: 10px;
-    padding-left: 10px;
-    border-left: 1px solid #ccc;
 }
 
 .ds-2col-fluid.group-one-column > .group-left,
