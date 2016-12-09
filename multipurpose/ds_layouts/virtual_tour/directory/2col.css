@@ -1,0 +1,47 @@
+.view-display-id-directory_page .views-row-even {
+    display: inline-block;
+    width: calc(50% - 25px);
+    vertical-align: top;
+    margin-left: 20px;
+}
+.view-display-id-directory_page .views-row-odd {
+    display: inline-block;
+    width: calc(50% - 25px);
+	vertical-align: top;
+    margin-right: 20px;
+}
+.view-display-id-directory_page h3.title>p,
+.view-display-id-directory_page h3.title>br,
+.view-display-id-directory_page .views-field-title a>p,
+.view-display-id-directory_page .views-field-title a>br {
+	display: none;
+}
+.view-display-id-directory_page h3.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.view-display-id-directory_page .views-field-title {
+    min-height: 90px;
+    display: block;
+    overflow: hidden;
+	position: relative;
+}
+.view-display-id-directory_page .views-field-title .field-content {
+    position: absolute;
+    bottom: 10px;
+}
+
+div div.view-display-id-directory_page div.views-row .views-field.views-field-field-video-url, div.view-display-id-directory_page_lectures div.views-row .views-field.views-field-field-video-url, div div.view-display-id-directory_page_profiles div.views-row .views-field.views-field-field-video-url, div.view-display-id-directory_page_all div.views-row .views-field.views-field-field-video-url {
+    float: none;
+    margin-right: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+	div.view-display-id-directory_page div.views-row-even, div.view-display-id-directory_page div.views-row-odd {
+		display: block;
+		width: 100%;
+		vertical-align: top;
+		margin-left: 0;
+	}
+}
