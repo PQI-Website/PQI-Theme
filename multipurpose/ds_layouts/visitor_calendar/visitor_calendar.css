@@ -20,3 +20,17 @@
   float: none;
 }
 
+div div.group-left div.vital-info {
+    border-bottom: none;
+    margin-bottom: none;
+}
+
+.field .field-label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.ds-2col-fluid > .group-left .group-left {
+    width: 100%;
+}
