@@ -1,0 +1,50 @@
+<style type="text/css">
+div.broadcast {
+	width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.broadcast.Recorded {
+    background-image: url(/themes/multipurpose/ds_layouts/events_page/recording.png);
+}
+div.broadcast.Recorded:after {
+	content: "This event will be recorded";
+}
+div.broadcast.Livestreamed {
+    background-image: url(/themes/multipurpose/ds_layouts/events_page/live_recording.png);
+}
+div.broadcast.Livestreamed:after {
+	content: "This event will be broadcast live";
+}
+div.broadcast.Livenow {
+    background-image: url(/themes/multipurpose/ds_layouts/events_page/playlive.png);
+	background-position-y: 50%;
+}
+div.broadcast.Livenow:after {
+	content: "This event is being broadcast live now";
+}
+
+div.broadcast:after{
+    padding: 2px;
+    display:none;
+    position: relative;
+    top: -25px;
+    right: -30px;
+    width: 150px;
+    text-align: center;
+    background-color: #ccc;
+    border: 1px solid #666;
+    border-radius: 2px;
+	font-size: small;
+	color: #000;
+}
+div.broadcast:hover:after{
+    display: block;
+}
+
+</style>
