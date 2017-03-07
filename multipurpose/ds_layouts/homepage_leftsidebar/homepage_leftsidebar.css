@@ -179,6 +179,11 @@ div.view-watching div.views-row .video iframe
 		position: relative;
 	}
 	*/
+	
+	div.view-storify-publications .view-content,
+	div.view-watching .view-content {
+		overflow: hidden !important;
+	}
 }
 div#latest_pub_scroll{
     max-height: 1400px;
