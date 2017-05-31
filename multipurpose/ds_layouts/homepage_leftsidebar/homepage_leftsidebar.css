@@ -159,7 +159,7 @@ div.view-watching div.views-row .video iframe
 		/* display: none; */
 		width: 100% !important;
 		max-height: 700px;
-		overflow: scroll;
+		overflow: hidden;
 	}
 	div div#center_pane {width: 100%}
 	
@@ -179,9 +179,9 @@ div.view-watching div.views-row .video iframe
 		position: relative;
 	}
 	*/
-	
-	div.view-storify-publications .view-content,
-	div.view-watching .view-content {
+}
+@media only screen and (max-width: 500px) {	
+	div.view-watching {
 		overflow: hidden !important;
 	}
 }
@@ -195,7 +195,11 @@ div#latest_pub_scroll{
 	div div#latest_pub_scroll{
 		max-height: 700px;
 	}
+	div#left_sidebar {
+		overflow: hidden;
+	}
 }
+
 .group-sidebar_publications div.field-name-latest-publications div.field-label{
     border-top: 5px solid #666;
     border-bottom: 3px solid #bbb;
