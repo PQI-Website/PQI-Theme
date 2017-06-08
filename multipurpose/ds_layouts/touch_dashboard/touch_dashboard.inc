@@ -1,7 +1,7 @@
 <?php
 function ds_touch_dashboard() {
   return array(
-    'label' => t('Members Dashboard'),
+    'label' => t('Touchscreen Dashboard'),
     'regions' => array(
       'mainheaderspan' => t('Main Header'),
 	  'sidebar' => t('Left Sidebar'),
