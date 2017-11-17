@@ -75,7 +75,7 @@ div.ddblock-pager.number-pager li a span.thumb{
     height: auto;
 }
 .page-node #content-wrap div.ddblock-pager.number-pager #more-news:hover {
-	
+
 	background-color: #ddd;
 }
 .page-node #content-wrap div.ddblock-pager.number-pager #more-news::after {
@@ -97,7 +97,7 @@ div.ddblock-pager li.number-pager-item a {
 	vertical-align: middle;
     background: #eee;
     display: table;
-    padding: 1.2vw 20px;
+    padding: 20px;
     border-bottom: #bbb 1px solid;
 	color: #333;
 	width: 90%;
