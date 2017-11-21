@@ -146,7 +146,7 @@ a { outline: 0 }
 #header-wrap { margin-left: -30px; margin-right: -30px; }
 /*banner inset*/
 #banner-inset {
-	float: right; 
+	float: right;
 	position: relative;
     right: 20px;
     top: 20px;
@@ -570,7 +570,7 @@ fieldset.collapsed { background: transparent; -khtml-border-radius: 0; -moz-bord
 
 fieldset legend { background: #dbdbdb; border: 1px solid #ccc; border-bottom: none; display: block; height: 2em;
 left: -1px; line-height: 2; padding: 0; position: absolute; text-indent: 10px; text-shadow: 0 1px 0 #fff; top: -12px; width: 100%;
--khtml-border-radius-topleft: 4px; -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; 
+-khtml-border-radius-topleft: 4px; -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px;
 -khtml-border-radius-topright: 4px; -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
 
 fieldset.collapsed legend { -khtml-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
@@ -631,7 +631,7 @@ border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
 
 .comment-form label { float: left; font-size: 0.929em; }
 
-.comment-form input, .comment-form .form-select { margin: 0; 
+.comment-form input, .comment-form .form-select { margin: 0;
 -khtml-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 
 .comment-form .form-type-textarea label { float: none; }
@@ -692,19 +692,19 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-/* IE10 */ 
+/* IE10 */
 background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E3E3E3));
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Proposed W3C Markup */ 
+/* Proposed W3C Markup */
 background-image: linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* IE6-9 */ 
+/* IE6-9 */
 filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E3E3E3');
 
 border: 1px solid #dbdbdb;
@@ -716,19 +716,19 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-/* IE10 */ 
+/* IE10 */
 background-image: -ms-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBDBDB), color-stop(1, #F2F2F2));
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Proposed W3C Markup */ 
+/* Proposed W3C Markup */
 background-image: linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* IE6-9 */ 
+/* IE6-9 */
 filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#DBDBDB', endColorstr='#F2F2F2');
 
 -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px;
@@ -741,7 +741,7 @@ cursor: pointer; }
 button.full-width,
 input[type="submit"].full-width,
 input[type="reset"].full-width,
-input[type="button"].full-width { 
+input[type="button"].full-width {
 width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align: center; }
 
 
@@ -869,7 +869,7 @@ ol.search-results { padding-left: 0; }
 }
 
 /*-------------------------------------------*
-/* Menus and item lists 
+/* Menus and item lists
 /*-------------------------------------------*/
 .item-list ul {
   margin: 0;
@@ -1189,7 +1189,7 @@ div.cke_inner textarea.cke_source {
   height: 35px;
 }
 
-#forum .name a{ 
+#forum .name a{
   font-size: 16px;
 }
 
@@ -1471,39 +1471,12 @@ div.view-affiliated-websites div.views-field-title a:hover{
 	color: #381B8E;
 }
 
-/* Watching block (storify publications) */
-div.view-storify-publications img[src*="static.flickr.com"] {
-    display: none !important;
-}
-div.view-storify-publications div.views-row {
-    padding: 15px;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-align: center;
-}
-div.view-storify-publications .element.image {
-    margin: 0 auto;
-    display: inline-block;
-    margin-bottom: 0px !important;
-}
-div.view-storify-publications div.view-content {
-    max-height: 1200px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-div.view-storify-publications p#meta {
-    display: none;
-}
-
 
 /* Watching block (storify) */
 div.view-watching {
 	overflow: auto;
     max-height: 1400px;
 	padding-right: 10px;
-}
-div.views-field-field-storify-content span.field-content p:first-of-type{
-	display: none; /* Fixes stupid p tag with rss content opener */
 }
 div.view-watching p#meta {
 	margin: 0 !important;
@@ -1692,7 +1665,7 @@ div.view-watching div.views-row{
 
 
 div.views-field-field-storify-content span.field-content img{display: none !important;} /* Hide all images */
-div.views-field-field-storify-content span.field-content img:first-of-type{ 
+div.views-field-field-storify-content span.field-content img:first-of-type{
     display: block !important;
     max-width: 300px !important;
     max-height: 200px !important;
