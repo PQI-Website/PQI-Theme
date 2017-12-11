@@ -1472,42 +1472,17 @@ div.view-affiliated-websites div.views-field-title a:hover{
 }
 
 
-/* Watching block (storify) */
-div.view-watching {
-	overflow: auto;
-    max-height: 1400px;
-	padding-right: 10px;
-}
-div.view-watching p#meta {
-	margin: 0 !important;
-	margin-bottom: 5px !important;
-	padding: 0 !important;
-	border: 0 !important;
-}
-div.view-watching div.views-row {
-    display: block;
-    clear: both;
-}
-div.view-watching div.views-row iframe {
-	max-width: 100% !important;
-    max-height: 250px !important;
-}
-div.view-watching div.element.image img {
-	border: 0 !important;
-	padding: 0 !important;
-}
-
 div.view-storify-publications div.views-row div.field-content>p,div.view-storify-publications div.views-row div.field-content>br {display: none}
-div.view-storify-publications div.views-row, div.view-watching div.element.link, div.field-name-videos-sidebar-block div.views-row {
-    display: block;
-    clear: both;
+div.view-storify-publications div.views-row, div.view-watching div.views-row, div.field-name-videos-sidebar-block div.views-row {
+  display: block;
+  clear: both;
 	border: 1px solid #ddd;
 	padding: 5px;
 	background-image: url("custom/modules/ddblock/featuredmember/img/crossword.png");
 }
 
 div.view-videos div.views-row h4 {
-    text-align: center;
+  text-align: center;
 	margin-top: 5px;
 }
 
@@ -1619,24 +1594,11 @@ div.footer img[alt="Powered by Storify"] {
 img[src*="stats.storify.com/record/view.gif"] {
     display: none;
 }
-div.view-watching img[src*="static.flickr.com"] {
-    display: none !important;
-}
-div.view-watching div.views-field-field-storify-content div.image br {
-	display: none;
-}
-div.view-watching div.views-field-field-storify-content div.image{
-	pointer-events: none;
-	cursor: default;
-    float: left;
-	margin: 0 !important;
-	display: none;
-}
-div.views-field-field-storify-content div.image img{
+div.views-field-field-storify-content div img {
 	pointer-events: none;
 	cursor: default;
 	max-width: 200px !important;
-    max-height: 150px !important;
+  max-height: 150px !important;
 }
 div.view-watching div.views-field-nid{
 	clear:both;
@@ -1657,10 +1619,6 @@ div.views-field-field-storify-content p#meta br{display: none;}
 div.views-field-field-storify-content p#meta span::before{content: ' '}
 div.view-watching div.views-field-nid{
 	text-align:right;
-}
-div.view-watching div.views-row{
-    border-bottom: #aaa 2px solid;
-    padding-bottom: 15px;
 }
 
 
