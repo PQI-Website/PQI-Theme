@@ -42,6 +42,7 @@ div.view-empty{
  /* Slide layout */
  .page-node #content-wrap div.field-name-field-research-slideshow .field-name-field-image img {
      border: none;
+     max-width: 1325px;
  }
 
  /* End slide layout */
