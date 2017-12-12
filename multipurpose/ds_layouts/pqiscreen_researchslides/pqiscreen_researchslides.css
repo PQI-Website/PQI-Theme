@@ -10,8 +10,7 @@ div#main {
 
 body{
 	background-image: url(bg.jpg) !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+  background-attachment: fixed !important;
 }
 div#wrap{
 	/* background: rgba(255, 255, 255, 0.5); */
@@ -61,7 +60,7 @@ div.view-storify-publications div.view-content div div.text {
 div.view-storify-publications div.view-content div div.text a {
     color: #fff !important;
 }
- 
+
 
 
 /*
@@ -142,7 +141,7 @@ div.aw-widget-content{
     background: rgba(255,255,255,.3) !important;
 }
 
- 
+
 .ds-3col-stacked-equal > .group-header {
   clear: both;
 }
