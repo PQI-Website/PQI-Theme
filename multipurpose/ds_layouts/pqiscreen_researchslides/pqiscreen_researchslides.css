@@ -16,7 +16,8 @@ div#wrap{
 	/* background: rgba(255, 255, 255, 0.5); */
 	background: rgba(46, 97, 144, 0.0);
 	width: auto;
-    margin: 20px;
+  margin: 0px;
+  padding: 0px;
 	color: #333;
 }
 /* Titles & text */
@@ -40,12 +41,55 @@ div.view-empty{
 	text-align: center;
 }
  /* Slide layout */
- .page-node #content-wrap div.field-name-field-research-slideshow .field-name-field-image img {
-     border: none;
-     max-width: 1325px;
+ body {
+     overflow:hidden; /* Hide scrollbar */
  }
 
- /* End slide layout */
+.ds-2col > figure.group-left {
+  float: none;
+  width: initial;
+  max-width: 1425px;
+  display: inline-block;
+ }
+ .ds-2col > div.group-right {
+    float: none;
+    width: calc(100% - 1600px);
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+    background-color: red;
+    color: #fff;
+    padding: 20px 85px;
+ }
+
+ .arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}
+  /* End slide layout */
+
+
+/* Sidebar text */
+ .field.field-name-field-short-title {
+    font-size: 30pt;
+    font-weight: bold;
+}
+.field-name-field-subtitle {
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.page-node #content-wrap div.field-name-field-research-slideshow .field-name-field-image img {
+     border: none;
+     margin: 0;
+ }
+/* End text */
+
 
 /* Footer */
 footer#copyright-wrap img {
