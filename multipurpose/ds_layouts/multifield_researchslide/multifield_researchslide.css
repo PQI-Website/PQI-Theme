@@ -19,6 +19,10 @@
     top: 314px;
 }
 
+.page-node #content-wrap .field-name-field-profile-photo img{
+  border: none;
+}
+
 /* Sidebar text */
  .field.field-name-field-short-title {
     font-size: 30pt;
@@ -48,4 +52,5 @@ div#logo {
   background-size: contain;
   position: absolute;
   bottom: 20px;
+  right: 20px;
 }
