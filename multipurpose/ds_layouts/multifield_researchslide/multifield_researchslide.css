@@ -22,3 +22,8 @@
 .field-name-field-sidebar-content {
     font-size: 21px;
 }
+
+div#logo {
+  background-image: url("pqi-logo.png");
+  background-repeat: no-repeat;
+}
