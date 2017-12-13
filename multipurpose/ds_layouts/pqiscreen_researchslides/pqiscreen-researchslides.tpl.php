@@ -1,10 +1,3 @@
-<?php
-
-/**
- * @file
- * Display Suite 3 column stacked template.
- */
-?>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="ds-3col-stacked-equal <?php print $classes;?> clearfix">
 
   <?php if (isset($title_suffix['contextual_links'])): ?>
