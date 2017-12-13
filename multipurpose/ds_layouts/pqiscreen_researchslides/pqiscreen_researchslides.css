@@ -64,22 +64,7 @@ div.view-empty{
   /* End slide layout */
 
 
-/* Sidebar text */
- .field.field-name-field-short-title {
-    font-size: 30pt;
-    font-weight: bold;
-}
-.field-name-field-subtitle {
-    font-style: italic;
-    margin-bottom: 20px;
-    font-size: 18px;
-}
 
-.page-node #content-wrap div.field-name-field-research-slideshow .field-name-field-image img {
-     border: none;
-     margin: 0;
- }
-/* End text */
 
 
 /* Footer */
@@ -91,31 +76,4 @@ div#copyright {
 }
 footer#copyright-wrap{
 	display: none;
-}
-
-
-
-
-.ds-3col-stacked-equal > .group-header {
-  clear: both;
-}
-
-.ds-3col-stacked-equal > .group-left {
-  width: 20%;
-  float: left; /* LTR */
-}
-
-.ds-3col-stacked-equal > .group-middle {
-  width: calc(50% - 40px);
-  margin: 0 20px;
-  float: left; /* LTR */
-}
-
-.ds-3col-stacked-equal > .group-right {
-  width: 30%;
-  float: right; /* LTR */
-}
-
-.ds-3col-stacked-equal > .group-footer {
-  clear: both;
 }
