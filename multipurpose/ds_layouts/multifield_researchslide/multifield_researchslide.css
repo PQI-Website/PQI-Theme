@@ -26,4 +26,9 @@
 div#logo {
   background-image: url("pqi-logo.png");
   background-repeat: no-repeat;
+  width: 300px;
+  height: 75px;
+  background-size: contain;
+  position: absolute;
+  bottom: 20px;
 }
