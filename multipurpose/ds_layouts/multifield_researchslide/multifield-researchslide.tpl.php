@@ -5,12 +5,14 @@
   <?php endif; ?>
 
   <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>">
-    <div class="arrow-left"></div>
     <?php print $left; ?>
   </<?php print $left_wrapper ?>>
 
   <<?php print $right_wrapper ?> class="group-right<?php print $right_classes; ?>" style="background-color: <?php print $content['field_slide_color'][0]['#markup']; ?>">
+    <style>.arrow-left{border-right-color: <?php print $content['field_slide_color'][0]['#markup']; ?>;}</style>
+    <div class="arrow-left"></div>
     <?php print $right; ?>
+    <div id="logo"></div>
   </<?php print $right_wrapper ?>>
 
 </<?php print $layout_wrapper ?>>
