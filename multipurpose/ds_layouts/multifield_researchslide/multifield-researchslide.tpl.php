@@ -1,10 +1,3 @@
-<?php
-
-/**
- * @file
- * Display Suite 2 column template.
- */
-?>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="ds-2col <?php print $classes;?> clearfix">
 
   <?php if (isset($title_suffix['contextual_links'])): ?>
