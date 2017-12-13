@@ -1,5 +1,5 @@
 <?php
-function ds_multifield_research() {
+function ds_multifield_researchslide() {
   return array(
     'label' => t('Multifield Research Slide'),
     'regions' => array(
