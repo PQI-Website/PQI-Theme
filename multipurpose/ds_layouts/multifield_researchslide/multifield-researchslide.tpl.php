@@ -4,12 +4,12 @@
   <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
 
-  <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>" style="background-color: <?php print render($content['field_slide_color']); ?>">
+  <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>">
     <div class="arrow-left"></div>
     <?php print $left; ?>
   </<?php print $left_wrapper ?>>
 
-  <<?php print $right_wrapper ?> class="group-right<?php print $right_classes; ?>">
+  <<?php print $right_wrapper ?> class="group-right<?php print $right_classes; ?>" style="background-color: <?php print $content['field_slide_color'][0]['#markup']; ?>">
     <?php print $right; ?>
   </<?php print $right_wrapper ?>>
 
