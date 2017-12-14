@@ -21,6 +21,7 @@
 
 .page-node #content-wrap .field-name-field-profile-photo img{
   border: none;
+  width: 100%;
 }
 
 /* Sidebar text */
@@ -39,7 +40,7 @@
      margin: 0;
  }
  .field-name-field-sidebar-content {
-     font-size: 21px;
+     font-size: 19px;
  }
 /* End text */
 
