@@ -14,7 +14,7 @@
           $(current).next().fadeIn(500);
       });
   }
-  setInterval(NextSlide, 7000);
+  setInterval(NextSlide, (<?php print $content['field_slide_transition_time'][0]['#markup']; ?>*1000));
 </script>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="<?php print $classes;?> clearfix">
 
