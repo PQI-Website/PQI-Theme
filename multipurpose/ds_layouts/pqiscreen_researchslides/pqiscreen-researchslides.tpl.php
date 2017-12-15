@@ -1,14 +1,20 @@
 <script>
-  $(".field-name-field-research-slideshow .field-items > div.field-item:gt(0)").hide();
-  function LoadSlide() {
-    $('.field-name-field-research-slideshow .field-items > div.field-item:first')
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end();
-      //.appendTo('.field-name-field-research-slideshow .field-items');
+  //Hide all but first slide
+  $( document ).ready(function() {
+    $(".field-name-field-research-slideshow .field-items > div.field-item:not(:first-child)").hide();
+  });
+
+
+  function NextSlide() {
+    var current = $('.field-name-field-research-slideshow .field-items > div.field-item:visible')
+      .fadeOut(700, function() {
+        if ($(current).next().length == 0)
+          $('.field-name-field-research-slideshow .field-items > div.field-item:first-child').fadeIn(500);
+        else
+          $(current).next().fadeIn(500);
+      });
   }
-  setInterval(LoadSlide(), 3000);
+  setInterval(NextSlide, 7000);
 </script>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="<?php print $classes;?> clearfix">
 
