@@ -9,7 +9,7 @@
   </<?php print $left_wrapper ?>>
 
   <<?php print $right_wrapper ?> class="group-right<?php print $right_classes; ?>" style="background-color: <?php print $content['field_slide_color'][0]['#markup']; ?>">
-    <div class="arrow-left" style="border-right-color: <?php print $content['field_slide_color'][0]['#markup']; ?>"></div>
+    <div class="arrow-left" style="border-right: 90px solid <?php print $content['field_slide_color'][0]['#markup']; ?>;"></div>
     <?php print $right; ?>
     <div id="logo"></div>
   </<?php print $right_wrapper ?>>

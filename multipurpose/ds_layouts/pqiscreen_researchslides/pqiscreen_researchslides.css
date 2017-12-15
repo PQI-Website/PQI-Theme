@@ -59,6 +59,18 @@ div.view-empty{
     height: 100vh;
     color: #fff;
     padding: 20px 85px;
+    position: absolute;
+    right: 0;
+ }
+
+ .arrow-left {
+     width: 1px;
+     height: 0;
+     border-top: 40px solid transparent;
+     border-bottom: 155px solid transparent;
+     position: absolute;
+     right: 480px;
+     top: 314px;
  }
   /* End slide layout */
 

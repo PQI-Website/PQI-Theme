@@ -8,16 +8,6 @@
   width: 50%;
 }
 
-.arrow-left {
-    width: 0;
-    height: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 155px solid transparent;
-    border-right: 90px solid #f44248;
-    position: absolute;
-    right: 480px;
-    top: 314px;
-}
 
 .page-node #content-wrap .field-name-field-profile-photo img{
   border: none;
