@@ -32,7 +32,9 @@
      width: auto;
  }
  .field-name-field-sidebar-content {
-     font-size: 19px;
+    font-size: 19px; 
+    max-height: 475px;
+    overflow: hidden;
  }
 /* End text */
 
@@ -45,5 +47,4 @@ div#logo {
   background-size: contain;
   position: absolute;
   bottom: 3vw;
-  right: 1vw;
 }
