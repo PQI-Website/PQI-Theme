@@ -38,7 +38,7 @@
 		margin-right: 1%;
 		display: inline-block;
 	}
-	
+
 	div#left_sidebar div.group-sidebar_publications{
 		max-height: 700px;
 	}
@@ -49,7 +49,7 @@
 	div[about="/news"] div.group-right {
 		width: 410px;
 	}
-	
+
 	/* Calendar Page */
 	.page-node #content-wrap div.view-events-directory.view-display-id-events_latest_event div.views-field-field-image img{
 		display: none;
@@ -72,23 +72,18 @@
 		display: none;
 	}*/
 
-	/* new code */
 	#site-navigation #main-menu ul.menu.dropdown-menu {
 		width: 100%;
 		position: relative;
-		z-index: 75;
 	}
 	#preface-wrap .block {
 		margin-top: 20px;
 		margin-bottom: 0px;
 	}
-	#site-navigation #main-menu ul.menu.dropdown-menu {
-		width: 100%;
-	}
 	#site-navigation #main-menu > ul > li > a.active {
 		border-bottom: 0;
 	}
-	
+
 	#site-navigation #main-menu > ul > li:nth-of-type(odd){
 		display: block;
 		float: left;
@@ -117,7 +112,7 @@
 	}
 }
 
-@media only screen and (max-width: 950px) {	
+@media only screen and (max-width: 950px) {
 	/* Logo */
 	div#logo div#site-logo{
 		min-height: 115px;
@@ -127,14 +122,14 @@
 		max-width: none;
 		max-height: 115px;
 	}
-	
+
 	/* Calendars */
-	
+
 	table#pqi-events-calendars td {
 		display: block;
 	}
 }
-@media only screen and (max-width: 530px) {	
+@media only screen and (max-width: 530px) {
 	#banner-inset {
 		top: -1px;
 		opacity: 0.6;
@@ -148,7 +143,7 @@
 		display: none;
 	}
 }
-@media only screen and (max-width: 768px)  and (min-width: 531px) {	
+@media only screen and (max-width: 768px)  and (min-width: 531px) {
 	div[about="/calendar"] div.group-left {
 		width: calc(100% - 175px);
 	}
@@ -156,7 +151,7 @@
 		width: 150px !important;
 	}
 }
-@media only screen and (max-width: 768px) {	
+@media only screen and (max-width: 768px) {
 	/* Members directory */
 	div.view-members-directory table .views-field-field-email {
 		display: none;
@@ -169,7 +164,7 @@
 		display: none;
 	}
 }
-@media only screen and (max-width: 620px) {	
+@media only screen and (max-width: 620px) {
 	/* Members directory */
 	div.view-members-directory table .views-field-field-office-address {
 		display: none;
@@ -194,7 +189,7 @@
 	}
 	#footer-wrap .span_1_of_3.col-2{
 		width: 71.5%
-	} 
+	}
 	#footer-wrap .span_1_of_3.col-3{
 		width: 24%;
 		min-width: 200px;
@@ -234,14 +229,14 @@
 		display: block;
 	}
 	#footer-wrap .span_1_of_3.col-2{width: calc(100% - 250px);}
-	
+
 	#footer-wrap div#block-menu-menu-site-map li.expanded>a{
 		border-bottom: 1px solid white;
 		width: 50%;
 		display: inline-block;
 		margin-top: 20px;
 	}
-	
+
 	/* News Directory */
 	div[about="/news"] div.group-left {
 		width: 100%;
