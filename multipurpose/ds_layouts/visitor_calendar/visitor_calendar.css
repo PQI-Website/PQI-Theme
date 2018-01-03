@@ -34,3 +34,14 @@ div div.group-left div.vital-info {
 .ds-2col-fluid > .group-left .group-left {
     width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  div.node-guest-schedule > .group-left,
+  div.node-guest-schedule > .group-right {
+    width: 100%;
+    float: none;
+  }
+  body.page-node #content-wrap img {
+    max-width: 200px;
+  }
+}
