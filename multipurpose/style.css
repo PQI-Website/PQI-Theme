@@ -1657,6 +1657,12 @@ div#footer-wrap p{
 	color: #ccc;
 }
 
+/* Lazyloader CSS improvements */
+img.lazyloader-icon {
+    width: 20px;
+    max-width: 20px !important;
+}
+
 /* Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
 ================================================== */
