@@ -1,7 +1,21 @@
-#inner {
-margin: 15vh auto;
+.student-card {
+  margin: 15vh auto;
   display: block;
   background-color: darkgrey;
-  width: 700px;
+  width: 800px;
   height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+}
+.item.main {
+  width: 50%;
+  height: 100%;
+}
+.item {
+  justify-content: space-evenly;
+  margin: auto;
+  border: 1px solid lightgrey;
+  width: 100px;
+  height: 100px;
 }
