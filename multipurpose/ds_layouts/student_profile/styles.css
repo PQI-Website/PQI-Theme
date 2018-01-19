@@ -1,6 +1,8 @@
-body{font-family: sans-serif;}
+.outer {
+  display: none;
+}
 .student-card {
-  margin: 15vh auto;
+  /* margin: 15vh auto; */
   display: block;
   background-color: #bbb;
   width: 900px;

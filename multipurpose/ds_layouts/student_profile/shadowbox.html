@@ -4,10 +4,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id="outer">
+	<div class="outer" id="details-[nid]">
 		<div class="student-card">
 			<div class="item main"><h2>Joel Blackman-Mathis</h2>
-        <img class="profile" src="joel.png" />
+        <img class="profile" src="/sites/default/files/joel.png" />
         <p>B7 Thaw Hall <br /> 412-555-1234</p>
       </div>
       <div class="item">School<br />
@@ -20,5 +20,15 @@
       <div class="item">Hobbies</div>
 		</div>
 	</div>
+
+<p><a class="btn" --data-details="42" href="#">Test</a></p>
+<script>
+$('.btn').click(function(event) {
+  event.preventDefault();
+  var content = $('#details-' + $(this).data("details")).html();
+  $.colorbox({html:content, height: "560px", fixed: true});
+});
+</script>
+
 </body>
 </html>
