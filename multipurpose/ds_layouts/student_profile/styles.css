@@ -11,15 +11,15 @@
   flex-flow: row wrap;
   flex-direction: column;
 }
-.item.main {
+.detailblock.main {
   width: 50%;
   height: 93%;
 }
-.item.main h2 {
+.detailblock.main h2 {
   margin-bottom: 15px;
   margin-top: 10px;
 }
-.item {
+.detailblock {
   justify-content: space-evenly;
   margin: auto;
   border: 1px solid #000;
