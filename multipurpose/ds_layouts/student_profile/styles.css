@@ -1,4 +1,4 @@
-.outer {
+.outer, .views-field-nid-1 {
   display: none;
 }
 .student-card {
@@ -13,11 +13,20 @@
 }
 .detailblock.main {
   width: 50%;
-  height: 93%;
+  height: 94%;
 }
 .detailblock.main h2 {
-  margin-bottom: 15px;
-  margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.detailblock h4 {
+    font-weight: bold;
+    margin-top: 40%;
+}
+.detailblock.main img {
+    height: 370px;
+    width: auto;
 }
 .detailblock {
   justify-content: space-evenly;
@@ -28,9 +37,27 @@
   height: 150px;
   padding: 10px;
   text-align: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: auto 60px;
 }
 img.profile {
   width: 90%;
   display: block;
   margin: 0 auto;
+}
+.school {
+  background-image: url(/sites/default/files/views/student-directory/calendar.png);
+}
+.advisor {
+  background-image: url(/sites/default/files/views/student-directory/people.png);
+}
+.project {
+  background-image: url(/sites/default/files/views/student-directory/project.png);
+}
+.education {
+  background-image: url(/sites/default/files/views/student-directory/office.png);
+}
+.hometown {
+  background-image: url(/sites/default/files/views/student-directory/home.png);
 }

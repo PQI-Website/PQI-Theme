@@ -4,28 +4,33 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="outer" id="details-42">
+  <div class="outer" id="details-[nid]">
 		<div class="student-card">
-			<div class="detailblock main"><h2>Joel Blackman-Mathis</h2>
-        <img class="profile" src="/sites/default/files/joel.png" />
-        <p>B7 Thaw Hall <br /> 412-555-1234</p>
+			<div class="detailblock main"><h2>[field_first_name] [field_last_name]</h2>
+        [field_profile_photo]
+        <p>B7 Thaw Hall<br />
+          [field_phone]</p>
       </div>
-      <div class="detailblock">School<br />
-        Start Year
+      <div class="detailblock school"><h4>School<br />
+        Start Year</h4>
       </div>
-      <div class="detailblock">Project</div>
-      <div class="detailblock">Hometown</div>
-      <div class="detailblock">Department and Advisor</div>
-      <div class="detailblock">Education</div>
-      <div class="detailblock">Hobbies</div>
+      <div class="detailblock project"><h4>Project</h4></div>
+      <div class="detailblock hometown"><h4>Hometown</h4></div>
+      <div class="detailblock advisor"><h4>Department and Advisor</h4>
+        [field_advisor_node]
+      </div>
+      <div class="detailblock education"><h4>Education</h4></div>
+      <div class="detailblock"><h4>Hobbies</h4></div>
 		</div>
 	</div>
 
-<p><a class="btn" data-details="42" href="#">Test</a></p>
+<p><a class="shadowlink" data-details="42" href="#">Test</a></p>
+
 <script>
-$('.btn').click(function(event) {
+$('.shadowlink').click(function(event) {
   event.preventDefault();
   var content = $('#details-' + $(this).data("details")).html();
+  console.log(content);
   $.colorbox({html:content, height: "560px", fixed: true});
 });
 </script>
