@@ -38,8 +38,8 @@
   padding: 10px;
   text-align: center;
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-size: auto 60px;
+  background-position: center 10px;
+  background-size: auto 50px;
 }
 img.profile {
   width: 90%;
