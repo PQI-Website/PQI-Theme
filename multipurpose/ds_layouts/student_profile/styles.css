@@ -5,11 +5,10 @@
   /* margin: 15vh auto; */
   display: block;
   background-color: #bbb;
-  width: 900px;
+  width: 920px;
   height: 550px;
   display: flex;
-  flex-flow: row wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 .detailblock.main {
   width: 50%;
@@ -22,7 +21,7 @@
 }
 .detailblock h4 {
     font-weight: bold;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 .detailblock.main img {
     height: 370px;
@@ -30,23 +29,24 @@
 }
 .detailblock {
   justify-content: space-evenly;
-  margin: auto;
+  margin: 10px;
   border: 1px solid #000;
   background-color: #ddd;
-  width: 170px;
-  height: 150px;
+  width: 200px;
+  height: 159px;
   padding: 10px;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center 10px;
   background-size: auto 50px;
+  box-sizing: border-box;
 }
 img.profile {
   width: 90%;
   display: block;
   margin: 0 auto;
 }
-.school {
+.education {
   background-image: url(/sites/default/files/views/student-directory/calendar.png);
 }
 .advisor {
@@ -55,7 +55,7 @@ img.profile {
 .project {
   background-image: url(/sites/default/files/views/student-directory/project.png);
 }
-.education {
+.school {
   background-image: url(/sites/default/files/views/student-directory/office.png);
 }
 .hometown {
