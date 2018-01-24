@@ -1,18 +1,23 @@
 .outer, .views-field-nid-1 {
-  display: none;
+  /*display: none;*/
 }
 .student-card {
   /* margin: 15vh auto; */
   display: block;
   background-color: #bbb;
-  width: 920px;
+  max-width: 900px;
   height: 550px;
-  display: flex;
-  flex-flow: column wrap;
+}
+.flex-wrapper {
+    width: 50%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    vertical-align: top;
 }
 .detailblock.main {
-  width: 50%;
+  width: 47%;
   height: 94%;
+  display: inline-block;
 }
 .detailblock.main h2 {
     margin-bottom: 15px;
@@ -54,6 +59,7 @@ img.profile {
 }
 .project {
   background-image: url(/sites/default/files/views/student-directory/project.png);
+  flex-grow: 1;
 }
 .school {
   background-image: url(/sites/default/files/views/student-directory/office.png);
