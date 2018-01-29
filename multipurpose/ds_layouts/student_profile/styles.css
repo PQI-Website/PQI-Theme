@@ -26,7 +26,7 @@
 }
 .detailblock h4 {
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 60px;
 }
 .detailblock.main img {
     height: 370px;
@@ -57,13 +57,13 @@ img.profile {
 .advisor {
   background-image: url(/sites/default/files/views/student-directory/people.png);
 }
-.project {
-  background-image: url(/sites/default/files/views/student-directory/project.png);
-  flex-grow: 1;
-}
 .school {
   background-image: url(/sites/default/files/views/student-directory/office.png);
 }
 .hometown {
   background-image: url(/sites/default/files/views/student-directory/home.png);
+}
+.project {
+  background-image: url(/sites/default/files/views/student-directory/project.png);
+  flex-grow: 1;
 }
