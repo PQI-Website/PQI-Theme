@@ -1,0 +1,13 @@
+.outer {
+  background: grey;
+  width: 500px;
+  padding: 0 10px;
+  display: none;
+}
+.detailblock.main{
+  text-align: center;
+}
+.detailblock.main h2 {
+  font-weight: bold;
+  font-size: 25px;  
+}
