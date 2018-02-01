@@ -61,7 +61,7 @@ div.view-storify-publications div.view-content div div.text {
 div.view-storify-publications div.view-content div div.text a {
     color: #fff !important;
 }
- 
+
 
 
 /*
@@ -142,7 +142,7 @@ div.aw-widget-content{
     background: rgba(255,255,255,.3) !important;
 }
 
- 
+
 .ds-3col-stacked-equal > .group-header {
   clear: both;
 }
@@ -153,13 +153,15 @@ div.aw-widget-content{
 }
 
 .ds-3col-stacked-equal > .group-middle {
-  width: calc(50% - 40px);
+  width: calc(57% - 40px);
   margin: 0 20px;
   float: left; /* LTR */
 }
-
+tr td.views-field-field-speaker-s- {
+    width: 18%;
+}
 .ds-3col-stacked-equal > .group-right {
-  width: 30%;
+  width: 23%;
   float: right; /* LTR */
 }
 
