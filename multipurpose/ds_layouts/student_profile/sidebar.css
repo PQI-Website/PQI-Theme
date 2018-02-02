@@ -1,3 +1,7 @@
+#sidebar {
+  position: sticky;
+  top: 60px
+}
 .outer {
   background: grey;
   width: 500px;
@@ -9,5 +13,41 @@
 }
 .detailblock.main h2 {
   font-weight: bold;
-  font-size: 25px;  
+  font-size: 25px;
 }
+#sidebar .detailblock.main img {
+    margin: 10px 0 0 0;
+}
+h3.field_label {
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 21px;
+}
+div.sites>ul {
+    margin: 0em 1.5em;
+}
+div.position {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.education ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 5px;
+}
+.education li {
+    border-top: 1px dashed #ddd;
+    padding: 5px 0px;
+}
+.education li:last-child {
+    border-bottom: 1px dashed #ddd;
+}
+/*
+.education li {
+    margin-bottom: 10px;
+    display: block;
+    background: #fefefe;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+*/
