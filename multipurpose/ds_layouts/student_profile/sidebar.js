@@ -22,4 +22,9 @@
       $(".shadowlink").random().click();
 	});
 
+  /*  */
+  $(window).bind('hashchange', function() {
+    if (window.location.hash == '')
+      $.colorbox.close();
+  });
 </script>
