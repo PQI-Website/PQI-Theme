@@ -1,7 +1,7 @@
 <?php
-function ds_member_profile() {
+function ds_student_profile() {
   return array(
-    'label' => t('Member Profile'),
+    'label' => t('Student Profile'),
     'regions' => array(
       'photo' => t('Profile Photo'),
       'contact' => t('Contact info'),
@@ -9,8 +9,6 @@ function ds_member_profile() {
       'affiliation' => t('Affiliation'),
       'education' => t('Education'),
       'research' => t('Research'),
-      'publications_left' => t('Publications Left'),
-      'publications_right' => t('Publications Right'),
       'sidebar' => t('Sidebar'),
     ),
     // Add this line if there is a default css file.
