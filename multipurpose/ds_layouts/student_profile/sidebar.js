@@ -1,5 +1,5 @@
 <script>
-  /* Load content into sidebar */
+  /* Load content into sidebar on click */
 	$('.shadowlink').click(function(event) {
 		event.preventDefault();
 		window.location.hash = $(this).data("details");
@@ -11,6 +11,11 @@
       $.colorbox({html:$('<div>').append($('#sidebar').clone()).html()});
 	});
 
+	/* Load by specified hash */
+	$(window).load(function() {
+		if (window.location.hash != '')
+			$(".shadowlink[data-details='"+window.location.hash.substring(1)+"']").click();
+	});
 
 	/* jQuery Random */
 	$.fn.random = function() {
@@ -22,9 +27,12 @@
       $(".shadowlink").random().click();
 	});
 
-  /*  */
+  /* Profile hash changed */
   $(window).bind('hashchange', function() {
     if (window.location.hash == '')
       $.colorbox.close();
+		else {
+			$(".shadowlink[data-details='"+window.location.hash.substring(1)+"']").click();
+		}
   });
 </script>

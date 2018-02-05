@@ -2,7 +2,7 @@
   position: sticky;
   top: 60px
 }
-.outer {
+.outer, .views-field-nid-1 {
   background: grey;
   width: 500px;
   padding: 0 10px;
@@ -17,6 +17,9 @@
 }
 #sidebar .detailblock.main img {
     margin: 10px 0 0 0;
+}
+#sidebar .filler {
+  text-align: center;
 }
 h3.field_label {
     font-weight: bold;
@@ -58,5 +61,9 @@ div.position {
     }
     div.content div#sidebar {
         display: none;
+    }
+    .page-node #content-wrap .view-members-fancy .views-row
+    {
+      max-width: 150px;
     }
 }
