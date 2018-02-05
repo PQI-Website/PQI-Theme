@@ -1,0 +1,110 @@
+/**
+ * @file
+ * Styling for the ds_2col template.
+ */
+
+#primary {
+    margin-bottom: 50px;
+}
+
+#contact-wrap{
+	display: flex;
+}
+
+div.group-contact h1 {
+	margin-bottom: 0;
+}
+
+div.group-websites div{float: left;}
+div.group-websites div.field-label{font-weight: bold;}
+div.group-websites div.field::after{content: " | ";}
+div.group-websites div.field:last-child:after{content: '';}
+
+.group-contact>div
+{
+	display: table-row;
+}
+
+.block-title{
+	font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+	margin-top: 10px;
+}
+
+#block-system-main div.content div.ds-profile{
+	width: 75%;
+	float: left;
+}
+div.group-sidebar{
+	float:right;
+	width: calc(25% - 2.1em);
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ddd;
+}
+.view-display-id-other_members_sidebar .views-row.views-row-last {border: 0;}
+.view-display-id-other_members_sidebar .views-row {border-bottom: 1px solid #ddd;}
+.view-display-id-other_members_sidebar .views-field-field-about p {
+	font-size: 11px;
+}
+.view-display-id-other_members_sidebar .views-field.views-field-field-profile-photo img {
+    max-width: 150px !important;
+    float: left;
+    margin: 5px 10px 0 0 !important;
+}
+ 
+.ds-profile .group-photo {
+	float: left; /* LTR */
+	width: 200px;
+	margin-right: 20px;
+}
+div.group-publications div.field-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 10px;
+}
+.ds-profile .group-contact {
+	float: left; /* LTR */
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.group-contact .field-label {
+    padding-right: 12px;
+}
+
+.group-publications>div {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+.group-affiliation {
+	clear: both;
+}
+
+
+@media only screen and (max-width: 1280px) {
+	div.group-sidebar{display: none;}
+	div#block-system-main div.content div.ds-profile{width: 100%;}
+}
+@media only screen and (max-width: 768px) {
+	div#contact-wrap {
+		display: block;
+	}
+	div#contact-wrap>div
+	{
+		clear: both;
+		float: none;
+	}
+	div.group-contact div {
+		display: inline;
+		text-align: center;
+	}
+	div.group-publications>div {
+		display: block;
+		width: 100%;
+	}
+	
+}
