@@ -1,11 +1,38 @@
+.field-name-field-profile-photo {
+    display: inline-block;
+    float: right;
+}
+.page-node #content-wrap .field-name-field-profile-photo img {
+    margin: 0;
+}
 #block-system-main div.content div.ds-profile{
 	width: 75%;
 	float: left;
 }
+div.section-title {
+  clear: both;
+}
+
 div.group-sidebar{
 	float:right;
 	width: calc(25% - 2.1em);
 	margin-left: 1em;
 	padding-left: 1em;
 	border-left: 1px solid #ddd;
+}
+.group-affiliation
+{
+    padding: 15px 0px;
+}
+.group-education ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 5px;
+}
+.group-education li {
+    border-top: 1px dashed #ddd;
+    padding: 5px 0px;
+}
+.group-education li:last-child {
+    border-bottom: 1px dashed #ddd;
 }
