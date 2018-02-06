@@ -16,22 +16,19 @@
   </div>
 
   <<?php print $affiliation_wrapper ?> class="group-affiliation<?php print $affiliation_classes; ?>">
-  <div class="section-title">Affiliation:</div>
+  <div class="section-title">Affiliation</div>
     <?php print $affiliation; ?>
   </<?php print $affiliation_wrapper ?>>
 
   <<?php print $education_wrapper ?> class="group-education<?php print $education_classes; ?>">
-  <div class="section-title">Education:</div>
     <?php print $education; ?>
   </<?php print $education_wrapper ?>>
 
   <<?php print $research_wrapper ?> class="group-research<?php print $research_classes; ?>">
-  <div class="section-title">Research:</div>
     <?php print $research; ?>
   </<?php print $research_wrapper ?>>
 
   <<?php print $websites_wrapper ?> class="group-websites<?php print $websites_classes; ?>">
-		<div class="section-title">Websites:&nbsp;</div>
 		<?php print $websites; ?>
 	</<?php print $websites_wrapper ?>>
 
