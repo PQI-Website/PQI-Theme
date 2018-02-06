@@ -5,10 +5,10 @@ function ds_student_profile() {
     'regions' => array(
       'photo' => t('Profile Photo'),
       'contact' => t('Contact info'),
-      'websites' => t('Related sites'),
       'affiliation' => t('Affiliation'),
       'education' => t('Education'),
-      'research' => t('Research'),
+      'research' => t('Scholarly Work'),
+      'websites' => t('Websites'),
       'sidebar' => t('Sidebar'),
     ),
     // Add this line if there is a default css file.
