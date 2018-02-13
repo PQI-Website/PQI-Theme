@@ -467,6 +467,16 @@ table thead tr a img {
 table th img[alt*="sort"] {
     margin: 0 !important;
     padding: 3px !important;
+    border: none !important;
+}
+table tr.odd {
+    background: #fff;
+}
+table tr.even {
+    background: #eee;
+}
+table td.active {
+    background-color: unset;
 }
 
 
