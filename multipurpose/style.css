@@ -361,14 +361,12 @@ div.view.view-recent-news article img{
 	float: left !important;
 }
 
-/* View Popular News */
-/*
-div.field-name-field-sidebar-content {
-	margin-left: 1em;
-	padding-left: 1em;
-	border-left: 1px solid #ddd;
+/* Fix table sort buttons being very large */
+table th img[alt*="sort"] {
+    margin: 0 !important;
+    padding: 3px !important;
 }
-*/
+
 div.view-popular-news div.section-title {
 	margin-left: .5em;
 }
