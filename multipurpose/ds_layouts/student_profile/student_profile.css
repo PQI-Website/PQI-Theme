@@ -36,3 +36,21 @@ div.group-sidebar{
 .group-education li:last-child {
     border-bottom: 1px dashed #ddd;
 }
+div.addressfield-container-inline:after {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+    div#block-system-main div.content div.ds-profile {
+        width: 100%;
+    }
+    div.group-sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    div.field-name-field-profile-photo {
+      float: none;
+    }
+}
