@@ -361,11 +361,6 @@ div.view.view-recent-news article img{
 	float: left !important;
 }
 
-/* Fix table sort buttons being very large */
-table th img[alt*="sort"] {
-    margin: 0 !important;
-    padding: 3px !important;
-}
 
 div.view-popular-news div.section-title {
 	margin-left: .5em;
@@ -468,11 +463,11 @@ table thead tr a img {
     float: right;
     margin: 2px 0px;
 }
-div.view-members-directory tr {transition: 0.3s all;}
-div.view-members-directory tr.even {background-color: #fff;}
-div.view-members-directory tr:hover {background-color: #E8F9FF;}
-div.view-members-directory tr.clickable-rows {cursor: pointer;}
-div.view-members-directory td.active {background-color: inherit;}
+/* Fix table sort buttons being very large */
+table th img[alt*="sort"] {
+    margin: 0 !important;
+    padding: 3px !important;
+}
 
 
 /* Preface
