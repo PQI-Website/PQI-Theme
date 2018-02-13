@@ -78,8 +78,13 @@ table {
   margin: 0 0 1.5em;
   width: 100%;
   border:1px solid #ddd;
-  border-right:none;
   background:#fff;
+}
+
+thead {
+  border: 1px solid #555555;
+  border-bottom: #999 5px solid;
+  border-right: 2px solid #555555;
 }
 
 th {
@@ -96,7 +101,9 @@ tr{
 td{
   padding:5px 10px;
   border-top:1px solid #ddd;
-  border-right:1px solid #ddd;
+}
+td:not(:last-child) {
+    border-right: 1px solid #ddd;
 }
 
 /* Typography
@@ -478,7 +485,15 @@ table tr.even {
 table td.active {
     background-color: unset;
 }
-
+table th a:hover {
+    color: #ddd;
+}
+table th a {
+    color: unset;
+}
+thead {
+    border-bottom: #999 5px solid;
+}
 
 /* Preface
 ================================================== */
