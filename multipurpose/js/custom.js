@@ -19,9 +19,9 @@ jQuery(document).ready(function() {
 		var postDate = new Date(jQuery(this).text());
 		var offset = postDate.getTimezoneOffset()*60000;
 		postDate.setTime(postDate.getTime() - offset);
-		
-		jQuery(this).attr("datetime", postDate.toISOString()); 
-		jQuery(this).text(jQuery.timeago(postDate.toISOString())); 
+
+		jQuery(this).attr("datetime", postDate.toISOString());
+		jQuery(this).text(jQuery.timeago(postDate.toISOString()));
 	});
 });
 
@@ -71,12 +71,12 @@ jQuery(document).ready(function() {
     });
 });
 
-$(window).load(function() { 
-   $("img").each(function(){ 
-      var image = $(this); 
-      if(image.context.naturalWidth == 0 || 
-      image.readyState == 'uninitialized'){  
+$(window).load(function() {
+   $("img").each(function(){
+      var image = $(this);
+      if(image.context.naturalWidth == 0 ||
+      image.readyState == 'uninitialized'){
          $(image).unbind("error").hide();
-      } 
-   }); 
+      }
+   });
 });

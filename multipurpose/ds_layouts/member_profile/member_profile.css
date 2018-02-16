@@ -53,7 +53,7 @@ div.group-sidebar{
     float: left;
     margin: 5px 10px 0 0 !important;
 }
- 
+
 .ds-profile .group-photo {
 	float: left; /* LTR */
 	width: 200px;
@@ -79,6 +79,9 @@ div.group-publications div.field-label {
     display: inline-block;
     width: 48%;
     vertical-align: top;
+}
+.group-publications_right {
+    margin-left: 3%;
 }
 .group-affiliation {
 	clear: both;
@@ -106,5 +109,5 @@ div.group-publications div.field-label {
 		display: block;
 		width: 100%;
 	}
-	
+
 }
