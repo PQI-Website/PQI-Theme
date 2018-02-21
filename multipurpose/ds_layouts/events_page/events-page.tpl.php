@@ -31,11 +31,12 @@
 			</<?php print $when_wrapper ?>>
 		<?php endif; ?>
 
-		<?php if ($when): ?>
+		<?php if ($where): ?>
 			<<?php print $where_wrapper ?> class="group-where<?php print $where_classes; ?>">
 			  <?php print $where; ?>
 			</<?php print $where_wrapper ?>>
 		<?php endif; ?>
+      <div class="spacer" style="clear: both;"></div>
 		</div>
 	<?php endif; ?>
 

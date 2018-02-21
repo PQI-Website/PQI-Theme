@@ -42,7 +42,7 @@ div.addressfield-container-inline:after {
 
 @media screen and (max-width: 960px) {
     div#block-system-main div.content div.ds-profile {
-        width: 100%;
+      width: 100%;
     }
     div.group-sidebar {
         display: none;

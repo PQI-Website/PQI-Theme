@@ -22,7 +22,7 @@
 div.group-left div.vital-info{
 	border-bottom: 5px solid #dedede;
     margin-bottom: 10px;
-    padding-bottom: 45px;
+    padding-bottom: 10px;
 }
 
 div.group-left div.vital-info,
@@ -61,4 +61,22 @@ div.field-name-field-speaker-institution div.field-items{
 
 div.field-name-body{
 	clear: both;
+}
+
+@media screen and (max-width: 960px) {
+    .ds-2col-fluid > .group-right {
+        display: none;
+    }
+    div.ds-2col-fluid > .group-left {
+      width: 100%
+    }
+
+    div.vital-info .field-name-field-tags {
+        float: none;
+        margin-bottom: 15px;
+    }
+    div.vital-info .field-label {
+        float: none;
+        display: block;
+    }
 }
