@@ -46,10 +46,10 @@
 	}
 	/* News Directory */
 	div[about="/news"] div.group-left {
-		width: calc(100% - 410px);
+		width: calc(100% - 35vw);
 	}
 	div[about="/news"] div.group-right {
-		width: 410px;
+		width: 30vw;
 	}
 
 	/* Calendar Page */
