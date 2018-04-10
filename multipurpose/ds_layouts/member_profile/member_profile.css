@@ -34,11 +34,11 @@ div.group-websites div.field:last-child:after{content: '';}
 
 #block-system-main div.content div.ds-profile{
 	width: 75%;
-	float: left;
+  display: inline-block;
 }
 div.group-sidebar{
-	float:right;
-	width: calc(25% - 2.1em);
+  display: inline-block;
+	width: calc(25% - 3.1em);
 	margin-left: 1em;
 	padding-left: 1em;
 	border-left: 1px solid #ddd;
