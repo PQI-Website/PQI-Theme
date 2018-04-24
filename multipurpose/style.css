@@ -986,6 +986,7 @@ ul.inline, ul.links.inline {
 }
 
 div.section-title,
+div.block>h2,
 div#block-menu-menu-events h2,
 div#block-menu-menu-about-pqi h2
 {
