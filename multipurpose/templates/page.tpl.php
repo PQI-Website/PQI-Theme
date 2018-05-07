@@ -77,7 +77,7 @@
 	<?php if ($page['banner_inset']): ?>
 		<div id="banner-inset">
 			<?php print render($page['banner_inset']); ?>
-		</div> 
+		</div>
 	<?php endif; ?>
     <header id="header" class="site-header clr">
       <div id="logo" class="clr">
@@ -93,10 +93,10 @@
         <?php endif; ?>
       </div>
       <?php if (theme_get_setting('socialicon_display', 'multipurpose')): ?>
-      <?php 
-      $twitter_url = check_plain(theme_get_setting('twitter_url', 'multipurpose')); 
-      $facebook_url = check_plain(theme_get_setting('facebook_url', 'multipurpose')); 
-      $google_plus_url = check_plain(theme_get_setting('google_plus_url', 'multipurpose')); 
+      <?php
+      $twitter_url = check_plain(theme_get_setting('twitter_url', 'multipurpose'));
+      $facebook_url = check_plain(theme_get_setting('facebook_url', 'multipurpose'));
+      $google_plus_url = check_plain(theme_get_setting('google_plus_url', 'multipurpose'));
       $pinterest_url = check_plain(theme_get_setting('pinterest_url', 'multipurpose'));
       ?>
       <div id="header-social" class="clr">
@@ -127,14 +127,14 @@
     <a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span>Menu</a>
     <nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
       <div id="main-menu" class="menu-main-container">
-        <?php 
+        <?php
           $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
           print drupal_render($main_menu_tree);
         ?>
       </div>
     </nav>
   </div>
-  
+
   <?php if ($is_front): ?>
   <?php if (theme_get_setting('slideshow_display','multipurpose')): ?>
   <div id="homepage-slider-wrap" class="clr flexslider-container">
@@ -185,7 +185,7 @@
   <div id="main" class="site-main clr">
     <?php $sidebarclass = ""; if($page['sidebar_first']) { $sidebarclass="left-content"; } else if ($page['sidebar_second']) { $sidebarclass="right-content"; } ?>
 
-	
+
     <div id="primary" class="content-area clr">
       <section id="content" role="main" class="site-content <?php print $sidebarclass; ?> clr">
         <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
@@ -205,12 +205,12 @@
       <?php if ($page['sidebar_second']): ?>
         <aside id="secondary" class="sidebar-container-left" role="complementary">
          <?php print render($page['sidebar_second']); ?>
-        </aside> 
+        </aside>
       <?php endif; ?>
       <?php if ($page['sidebar_first']): ?>
         <aside id="secondary" class="sidebar-container" role="complementary">
          <?php print render($page['sidebar_first']); ?>
-        </aside> 
+        </aside>
       <?php endif; ?>
     </div>
   </div>
@@ -224,7 +224,7 @@
           <?php print render($page['footer']); ?>
         </div>
       <?php endif; ?>
-	
+
       <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
         <div id="footer-block-wrap" class="clr">
           <?php if($page['footer_first']): ?><div class="span_1_of_3 col col-1 footer-block ">
@@ -238,13 +238,13 @@
           </div><?php endif; ?>
         </div>
       <?php endif; ?>
-      
+
     </div>
   </div>
   <?php endif; ?>
 
   <footer id="copyright-wrap" class="clear">
-	<img alt="" src="/sites/default/files/global/PQI%20Letter%20Logo%20%28left%29.png" style="width: 100%; max-width: 350px;">
+	<img alt="" src="/sites/default/files/global/pqi-logo-footer.png" style="width: 100%; max-width: 350px;">
     <div id="copyright"><?php print t('Site copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php /* print t('Theme by'); ?>  <a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>.*/?></div>
   </footer>
 </div>

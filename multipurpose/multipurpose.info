@@ -1,5 +1,5 @@
-name = PQI Theme
-description = PQI Theme. Based on the 'Multipurpose' theme by <a href="http://www.devsaran.com">Devsaran.com</a>.
+name = Pittsburgh Quantum Institute theme
+description = The <a href="https://github.com/PQI-Website/PQI-Theme/">PQI theme</a>. Forked from the 'Multipurpose' theme by <a href="http://www.devsaran.com">Devsaran</a>.
 
 core = 7.x
 engine = phptemplate
@@ -50,6 +50,5 @@ settings[pinterest_url]  = "http://pinterest.com"
 ; Information added by Drupal.org packaging script on 2014-09-01
 version = "7.x-1.0"
 core = "7.x"
-project = "multipurpose"
+project = "pqitheme"
 datestamp = "1409600329"
-
