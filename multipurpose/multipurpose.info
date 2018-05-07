@@ -50,5 +50,5 @@ settings[pinterest_url]  = "http://pinterest.com"
 ; Information added by Drupal.org packaging script on 2014-09-01
 version = "7.x-1.0"
 core = "7.x"
-project = "pqitheme"
+project = "multipurpose"
 datestamp = "1409600329"
