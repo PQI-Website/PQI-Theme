@@ -1,29 +1,12 @@
 // Fix subscripts globally
+/*
 jQuery(document).ready(function() {
-	$("body *").replaceText( /LaAlO3/gi, "LaAlO<sub>3<\/sub>" );
-	$("body *").replaceText( /SrTiO3/gi, "SrTiO<sub>3<\/sub>" );
-	$("body *").replaceText( /TiO2/gi, "TiO<sub>2<\/sub>" );
-	$("body *").replaceText( /CH3OH/gi, "CH<sub>3<\/sub>OH" );
+	jQuery("body *").replaceText( /LaAlO3/gi, "LaAlO<sub>3<\/sub>" );
+	jQuery("body *").replaceText( /SrTiO3/gi, "SrTiO<sub>3<\/sub>" );
+	jQuery("body *").replaceText( /TiO2/gi, "TiO<sub>2<\/sub>" );
+	jQuery("body *").replaceText( /CH3OH/gi, "CH<sub>3<\/sub>OH" );
 });
-
-//Disable image links in storify
-jQuery(window).on('load', function(){
-	jQuery('div#storify-minimal div.element.image a').click(function(e) {
-		e.preventDefault();
-	});
-});
-
-// Implement Fuzzy Dates for storify
-jQuery(document).ready(function() {
-	jQuery('p#meta span').each(function() {
-		var postDate = new Date(jQuery(this).text());
-		var offset = postDate.getTimezoneOffset()*60000;
-		postDate.setTime(postDate.getTime() - offset);
-
-		jQuery(this).attr("datetime", postDate.toISOString());
-		jQuery(this).text(jQuery.timeago(postDate.toISOString()));
-	});
-});
+*/
 
 jQuery(window).bind("load resize", ddblockSizeCheck);
 function ddblockSizeCheck() {
