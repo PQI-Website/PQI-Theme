@@ -1015,7 +1015,7 @@ div#auth_box h2.title {
 div#auth_box #bottom_part .login_link, div#auth_box #bottom_part .back_link, div#auth_box #bottom_part .password_link {
     padding: 0;
 }
-div#auth_box #bottom_part .login_link a, div#auth_box #bottom_part .back_link a , div#auth_box #bottom_part .password_link a {
+div#auth_box #bottom_part .login_link a, div#auth_box #bottom_part .back_link a, div#auth_box #bottom_part .password_link a, div#auth_box #bottom_part .register_link a {
     display: block;
     text-align: center;
     background: #aaa;
