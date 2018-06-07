@@ -15,17 +15,25 @@
     <?php print $header; ?>
   </<?php print $header_wrapper ?>>
 
-  <<?php print $left_wrapper ?> class="group-left<?php print $left_classes; ?>">
-    <?php print $left; ?>
-  </<?php print $left_wrapper ?>>
+  <<?php print $column1_wrapper ?> class="column group-column1<?php print $column1_classes; ?>">
+    <?php print $column1; ?>
+  </<?php print $column1_wrapper ?>>
 
-  <<?php print $middle_wrapper ?> class="group-middle<?php print $middle_classes; ?>">
-    <?php print $middle; ?>
-  </<?php print $middle_wrapper ?>>
+  <<?php print $column2_wrapper ?> class="column group-column2<?php print $column2_classes; ?>">
+    <?php print $column2; ?>
+  </<?php print $column2_wrapper ?>>
 
-  <<?php print $right_wrapper ?> class="group-right<?php print $right_classes; ?>">
-    <?php print $right; ?>
-  </<?php print $right_wrapper ?>>
+  <<?php print $column3_wrapper ?> class="column group-column3<?php print $column3_classes; ?>">
+    <?php print $column3; ?>
+  </<?php print $column3_wrapper ?>>
+
+  <<?php print $column4_wrapper ?> class="column group-column4<?php print $column4_classes; ?>">
+    <?php print $column4; ?>
+  </<?php print $column4_wrapper ?>>
+
+  <<?php print $column5_wrapper ?> class="column group-column5<?php print $column5_classes; ?>">
+    <?php print $column5; ?>
+  </<?php print $column5_wrapper ?>>
 
   <<?php print $footer_wrapper ?> class="group-footer<?php print $footer_classes; ?>">
     <?php print $footer; ?>
