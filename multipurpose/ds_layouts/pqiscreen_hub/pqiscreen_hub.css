@@ -20,13 +20,30 @@ div#wrap{
     margin: 20px;
 	color: #333;
 }
+
+/* Main layout */
+.column {
+    display: inline-block;
+    width: 19%;
+    vertical-align: top;
+}
+.column.group-column2 {
+    width: 40%;
+}
+.column.group-column1 {
+    width: 15%;
+}
+
+
+
+
 /* Titles & text */
 div.section-title, h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4 {
 	color: #333 !important;
 }
  div h1.page-title {
-    font-size: 80px;
+    font-size: 20px;
     line-height: 1.8em;
     border-bottom: 0.08em black solid;
 }
@@ -43,74 +60,7 @@ div.view-empty{
 	text-align: center;
 }
 
-/*
-	Publications
-*/
-div.view-storify-publications{
-	max-height: 800px;
-}
-div div.view-storify-publications div.view-content{
-	overflow-y: hidden;
-}
-div.view-storify-publications div.view-content div p#description {
-    color: #fff !important;
-}
-div.view-storify-publications div.view-content div div.text {
-    color: #fff !important;
-}
-div.view-storify-publications div.view-content div div.text a {
-    color: #fff !important;
-}
 
-
-
-/*
-	Block backgrounds
-*/
-div div.view-storify-publications div.views-row, #content article.node {
-    background-color: rgba(100, 100, 100, 0.5);
-    background-image: none;
-    color: #fff;
-}
-.view-events-directory table {
-    background-color: rgba(1,1,1,0);
-}
-.view-events-directory table tr.even, .view-events-directory table tr.odd {
-    background-color: rgba(255,255,255,.6);
-}
-
-/*
-Calendar
-*/
-.view-events-directory td.views-field-title p {
-	margin-bottom: 0;
-}
-div div.view-events-directory td.views-field-field-event-date{
-	padding-top: 0;
-}
-
-/*
-	News block
-*/
-div.view.view-recent-news article ul.meta{
-	display: none;
-}
-div.field-name-field-tags{
-	display: none;
-}
-div.view.view-recent-news article .links li a, li.node-readmore a {
-	display: none;
-}
-#content article.node h2.title a {
-    color: #fff !important;
-}
-#content article.node {
-    border-bottom: 0;
-    padding: 10px;
-}
-#content article.node>br {
-	display: none;
-}
 
 /* Footer */
 footer#copyright-wrap img {
@@ -140,31 +90,4 @@ div.field-name-current-weather a#link_get_widget {
 }
 div.aw-widget-content{
     background: rgba(255,255,255,.3) !important;
-}
-
-
-.ds-3col-stacked-equal > .group-header {
-  clear: both;
-}
-
-.ds-3col-stacked-equal > .group-left {
-  width: 20%;
-  float: left; /* LTR */
-}
-
-.ds-3col-stacked-equal > .group-middle {
-  width: calc(57% - 40px);
-  margin: 0 20px;
-  float: left; /* LTR */
-}
-tr td.views-field-field-speaker-s- {
-    width: 18%;
-}
-.ds-3col-stacked-equal > .group-right {
-  width: 23%;
-  float: right; /* LTR */
-}
-
-.ds-3col-stacked-equal > .group-footer {
-  clear: both;
 }
