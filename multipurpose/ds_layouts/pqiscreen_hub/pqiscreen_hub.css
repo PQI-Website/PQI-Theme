@@ -17,24 +17,79 @@ div#wrap{
 	/* background: rgba(255, 255, 255, 0.5); */
 	background: rgba(46, 97, 144, 0.0);
 	width: auto;
-    margin: 20px;
+  margin: 0px;
+  padding: 0 10px;
 	color: #333;
 }
 
-/* Main layout */
+/* Banner */
+.group-header {
+    height: 155px;
+}
+.group-header #banner {
+    width: 100%;
+    max-width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 !important;
+    margin: -35px 0 !important;
+    clip: rect(35px,auto,200px,0px);
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Main Column layout */
 .column {
     display: inline-block;
     width: 19%;
     vertical-align: top;
 }
-.column.group-column2 {
-    width: 40%;
-}
 .column.group-column1 {
-    width: 15%;
+    width: 10%;
+}
+.column.group-column2 {
+    width: 35%;
+}
+.column.group-column3 {
+    width: 30%;
+}
+.column.group-column4 {
+    width: 14%;
+}
+.column.group-column5 {
+    width: 10%;
+    margin-top: -20px;
 }
 
+/* Block formatting */
+#ddblock-8 .slide-body-inner p {
+    font-size: 12px !important;
+}
 
+tr td.views-field-field-speaker-s- {
+    width: 18%;
+}
+
+div div.view.view-recent-news article img {
+    max-width: 150px !important;
+    height: auto !important;
+    margin: 0px .1em 0px 0px !important
+}
+div.view.view-recent-news article p {
+    font-size: 14px !important;
+}
+
+div.view.view-recent-news article ul.meta {
+  top: -18px !important;
+}
+.node header h2.title {
+    font-size: 1.4em;
+    padding-top: 5px;
+}
 
 
 /* Titles & text */
@@ -43,15 +98,10 @@ h1 a, h2 a, h3 a, h4 a, a h1, a h2, a h3, a h4 {
 	color: #333 !important;
 }
  div h1.page-title {
+    display: none;
     font-size: 20px;
     line-height: 1.8em;
     border-bottom: 0.08em black solid;
-}
-div div.section-title {
-    font-size: 36px;
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 1.5em;
 }
 p, div.element.text {
     font-size: 18px !important;
