@@ -24,7 +24,7 @@ div#wrap{
 
 /* Banner */
 .group-header {
-    height: 155px;
+    height: 130px;
 }
 .group-header #banner {
     width: 100%;
@@ -33,8 +33,11 @@ div#wrap{
     top: 0;
     left: 0;
     padding: 0 !important;
+    margin: 0 !important;
+    /*
     margin: -35px 0 !important;
     clip: rect(35px,auto,200px,0px);
+    */
 }
 
 body {
@@ -47,22 +50,27 @@ body {
     display: inline-block;
     width: 19%;
     vertical-align: top;
+    box-shadow: #00000047 7px 8px 7px 3px;
+    padding: 5px 10px;
+    background: #ffffff6b;
+    margin: 0 10px;
 }
 .column.group-column1 {
-    width: 10%;
+    width: 15%;
 }
 .column.group-column2 {
-    width: 35%;
+    width: 30%;
 }
 .column.group-column3 {
     width: 30%;
 }
 .column.group-column4 {
-    width: 14%;
+    width: 15%;
 }
 .column.group-column5 {
     width: 10%;
     margin-top: -20px;
+    display: none;
 }
 
 /* Block formatting */
@@ -131,6 +139,10 @@ div.field-name-current-weather div.aw-widget-current {
     top: 0;
     right: 0;
     width: calc(30% + 20px);
+}
+div.aw-widget-current-inner div.aw-widget-content{
+  height: 131px;
+  box-sizing: border-box;
 }
 div.field-name-current-weather time:before {
     content: 'at ';
