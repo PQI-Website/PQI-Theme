@@ -63,6 +63,7 @@ body {
 }
 .column.group-column3 {
     width: 30%;
+    padding-bottom: 15px;
 }
 .column.group-column4 {
     width: 15%;
@@ -74,30 +75,68 @@ body {
 }
 
 /* Block formatting */
+.view-events-directory .view-content {
+    font-size: 12px;
+}
+
 #ddblock-8 .slide-body-inner p {
     font-size: 12px !important;
+    display: none;
+}
+div.block-ddblock .slider-inner div.slide{
+  width: 96% !important;
+}
+div.ddblock-cycle-featuredmember h2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+div.ddblock-cycle-featuredmember h3 {
+    font-size: 14px !important;
 }
 
 tr td.views-field-field-speaker-s- {
     width: 18%;
 }
 
+div.view-id-recent_news .view-content {
+    padding: 15px;
+    background-image: url('/themes/multipurpose/custom/modules/ddblock/featuredmember/img/crossword.png');
+}
 div div.view.view-recent-news article img {
     max-width: 150px !important;
     height: auto !important;
-    margin: 0px .1em 0px 0px !important
 }
 div.view.view-recent-news article p {
-    font-size: 14px !important;
+    font-size: 12px !important;
 }
-
 div.view.view-recent-news article ul.meta {
   top: -18px !important;
 }
+#content .node-teaser.node-article {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+div.view.view-recent-news .node-readmore, .view-recent-news .view-footer {
+  display: none;
+}
+
 .node header h2.title {
     font-size: 1.4em;
     padding-top: 5px;
 }
+
+/* Videos */
+div.view-id-videos>div.view-footer {
+    padding-bottom: 10px;
+}
+div.view-id-videos>div.view-footer>br {
+    display: none;
+}
+div.view-id-videos a.read-more-button {
+    background-color: white;
+}
+
 
 
 /* Titles & text */
@@ -150,6 +189,16 @@ div.field-name-current-weather time:before {
 div.field-name-current-weather a#link_get_widget {
     display: none;
 }
+div.aw-widget-current div.aw-widget-current-inner > div.aw-widget-content {
+    border: none !important;
+}
 div.aw-widget-content{
-    background: rgba(255,255,255,.3) !important;
+  background: rgba(255,255,255,0) !important;
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.7) 100%) !important;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(19%, rgba(255,255,255,0.7)), color-stop(100%, rgba(255,255,255,0.7))) !important;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.7) 100%) !important;
+  background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.7) 100%) !important;
+  background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.7) 100%) !important;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 19%, rgba(255,255,255,0.7) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 )!important;
 }
