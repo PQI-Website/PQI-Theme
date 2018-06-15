@@ -83,6 +83,9 @@ body {
     font-size: 12px !important;
     display: none;
 }
+div#ddblock-8 {
+    margin-bottom: 20px;
+}
 div.block-ddblock .slider-inner div.slide{
   width: 96% !important;
 }
@@ -113,17 +116,21 @@ div.view.view-recent-news article ul.meta {
   top: -18px !important;
 }
 #content .node-teaser.node-article {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+#content .views-row:last-of-type .node-teaser.node-article {
     border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 div.view.view-recent-news .node-readmore, .view-recent-news .view-footer {
   display: none;
 }
 
 .node header h2.title {
-    font-size: 1.4em;
-    padding-top: 5px;
+  font-size: 1.4em;
+  padding-top: 5px;
 }
 
 /* Videos */
