@@ -2,6 +2,7 @@
  * @file
  * Styling for the ds_2col_fluid template.
  */
+ .iframe_title{display: none;}
 
 .ds-2col-fluid > .group-left {
   float: left; /* LTR */
