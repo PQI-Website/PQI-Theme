@@ -418,21 +418,21 @@ div.view-popular-news a.more-link::after {
 /* Events Page
 ================================================== */
 /* Next / Latest event */
-.page-node #content-wrap div.view-events-directory.view-display-id-events_latest_event div.views-field-field-image img {
+.page-node #content-wrap div.view-events-directory div.views-field-field-image img {
 	border: 0;
 	margin: 0 10px 0 0;
 	float: left;
 	width: 33%;
 	max-width: 600px;
 }
-div.view-events-directory.view-display-id-events_latest_event div.views-field-title a {
+div.view-events-directory div.views-field-title a {
 	font-size: 2em;
 	color: #333;
 }
-div.view-events-directory.view-display-id-events_latest_event div.views-field-title a:hover {
+div.view-events-directory div.views-field-title a:hover {
 	color:#02aace;
 }
-div.view-events-directory.view-display-id-events_latest_event div.views-field-body p {
+div.view-events-directory div.views-field-body p {
 	overflow: auto;
 }
 
