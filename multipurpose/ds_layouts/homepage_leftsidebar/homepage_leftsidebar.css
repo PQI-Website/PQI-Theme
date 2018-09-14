@@ -44,7 +44,7 @@ div#featured-image {
     width: calc(100% + 60px);
     margin: 0 0 10px -30px;
 	background-repeat: no-repeat;
-    background-position:center; 
+    background-position:center;
 }
 div#featured-image a {
     width: 100%;
@@ -77,11 +77,11 @@ div.ddblock-cycle-upright10p div.slider-inner {
 	width: 100% !important;
 }
 
-div#left_sidebar {
+div#left_sidebar, div#left_publications {
     width: 20%;
     float: left;
     font-size: smaller;
-	margin-right: 2%;
+		margin-right: 2%;
 }
 
 div#center_pane {
@@ -150,11 +150,11 @@ div.view-watching div.views-row .video iframe
 	}
 }
 
-@media only screen and (max-width: 768px) {	
+@media only screen and (max-width: 768px) {
 
 	.page-node #content-wrap div.ddblock-pager.number-pager li a span.thumb{ display: none;}
 	div.ddblock-pager.number-pager li a span.pager-text {padding-right: 10px;}
-	
+
 	#right_pane {
 		/* display: none; */
 		width: 100% !important;
@@ -162,8 +162,8 @@ div.view-watching div.views-row .video iframe
 		overflow: hidden;
 	}
 	div div#center_pane {width: 100%}
-	
-	div#left_sidebar div.group-sidebar div.group-sidebar_publications {display: none;}
+
+	div#left_publications {display: none;}
 	div#left_sidebar div.group-sidebar_events, div#left_sidebar div.group-sidebar_members{
 		width: 48% !important;
 	}
@@ -180,7 +180,7 @@ div.view-watching div.views-row .video iframe
 	}
 	*/
 }
-@media only screen and (max-width: 500px) {	
+@media only screen and (max-width: 500px) {
 	div.view-watching {
 		overflow: hidden !important;
 	}
@@ -199,7 +199,7 @@ div#latest_pub_scroll{
 		overflow: hidden;
 	}
 }
-
+/*
 .group-sidebar_publications div.field-name-latest-publications div.field-label{
     border-top: 5px solid #666;
     border-bottom: 3px solid #bbb;
@@ -211,8 +211,8 @@ div#latest_pub_scroll{
     margin-bottom: 10px;
     font-size: 16px;
 }
-
-@media only screen and (max-width: 512px) {	
+*/
+@media only screen and (max-width: 512px) {
 	div div.ddblock-cycle-upright10p .slider {
 		float: none;
 		width: 100% !important;
@@ -229,16 +229,16 @@ div#latest_pub_scroll{
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-	
+
 	/*
 	Show only events block
 	Make it 100% width
 	Show only first event
 	*/
-	div div#left_sidebar div.group-sidebar_publications{display: none;}
+	div#left_publications{display: none;}
 	div div#left_sidebar div.group-sidebar_members{display: none;}
 	div#left_sidebar div.group-sidebar_events{width: 100% !important;}
 	div#left_sidebar div.group-sidebar_events div.views-row:not(.views-row-1){display: none;}
-	
+
 	div.content div.view-recent-news div.views-row:not(.views-row-1){display: none;}
 }

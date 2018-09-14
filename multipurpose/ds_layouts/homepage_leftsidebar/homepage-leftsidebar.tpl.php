@@ -68,17 +68,18 @@
 				<?php print $sidebar_events; ?>
 			</<?php print $sidebar_events_wrapper ?>>
 
-			<<?php print $sidebar_publications_wrapper ?> class="group-sidebar_publications<?php print $sidebar_publications_classes; ?>">
-				<?php print $sidebar_publications; ?>
-			</<?php print $sidebar_publications_wrapper ?>>
-
-			<<?php print $sidebar_members_wrapper ?> class="group-sidebar_members<?php print $sidebar_members_classes; ?>">
+			<<?php print $sidebar_members_wrapper ?> class="group-sidebar_members">
 				<?php print $sidebar_members; ?>
 			</<?php print $sidebar_members_wrapper ?>>
 
 			<?php print $sidebar; ?>
 		</<?php print $sidebar_wrapper ?>>
 	</div>
+  <div id="left_publications">
+    <div class="section-title">Publications</div>
+    <a class="twitter-timeline" data-chrome="noheader nofooter" data-dnt="true" data-height="1550" href="https://twitter.com/PGHQuantum/timelines/1039932139939291136?ref_src=twsrc%5Etfw">Publications - Curated tweets by PGHQuantum</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 
 
 

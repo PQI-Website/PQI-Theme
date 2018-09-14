@@ -32,10 +32,9 @@
 	div#left_sidebar {width: 100%;}
 	div#left_sidebar div.group-sidebar {display: flex;}
 	div#left_sidebar div.group-sidebar_events,
-	div#left_sidebar div.group-sidebar_publications,
 	div#left_sidebar div.group-sidebar_members
 	{
-		width: 32%;
+		width: 49%;
 		margin-left: 1%;
 		margin-right: 1%;
 		display: inline-block;
