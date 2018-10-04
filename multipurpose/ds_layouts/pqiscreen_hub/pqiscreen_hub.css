@@ -177,6 +177,21 @@ footer#copyright-wrap{
 	display: none;
 }
 
+#closearrow {
+    background-image: url(close.png);
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    background-position: right;
+    display: none;
+}
+
+
 /*
 Weather
 */

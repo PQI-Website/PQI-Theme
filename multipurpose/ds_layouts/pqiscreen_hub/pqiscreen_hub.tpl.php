@@ -5,7 +5,26 @@
  * 5 column stacked template.
  */
 ?>
+
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="ds-3col-stacked-equal <?php print $classes;?> clearfix">
+
+  <div id="closearrow"></div>
+  <script type="text/javascript">
+    var cooldown = false;
+    $( document ).ready(function() {
+      $( "body" ).mousemove(function( event ) {
+        if (!cooldown)
+        {
+          $("#closearrow").fadeIn().delay(3000).fadeOut();
+          cooldown = true;
+          setTimeout(resetCooldown, 10000)
+        }
+      });
+    });
+    function resetCooldown() {
+        cooldown = false;
+    }
+  </script>
 
   <?php if (isset($title_suffix['contextual_links'])): ?>
   <?php print render($title_suffix['contextual_links']); ?>
