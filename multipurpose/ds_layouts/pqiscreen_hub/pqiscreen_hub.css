@@ -182,11 +182,11 @@ footer#copyright-wrap{
     width: 300px;
     height: 400px;
     position: absolute;
-    right: 0;
+    right: 40px;
+    top: 40px;
     z-index: 1000;
     background-size: contain;
     background-repeat: no-repeat;
-    top: 0;
     background-position: right;
     display: none;
 }
