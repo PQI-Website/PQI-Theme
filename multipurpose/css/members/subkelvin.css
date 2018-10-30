@@ -39,6 +39,7 @@ div.button-group a.button {
 }
 .tags {
     min-height: 75px;
+    display: inline;
 }
 div.button-group button.button:hover, div.button-group a.button:hover {
     color: #fff;
@@ -85,6 +86,14 @@ span:not(.name) {
     display: inline-block;
     color: #000;
 }
+.tags strong {
+    font-size: 13px;
+}
+.tags strong:before {
+    display: block;
+    content: ' ';
+}
+
 @media only screen and (max-width: 768px) {
   body.page-node #content-wrap .view-members-fancy .item .data {
     max-width: 100%;
@@ -101,7 +110,11 @@ span:not(.name) {
       overflow: hidden;
       line-height: 1;
       min-height: unset;
+      word-break: break-all;
   }
+  .tags strong:before {
+    display: none;
+}
 
   body.page-node #content-wrap .view-members-fancy .item img {
     width: 100%;
@@ -115,11 +128,11 @@ span:not(.name) {
 
   body.page-node #content-wrap .view-members-fancy .item .name {
       margin-bottom: 0px;
-      font-size: 16px;
+      font-size: 12px;
   }
   .item div.data, .item div.data>a {
-      text-align: center;
-      display: block;
+  /*    text-align: center; */
+    word-wrap: break-word;
   }
   .data .office, .data .email, .data>br {
       display: none;
