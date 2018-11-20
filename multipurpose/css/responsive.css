@@ -267,6 +267,20 @@
 		text-align: center;
 		width: 100%;
 	}
+
+	div#wrap {
+		padding: 0 5px;
+	}
+	div#site-navigation-wrap {
+    margin: 0 -7px 40px;
+	}
+	div .node h2.title {
+		font-size: 1.5em;
+	}
+	div div#featured-image {
+	    margin: 0 0 10px -5px;
+	}
+
 }
 
 /* Tablet (Portrait)
@@ -287,7 +301,7 @@
 	.left-content { width: 100%; }
 	.sidebar-container, .sidebar-container-left {margin-top: 40px; padding-top: 40px; border-top: 10px solid #eee; }
 	.col{ width: 100%; margin-left: 0; margin-bottom: 25px; }
-	#wrap { margin-top: 0; margin-bottom: 0; }
+	#wrap { margin-top: 0; margin-bottom: 0; overflow: hidden;}
 	#banner-inset {right: 5px;}
 	#header-social { clear: both; position: inherit; top: auto; right: auto; margin-top: 20px; }
 }
