@@ -245,6 +245,6 @@
 
   <footer id="copyright-wrap" class="clear">
 	<img alt="" src="/sites/default/files/global/pqi-logo-footer.png" style="width: 100%; max-width: 350px;">
-    <div id="copyright"><?php print t('Site copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php /* print t('Theme by'); ?>  <a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>.*/?></div>
+    <div id="copyright"><?php print t('Site copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. Site by <a href="https://caelanb.me" title="Caelan Borowiec" target="_blank">Caelan Borowiec</a>.</div>
   </footer>
 </div>
